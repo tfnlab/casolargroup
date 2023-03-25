@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+        <meta name="author" content="https://merxforum.com"><!-- Favicon -->
+        <link rel="icon"
+              href="/build/img/favicon.png"
+              sizes="32x32">
+        <link rel="icon"
+              href="/build/img/favicon.png"
+              sizes="192x192">
+        <link rel="apple-touch-icon-precomposed"
+              href="/build/img/favicon.png">
+        <meta name=""
+              content="https://merxforum.com/bundles/app/img/MerxLogo_PNG_white.png"><!-- Mobile Metas -->
+                    <meta name="title"
+                  content="MerxForum generated page">
+            <meta name="description"
+                  content="MerxForum generated page">
+            <meta property="og:image"
+                  content="https://merxforum.com/bundles/app/img/MerxLogo_PNG_white.png">
+        
+        <title>
+                    MerxForum generated page
+            </title>
+            <link rel="stylesheet" href="/build/691.bad6d287.css" data-turbo-track="reload"><link rel="stylesheet" href="/build/555.39f02997.css" data-turbo-track="reload"><link rel="stylesheet" href="/build/41.5483224b.css" data-turbo-track="reload"><link rel="stylesheet" href="/build/ca_solar.64bbb190.css" data-turbo-track="reload">
+    
+            <script src="/build/runtime.8e87bc51.js" defer data-turbo-track="reload"></script><script src="/build/555.2b9a10bc.js" defer data-turbo-track="reload"></script><script src="/build/41.80cbf8ea.js" defer data-turbo-track="reload"></script><script src="/build/ca_solar.afd51751.js" defer data-turbo-track="reload"></script>
+
+
+
+            
+        
+            
+
+   </head>
+<body data-controller="modal-form template">
+    
+
+    <div class="quickPanel">
+        <div class="right_rectangle firstRectangle open">
+            <a
+                    href="javascript:void(0);"
+                    data-action="click->modal-form#openModal"
+                    data-bs-target="#modal-quoteModal"
+                   class="getQuote"
+            >Get a quote</a>
+            <img src="/build/img/quote.svg" alt="">
+        </div>
+        <div class="right_rectangle secondRectangle open">
+            <a href="tel:"></a>
+            <img src="/build/img/phone.svg" alt="">
+        </div>
+    </div>
+
+
+
+
+    <turbo-frame  src="/load/main/menu/null" target="_top" id="main-menu"></turbo-frame>
+
+ 
+    <h1>Page not found</h1>
+
+    <p>
+        The requested page couldn't be located. Checkout for any URL
+        misspelling or <a class="btn badge-danger" href="/">return to the homepage</a>.
+    </p>
+
+
+
+
+    
+    <footer >
+        <turbo-frame src="/load/footer/menu/" target="_top" id="footer"></turbo-frame>
+    </footer>
+    <div class="footerCopyright">
+        <p>             <span>
+            <a class="terms" data-mode="termsModal" href="/terms-and-conditions">Terms and Conditions</a>
+            <a class="privacy" data-mode="privacyModal" href="/privacy-policy">Privacy Policy</a>
+            </span>
+        </p>
+        <div class="copyright">
+            <div class="design">
+                <a href="https://merxforum.com" target="_blank" rel="noopener"> Design and Development by</a> MerxForum
+                <img src="/build/img/logoColor.png" alt="merxforum">
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div
+        class="modal hide fade clientCustomForms"
+        aria-hidden="true"
+        data-modal-form-target="modal"
+        id="modal-quoteModal"
+>
+    <div class="modal-dialog ">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="formHeader">REQUEST A PRECISE CUSTOM QUOTE</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">×</button>
+            </div>
+
+            <turbo-frame
+                    id="quoteModal"
+                    class="modal-body"
+                    src="/client/get/quote"
+                    loading="lazy"
+                    data-turbo-form-redirect="true"
+            >
+                <div class="spinner-border text-success" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </turbo-frame>
+        </div>
+    </div>
+</div>
+</body>
+</html>
