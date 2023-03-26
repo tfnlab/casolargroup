@@ -78,7 +78,7 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Accu Raters Technician Portal</h2>
+          <h2>California Solar Group Technician Portal</h2>
           <ol>
             <li><a href="index.html">Home</a></li>
             <li>Signup</li>
@@ -130,7 +130,7 @@
               </div>
             <div class="portfolio-description">
               <p>
-                The AccuRaters technician portal is an online platform designed for home inspectors and property assessors. It streamlines workflow by allowing technicians to access job assignments, schedules, and client details, as well as update inspection reports and communicate with clients. The mobile functionality of the portal enables technicians to work remotely, upload photos, and update reports on the go. This makes the platform a valuable tool for technicians in the field, allowing them to efficiently manage their inspections and assessments.
+                California Solar Group technician portal is an online platform designed for home inspectors and property assessors. It streamlines workflow by allowing technicians to access job assignments, schedules, and client details, as well as update inspection reports and communicate with clients. The mobile functionality of the portal enables technicians to work remotely, upload photos, and update reports on the go. This makes the platform a valuable tool for technicians in the field, allowing them to efficiently manage their inspections and assessments.
               </p>
             </div>
           </div>
