@@ -78,7 +78,7 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Accu Raters Customer Portal</h2>
+          <h2>California Solar Group Customer Portal</h2>
           <ol>
             <li><a href="index.html">Home</a></li>
             <li>Signup</li>
@@ -172,7 +172,7 @@
               </div>
             <div class="portfolio-description">
               <p>
-                At Accu Raters, we believe in providing our customers with the best possible experience, which is why we have created a customer portal that gives you easy access to all the information you need. Our customer portal is designed to be user-friendly and intuitive, providing you with a range of features that will help you to manage your account and stay up-to-date with your orders.
+                At California Solar Group, we believe in providing our customers with the best possible experience, which is why we have created a customer portal that gives you easy access to all the information you need. Our customer portal is designed to be user-friendly and intuitive, providing you with a range of features that will help you to manage your account and stay up-to-date with your orders.
               </p>
             </div>
           </div>
