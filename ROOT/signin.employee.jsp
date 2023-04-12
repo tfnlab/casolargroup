@@ -148,15 +148,16 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
-              <h3>Accu Ratters Now<span>.</span></h3>
+              <h3>California Solar Group</h3>
+              <p>casolargroup<span>.</span>io</p>
               <p>
-                3900 W Alameda Ave Suite 1200<br>
-                Burbank, CA 91505, USA<br><br>
-                <strong>Phone:</strong> (888) 888-8888<br>
-                <strong>Email:</strong> info@accurattersnow.com<br>
+                7647 Hayvenhurst Ave, Unit 26, <br>
+                Van Nuys, CA 91406, USA<br>
+                <strong>Phone:</strong> (888) 804-5950<br>
+                <strong>Email:</strong> info@casolgroup.io<br>
               </p>
               <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="https://twitter.com/casolargroup158" class="twitter"><i class="bx bxl-twitter"></i></a>
                 <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
                 <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
               </div>
@@ -187,7 +188,7 @@
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Our Newsletter</h4>
-            <p>Stay up-to-date on the latest news and offers from Accu Raters by joining our newsletter. Simply enter your email address below and click "Subscribe" to start receiving regular updates from us.</p>
+            <p>Stay up-to-date on the latest news and offers from California Solar Group by joining our newsletter. Simply enter your email address below and click "Subscribe" to start receiving regular updates from us.</p>
             </p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
@@ -200,7 +201,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Accu Raters</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>California Solar Group</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
