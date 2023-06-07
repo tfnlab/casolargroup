@@ -41,14 +41,6 @@
       // ...
       return false;
     }
-    // Alternative method using addEventListener
-    document.getElementById("subscribe").addEventListener("submit", function(event) {
-      event.preventDefault(); // Prevent the default form submission
-      // Additional logic or actions you want to perform before submitting
-
-      // Return false to indicate cancellation of form submission
-      return false;
-    });    
   </script>
 
 
@@ -878,7 +870,7 @@
             <p>Stay up-to-date on the latest news and offers from California Solar Group by joining our newsletter. Simply enter your email address below and click "Subscribe" to start receiving regular updates from us.</p>
             </p>
             <form action="#" method="post" name="subscribe" id="subscribe" >
-              <input type="email" name="email"><input type="submit" value="Subscribe" onclick="return subscribe(event)">
+              <input type="email" name="email"><input type="submit" value="Subscribe" onclick="event.preventDefault(); return subscribe(event)">
             </form>
             <div id="success" ></div>
           </div>
