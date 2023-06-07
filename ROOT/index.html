@@ -41,6 +41,14 @@
       // ...
       return false;
     }
+    // Alternative method using addEventListener
+    document.getElementById("subscribe").addEventListener("submit", function(event) {
+      event.preventDefault(); // Prevent the default form submission
+      // Additional logic or actions you want to perform before submitting
+
+      // Return false to indicate cancellation of form submission
+      return false;
+    });    
   </script>
 
 
