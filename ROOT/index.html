@@ -36,7 +36,6 @@
   ======================================================== -->
   <script>
   function subscribe(event) {
-    event.preventDefault(); // Prevent the default form submission behavior
 
     var email = document.getElementById('email').value; // Get the form element
 
@@ -45,11 +44,6 @@
 
   }
 
-  // Email validation function
-  function validateEmail(email) {
-    var re = /\S+@\S+\.\S+/;
-    return re.test(email);
-  }
   </script>
 
 
