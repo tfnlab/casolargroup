@@ -53,27 +53,27 @@
     var formData = new FormData();
     formData.append('email', email);
 
-    var url = 'https://casolargroup.io/index.html'; // Replace 'YOUR_SUBMIT_URL' with the actual URL to submit the form
 
-    // Send the form data using fetch
-    fetch(url, {
-      method: 'POST',
-      body: formData
-    })
-      .then(function(response) {
-        if (response.ok) {
-          // If the form submission is successful, update the success div
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState == 4) {
+        // The request is complete
+        if (xhr.status == 200) {
+          var response = xhr.responseText;
+          alert(response);
           document.getElementById('success').innerHTML = 'Thank you for subscribing!';
           form.reset(); // Reset the form
         } else {
-          throw new Error('An error occurred.');
+          // The request was unsuccessful
+          alert('An error occurred while subscribing. Please try again later.');
         }
-      })
-      .catch(function(error) {
-        // Handle any errors that occur during form submission
-        console.error(error);
-        alert('An error occurred while subscribing. Please try again later.');
-      });
+      }
+    };
+    // Set the request method and URL
+    var urlString = "hrn.jsp?apiAction=getOrders&email=" + email;
+    xhr.open("GET", urlString, true);
+    xhr.send();
+
   }
 
   // Email validation function
@@ -81,7 +81,6 @@
     var re = /\S+@\S+\.\S+/;
     return re.test(email);
   }
-
   </script>
 
 
