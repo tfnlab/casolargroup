@@ -1571,13 +1571,3 @@ section {
   font-size: 13px;
   color: #fff;
 }
-
-#image_2 {
-  width: 300px;
-  height: 300px;
-  transition: transform 0.3s ease-in-out;
-}
-
-.image-flip {
-  transform: scaleX(-1);
-}
