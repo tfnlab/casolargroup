@@ -873,37 +873,6 @@
             </form>
             <div id="success" ></div>
           </div>
-          <script>
-            // Add event listener to the form submit button
-            document.getElementById('submitButton').addEventListener('click', function(event) {
-              event.preventDefault(); // Prevent the default form submission
-
-              // Get the email input value
-              var email = document.getElementById('emailInput').value;
-
-              // Create a new XMLHttpRequest object
-              var xhr = new XMLHttpRequest();
-
-              // Prepare the request
-              xhr.open('POST', '/index.html', true); // Replace '/your-form-action-url' with the actual form action URL
-              xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-
-              // Set up the callback function for when the request completes
-              xhr.onload = function() {
-                if (xhr.status === 200) {
-                  // Request was successful, update the success div
-                  document.getElementById('success').textContent = 'Form submitted successfully.';
-                  document.getElementById('subscribe').style.display = 'none'; // Hide the form
-                } else {
-                  // Request failed, display an error message
-                  document.getElementById('success').textContent = 'An error occurred. Please try again later.';
-                }
-              };
-
-              // Send the request
-              xhr.send('email=' + encodeURIComponent(email)); // Send the email value as a parameter
-            });
-          </script>
         </div>
       </div>
     </div>
