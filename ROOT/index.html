@@ -34,39 +34,6 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-  <script>
-    // Get the form element and the div element
-    const form = document.getElementById('subscribe');
-    const successDiv = document.getElementById('success');
-
-    // Add event listener for form submission
-    form.addEventListener('submit', async function(event) {
-      event.preventDefault(); // Prevent default form submission
-
-      // Get the form data
-      const formData = new FormData(form);
-
-      try {
-        // Send a POST request using fetch API
-        const response = await fetch(form.action, {
-          method: 'POST',
-          body: formData
-        });
-
-        if (response.ok) {
-          // Form submission successful
-          successDiv.innerText = 'Subscription successful!';
-          form.reset(); // Reset the form
-        } else {
-          // Handle form submission error
-          successDiv.innerText = 'Error occurred. Please try again.';
-        }
-      } catch (error) {
-        // Handle fetch error
-        successDiv.innerText = 'Error occurred. Please try again.';
-      }
-    });
-  </script>
 
 
 </head>
@@ -899,7 +866,37 @@
             </form>
             <div id="success" ></div>
           </div>
+          <script>
+            // Add event listener to the form submit button
+            document.getElementById('submitButton').addEventListener('click', function(event) {
+              event.preventDefault(); // Prevent the default form submission
 
+              // Get the email input value
+              var email = document.getElementById('emailInput').value;
+
+              // Create a new XMLHttpRequest object
+              var xhr = new XMLHttpRequest();
+
+              // Prepare the request
+              xhr.open('POST', '/index.html', true); // Replace '/your-form-action-url' with the actual form action URL
+              xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+
+              // Set up the callback function for when the request completes
+              xhr.onload = function() {
+                if (xhr.status === 200) {
+                  // Request was successful, update the success div
+                  document.getElementById('success').textContent = 'Form submitted successfully.';
+                  document.getElementById('subscribe').style.display = 'none'; // Hide the form
+                } else {
+                  // Request failed, display an error message
+                  document.getElementById('success').textContent = 'An error occurred. Please try again later.';
+                }
+              };
+
+              // Send the request
+              xhr.send('email=' + encodeURIComponent(email)); // Send the email value as a parameter
+            });
+          </script>
         </div>
       </div>
     </div>
