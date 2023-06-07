@@ -35,12 +35,53 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
   <script>
-    function subscribe(event) {
-      event.preventDefault(); // Cancel the default form submission behavior
-      // Add your custom code here
-      // ...
-      return false;
+  function subscribe(event) {
+    event.preventDefault(); // Prevent the default form submission behavior
+
+    var form = document.getElementById('subscribe'); // Get the form element
+    var emailInput = form.querySelector('input[type="email"]'); // Get the email input element
+
+    var email = emailInput.value; // Get the entered email address
+
+    // Validate the email address (you can add your own validation logic here)
+    if (!validateEmail(email)) {
+      alert('Please enter a valid email address.');
+      return;
     }
+
+    // Create a new FormData object and append the email address
+    var formData = new FormData();
+    formData.append('email', email);
+
+    var url = 'https://casolargroup.io/index.html'; // Replace 'YOUR_SUBMIT_URL' with the actual URL to submit the form
+
+    // Send the form data using fetch
+    fetch(url, {
+      method: 'POST',
+      body: formData
+    })
+      .then(function(response) {
+        if (response.ok) {
+          // If the form submission is successful, update the success div
+          document.getElementById('success').innerHTML = 'Thank you for subscribing!';
+          form.reset(); // Reset the form
+        } else {
+          throw new Error('An error occurred.');
+        }
+      })
+      .catch(function(error) {
+        // Handle any errors that occur during form submission
+        console.error(error);
+        alert('An error occurred while subscribing. Please try again later.');
+      });
+  }
+
+  // Email validation function
+  function validateEmail(email) {
+    var re = /\S+@\S+\.\S+/;
+    return re.test(email);
+  }
+
   </script>
 
 
