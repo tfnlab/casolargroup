@@ -45,29 +45,7 @@
       alert('Please enter a valid email address.');
       return;
     }
-
-
-
-    var xhr = new XMLHttpRequest();
-    xhr.onreadystatechange = function() {
-      if (xhr.readyState == 4) {
-        // The request is complete
-        if (xhr.status == 200) {
-          var response = xhr.responseText;
-          alert(response);
-          document.getElementById('success').innerHTML = 'Thank you for subscribing!';
-          form.reset(); // Reset the form
-        } else {
-          // The request was unsuccessful
-          alert('An error occurred while subscribing. Please try again later.');
-        }
-      }
-    };
-    // Set the request method and URL
-    var urlString = "hrn.jsp?apiAction=subscribe&email=" + email;
-    xhr.open("GET", urlString, true);
-    xhr.send();
-
+    alert('done');
   }
 
   // Email validation function
@@ -904,7 +882,7 @@
             <p>Stay up-to-date on the latest news and offers from California Solar Group by joining our newsletter. Simply enter your email address below and click "Subscribe" to start receiving regular updates from us.</p>
             </p>
             <form action="#" method="post" name="subscribe" id="subscribe" >
-              <input type="email" name="email" id="email" > <input type="submit" value="Subscribe" onclick="event.preventDefault(); return subscribe(event)">
+              <input type="email" name="email" id="email" > <input type="submit" value="Subscribe" onclick="event.preventDefault();subscribe(event)">
             </form>
             <div id="success" ></div>
           </div>
