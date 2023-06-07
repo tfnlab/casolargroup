@@ -85,19 +85,19 @@
         <div class="col-xl-2 col-md-4">
           <div class="icon-box">
             <i class="ri-store-line"></i>
-            <h3><a href="">Design & Consultation</a></h3>
+            <h3><a href="">Design and Consultation</a></h3>
           </div>
         </div>
         <div class="col-xl-2 col-md-4">
           <div class="icon-box">
             <i class="ri-bar-chart-box-line"></i>
-            <h3><a href="">Installation & Maintenance</a></h3>
+            <h3><a href="">Installation and Maintenance</a></h3>
           </div>
         </div>
         <div class="col-xl-2 col-md-4">
           <div class="icon-box">
             <i class="ri-calendar-todo-line"></i>
-            <h3><a href="">Financing & Incentives</a></h3>
+            <h3><a href="">Financing and Incentives</a></h3>
           </div>
         </div>
         <div class="col-xl-2 col-md-4">
@@ -109,7 +109,7 @@
         <div class="col-xl-2 col-md-4">
           <div class="icon-box">
             <i class="ri-database-2-line"></i>
-            <h3><a href="">Education & Outreach</a></h3>
+            <h3><a href="">Education and Outreach</a></h3>
           </div>
         </div>
       </div>
@@ -616,7 +616,18 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="100">
               <div class="member-img">
-                <img src="assets/img/team/team-1.png" class="img-fluid" alt="">
+                <img src="assets/img/team/team-1.png" id="image_1" class="img-fluid" alt="">
+                <script>
+                  var image = document.getElementById("image_1");
+
+                  image.addEventListener("mouseover", function() {
+                    image.src = "assets/img/team/team-1.jpg";
+                  });
+
+                  image.addEventListener("mouseout", function() {
+                    image.src = "assets/img/team/team-1.png";
+                  });
+                </script>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
