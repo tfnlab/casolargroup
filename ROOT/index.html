@@ -34,6 +34,39 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <script>
+    // Get the form element and the div element
+    const form = document.getElementById('subscribe');
+    const successDiv = document.getElementById('success');
+
+    // Add event listener for form submission
+    form.addEventListener('submit', async function(event) {
+      event.preventDefault(); // Prevent default form submission
+
+      // Get the form data
+      const formData = new FormData(form);
+
+      try {
+        // Send a POST request using fetch API
+        const response = await fetch(form.action, {
+          method: 'POST',
+          body: formData
+        });
+
+        if (response.ok) {
+          // Form submission successful
+          successDiv.innerText = 'Subscription successful!';
+          form.reset(); // Reset the form
+        } else {
+          // Handle form submission error
+          successDiv.innerText = 'Error occurred. Please try again.';
+        }
+      } catch (error) {
+        // Handle fetch error
+        successDiv.innerText = 'Error occurred. Please try again.';
+      }
+    });
+  </script>
 
 </head>
 
@@ -860,9 +893,10 @@
             <h4>Our Newsletter</h4>
             <p>Stay up-to-date on the latest news and offers from California Solar Group by joining our newsletter. Simply enter your email address below and click "Subscribe" to start receiving regular updates from us.</p>
             </p>
-            <form action="" method="post">
+            <form action="" method="post" name="subscribe" id="subscribe" >
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
+            <div id="success" ></div>
           </div>
 
         </div>
