@@ -35,13 +35,9 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
   <script>
-  function subscribe(event) {
-
+  function subscribe() {
     var email = document.getElementById('email').value; // Get the form element
-
     alert(email);
-
-
   }
 
   </script>
@@ -874,7 +870,7 @@
             <form action="#subscribe" method="post" name="subscribe" id="subscribe" >
               <input type="email" name="email" id="email" >
             </form>
-            <input type="submit" value="Subscribe" onclick="subscribe(event)">
+            <input type="submit" value="Subscribe" onclick="subscribe()">
             <div id="success" ></div>
           </div>
         </div>
