@@ -853,7 +853,7 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="hrn.jsp?apiAction=addContact" method="post" role="form" class="php-email-form">
+            <form action="hrn.jsp?apiAction=addContact" method="post" role="form" id="contactform" name="contactform" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -883,7 +883,40 @@
 
       </div>
     </section><!-- End Contact Section -->
+    <script>
+      document.getElementById("contactform").addEventListener("submit", function(event) {
+        event.preventDefault(); // Prevent form submission
 
+        // Display the loading message
+        document.querySelector(".loading").style.display = "block";
+        document.querySelector(".error-message").style.display = "none";
+        document.querySelector(".sent-message").style.display = "none";
+
+        // Perform an AJAX request to submit the form data
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", this.action, true);
+        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+        xhr.onreadystatechange = function() {
+          if (xhr.readyState === XMLHttpRequest.DONE) {
+            // Hide the loading message
+            document.querySelector(".loading").style.display = "none";
+
+            if (xhr.status === 200) {
+              // Show the success message
+              document.querySelector(".sent-message").style.display = "block";
+              document.getElementById("successcontact").textContent = "Your message has been sent. Thank you!";
+              // You can optionally reset the form here
+              // document.getElementById("contactform").reset();
+            } else {
+              // Show an error message
+              document.querySelector(".error-message").style.display = "block";
+              document.getElementById("successcontact").textContent = "An error occurred. Please try again.";
+            }
+          }
+        };
+        xhr.send(new FormData(this));
+      });
+    </script>
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
