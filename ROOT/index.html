@@ -866,7 +866,7 @@
           if (xhr.readyState === XMLHttpRequest.DONE) {
             // Hide the loading message
             document.querySelector(".loading").style.display = "none";
-
+            alert(xhr.responseText + "test");
             if (xhr.status === 200) {
               // Show the success message
               document.querySelector(".sent-message").style.display = "block";
