@@ -843,12 +843,18 @@
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
-            <div class="my-3">
-              <div class="loading">Loading</div>
-              <div class="status-message"></div>
-            </div>
 
-            <div id="successcontact" ></div>
+                <div class="loading">Loading...</div>
+                <div class="error-message">Error occurred!</div>
+                <div class="sent-message">Message sent successfully!</div>
+                <script>
+                    <script>
+                        document.querySelector(".loading").style.display = "none";
+                        document.querySelector(".error-message").style.display = "none";
+                        document.querySelector(".sent-message").style.display = "none";
+                    </script>
+                </script>
+                <div id="successcontact" ></div>
           </div>
 
         </div>
