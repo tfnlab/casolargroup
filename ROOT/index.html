@@ -820,7 +820,8 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="hrn.jsp?apiAction=addContact" method="post" role="form" id="contactform" name="contactform" class="php-email-form">
+            <form action="hrn.jsp" method="post" role="form" id="contactform" name="contactform" class="php-email-form">
+              <input type="hidden" name="apiAction" id="apiAction"  value="addContact" >
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
