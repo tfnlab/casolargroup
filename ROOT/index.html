@@ -877,7 +877,7 @@
               document.querySelector(".error-message").style.display = "none";
               document.getElementById("successcontact").textContent = xhr.responseText; // Display the response text
               // You can optionally reset the form here
-              // document.getElementById("contactform").reset();
+              document.getElementById("contactform").reset();
             } else {
               // Show the error message
               document.querySelector(".error-message").style.display = "block";
