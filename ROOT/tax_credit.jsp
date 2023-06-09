@@ -99,7 +99,7 @@
   </main><!-- End #main -->
 
   <!-- ======= Contact Section ======= -->
-  <%@ include file="include.footer.jsp" %>
+
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
