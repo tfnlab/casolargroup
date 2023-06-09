@@ -40,7 +40,8 @@
 
     // Get the form data
     var form = document.getElementById('quoteform');
-    var formData = new FormData(form);
+    
+    var formData = new URLSearchParams(new FormData(this)).toString();
 
     // Create an XMLHttpRequest object
     var xhr = new XMLHttpRequest();
