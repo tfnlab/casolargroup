@@ -35,40 +35,51 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
     <script>
-  function sendMessage(event) {
-    event.preventDefault(); // Prevent the form from submitting normally
+    function sendMessage(event) {
+      event.preventDefault(); // Prevent the form from submitting normally
 
-    // Get the form data
-    var form = document.getElementById('quoteform');
+      // Get the form data
+      var form = document.getElementById('quoteform');
+      var formData = new FormData(form);
 
-    var formData = new URLSearchParams(new FormData(this)).toString();
+      // Create URLSearchParams object
+      var searchParams = new URLSearchParams();
 
-    // Create an XMLHttpRequest object
-    var xhr = new XMLHttpRequest();
-
-    // Configure the request
-    xhr.open('POST', 'hrn.jsp', true);
-
-    // Set the response type
-    xhr.responseType = 'json';
-
-    // Set up the callback function for when the request is complete
-    xhr.onload = function() {
-      if (xhr.status === 200) {
-        // Display success message
-        alert('Form submitted successfully!');
-
-        // Reset the form
-        //form.reset();
-      } else {
-        // Display error message
-        alert('Error submitting form. Please try again.');
+      // Populate the URLSearchParams object with form data
+      for (var pair of formData) {
+        searchParams.append(pair[0], pair[1]);
       }
-    };
 
-    // Send the request
-    xhr.send(formData);
-  }
+      // Create a URL with the search parameters
+      var url = 'hrn.jsp?' + searchParams.toString();
+
+      // Create an XMLHttpRequest object
+      var xhr = new XMLHttpRequest();
+
+      // Configure the request
+      xhr.open('POST', url, true);
+
+      // Set the response type
+      xhr.responseType = 'json';
+
+      // Set up the callback function for when the request is complete
+      xhr.onload = function() {
+        if (xhr.status === 200) {
+          // Display success message
+          alert('Form submitted successfully!');
+
+          // Reset the form
+          form.reset();
+        } else {
+          // Display error message
+          alert('Error submitting form. Please try again.');
+        }
+      };
+
+      // Send the request
+      xhr.send();
+    }
+
   </script>
 </head>
 
