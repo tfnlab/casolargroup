@@ -34,6 +34,41 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+    <script>
+  function sendMessage(event) {
+    event.preventDefault(); // Prevent the form from submitting normally
+
+    // Get the form data
+    var form = document.getElementById('quoteform');
+    var formData = new FormData(form);
+
+    // Create an XMLHttpRequest object
+    var xhr = new XMLHttpRequest();
+
+    // Configure the request
+    xhr.open('POST', form.action, true);
+
+    // Set the response type
+    xhr.responseType = 'json';
+
+    // Set up the callback function for when the request is complete
+    xhr.onload = function() {
+      if (xhr.status === 200) {
+        // Display success message
+        alert('Form submitted successfully!');
+
+        // Reset the form
+        form.reset();
+      } else {
+        // Display error message
+        alert('Error submitting form. Please try again.');
+      }
+    };
+
+    // Send the request
+    xhr.send(formData);
+  }
+  <script>
 </head>
 
 <body>
@@ -182,8 +217,8 @@
 
         <div class="col-lg-8 mt-5 mt-lg-0">
 
-          <form action="hrn.jsp" method="post" role="form" id="contactform" name="contactform" class="php-email-form">
-            <input type="hidden" name="apiAction" id="apiAction"  value="addContact" >
+          <form action="hrn.jsp" method="post" role="form" id="quoteform" name="quoteform" class="php-email-form">
+            <input type="hidden" name="apiAction" id="apiAction"  value="addQuote" >
             <div class="row">
               <div class="col-md-6 form-group">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -198,7 +233,7 @@
             <div class="form-group mt-3">
               <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
             </div>
-            <div class="text-center"><button type="submit">Send Message</button></div>
+            <div class="text-center"><button type="submit" onclick="sendMessage(event)">Send Message</button></div>
 
           </form>
 
