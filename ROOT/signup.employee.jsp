@@ -70,7 +70,7 @@
 <body>
 
   <!-- ======= Header ======= -->
-
+  <%@ include file="include.header.jsp" %>
   <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
