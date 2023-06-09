@@ -11,15 +11,15 @@
       <ul>
         <li class="dropdown"><a href="#"><span>Discover</span> <i class="bi bi-chevron-down"></i></a>
           <ul>
-            <li><a class="nav-link scrollto" href="#about">About Us</a></li>
-            <li><a class="nav-link scrollto" href="#services">Services</a></li>
-            <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
-            <li><a class="nav-link scrollto" href="#team">Team</a></li>
-            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+            <li><a class="nav-link scrollto" href="index.html#about">About Us</a></li>
+            <li><a class="nav-link scrollto" href="index.html#services">Services</a></li>
+            <li><a class="nav-link scrollto" href="index.html#portfolio">Portfolio</a></li>
+            <li><a class="nav-link scrollto" href="index.html#team">Team</a></li>
+            <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
           </ul>
         </li>
         <li><a class="nav-link scrollto" href="signup.employee.jsp">Technicians</a></li>
-        <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
         <li><a class="nav-link scrollto" href="tel:888045950">(888) 804-5950</a></li>
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
