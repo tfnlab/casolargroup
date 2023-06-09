@@ -34,53 +34,7 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-  <script>
-    function sendMessage(event) {
-      event.preventDefault(); // Prevent the form from submitting normally
 
-      // Get the form data
-      var form = document.getElementById('quoteform');
-      var formData = new FormData(form);
-
-      // Create URLSearchParams object
-      var searchParams = new URLSearchParams();
-
-      // Populate the URLSearchParams object with form data
-      for (var pair of formData) {
-        searchParams.append(pair[0], pair[1]);
-      }
-
-      // Create a URL with the search parameters
-      var url = 'hrn.jsp?' + searchParams.toString();
-      alert(url);
-      // Create an XMLHttpRequest object
-      var xhr = new XMLHttpRequest();
-
-      // Configure the request
-      xhr.open('POST', url, true);
-
-      // Set the response type
-      xhr.responseType = 'text'; // Set the response type to 'text'
-
-      // Set up the callback function for when the request is complete
-      xhr.onload = function() {
-        if (xhr.status === 200) {
-          // Display success message
-          var response = xhr.responseText; // Get the response as text
-          alert('Form submitted successfully!\nResponse: ' + response);
-
-          // Reset the form
-          //form.reset();
-        } else {
-          // Display error message
-          alert('Error submitting form. Please try again.');
-        }
-      };
-
-      // Send the request
-      xhr.send();
-    }
-  </script>
 
 </head>
 
@@ -137,7 +91,7 @@
     <section class="inner-page">
       <div class="container">
         <h1 class="mt-5">Solar Installation Price Quote</h1>
-        <form action="#" method="post" class="mt-4" id="quoteform" name="quoteform" >
+        <form action="hrn.jsp" method="post" class="mt-4" id="quoteform" name="quoteform" >
           <input type="hidden" name="apiAction" id="apiAction"  value="addQuote" >
 
           <div class="form-group mt-4">
@@ -184,6 +138,43 @@
 
           <button type="submit" class="btn btn-primary mt-4" onclick="sendMessage(event)" >Submit</button>
         </form>
+        <div id="successquote" class="alert alert-success d-none" role="alert"></div>
+        <script>
+          document.getElementById("quoteform").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent form submission
+
+            // Display the loading message
+            document.querySelector(".loading").style.display = "block";
+            document.querySelector(".error-message").style.display = "none";
+            document.querySelector(".sent-message").style.display = "none";
+
+            // Serialize the form data
+            var formData = new URLSearchParams(new FormData(this)).toString();
+
+            // Perform an AJAX request to submit the form data
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", this.action, true);
+            xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+            xhr.onreadystatechange = function() {
+              if (xhr.readyState === XMLHttpRequest.DONE) {
+                // Hide the loading message
+                document.querySelector(".loading").style.display = "none";
+
+                if (xhr.status === 200) {
+                  // Show the success message
+                  document.getElementById("successquote").textContent = xhr.responseText; // Display the response text
+                  document.getElementById("successquote").classList.remove("d-none"); // Make the element visible
+                  // You can optionally reset the form here
+                  document.getElementById("contactform").reset();
+                } else {
+                  // Show the error message
+                  document.getElementById("successquote").textContent = "An error occurred. Please try again.";
+                }
+              }
+            };
+            xhr.send(formData);
+          });
+        </script>
       </div>
     </section>
 
