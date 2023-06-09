@@ -2,4 +2,4 @@
 
 git add .
 git commit -m "update"
-git push git@github.com:tfnlab/casolargroup.git.git
+git push git@github.com:tfnlab/casolargroup.git

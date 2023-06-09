@@ -99,6 +99,7 @@
   </main><!-- End #main -->
 
   <!-- ======= Contact Section ======= -->
+  <%@ include file="include.footer.jsp" %>
 
 
   <!-- Vendor JS Files -->
