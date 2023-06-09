@@ -43,39 +43,10 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top header-inner-pages">
-    <div class="container d-flex align-items-center justify-content-lg-between">
-      <a class="navbar-brand" href="index.html">
-        <img src="assets/img/logo.png" alt="Logo" class="navbar-logo" style="max-height: 35px; max-width: 100%;">
-      </a>
 
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-      <nav id="navbar" class="navbar order-last order-lg-0">
-        <ul>
-          <li class="dropdown"><a href="#"><span>Discover</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a class="nav-link scrollto" href="#about">About Us</a></li>
-              <li><a class="nav-link scrollto" href="#services">Services</a></li>
-              <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
-              <li><a class="nav-link scrollto" href="#team">Team</a></li>
-              <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="signup.employee.jsp">Technicians</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="nav-link scrollto" href="tel:888045950">(888) 804-5950</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
 
-      <a href="signup.jsp" class="get-started-btn scrollto">Get Started</a>
-
-    </div>
-  </header><!-- End Header -->
-
+  <%@ include file="include.header.jsp" %>
   <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
@@ -83,10 +54,10 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Electricity Bill Offset</h2>
+          <h2>Tax Credit Work</h2>
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li>Electricity Bill Offset</li>
+            <li>Tax Credit Work</li>
           </ol>
         </div>
 
@@ -95,46 +66,33 @@
 
     <section class="inner-page">
       <div class="container">
-        <h1 class="mt-4">100% Electricity Bill Offset with Solar Power: Harnessing the Sun's Energy for Sustainable Savings</h1>
 
-        <h2 class="mt-4">Introduction</h2>
-        <p>Welcome to our comprehensive guide on achieving a 100% electricity bill offset with solar power. In this era of rising energy costs and increasing environmental concerns, solar energy presents a remarkable solution. By harnessing the power of the sun, you can reduce your carbon footprint while enjoying substantial savings on your monthly electricity bills. This page will explore the benefits of solar energy and provide you with valuable insights on seamlessly transitioning to a sustainable lifestyle.</p>
+           <h1 class="mb-4">Welcome to California Solar Group - Your Gateway to the 30% Solar Tax Credit in California!</h1>
 
-        <h2 class="mt-4">Understanding Solar Power</h2>
-        <ul>
-          <li>What is solar power and how does it work?</li>
-          <li>Exploring the benefits of solar energy for both the environment and homeowners</li>
-          <li>The financial advantages of switching to solar energy</li>
-        </ul>
+           <h2 class="mb-3">Take Advantage of the 30% Tax Credit with Solar Installations in California</h2>
 
-        <h2 class="mt-4">Achieving 100% Electricity Bill Offset</h2>
-        <ul>
-          <li>Assessing your energy needs and determining the optimal solar system size</li>
-          <li>Choosing the right solar panels and equipment for maximum efficiency</li>
-          <li>Understanding net metering and its role in achieving bill offset</li>
-          <li>Exploring battery storage solutions for uninterrupted power supply</li>
-        </ul>
+           <p class="lead">Are you a homeowner or business owner in California looking to harness the power of solar energy while saving money? Look no further! At California Solar Group, we offer state-of-the-art solar installations that not only help you reduce your electricity bills but also enable you to take advantage of the lucrative 30% tax credit offered by the federal government.</p>
 
-        <h2 class="mt-4">The Solar Installation Process</h2>
-        <ul>
-          <li>Finding reputable solar installers in your area</li>
-          <li>Understanding the steps involved in installing solar panels</li>
-          <li>Navigating the paperwork and permits required for a smooth installation</li>
-        </ul>
+           <h3 class="mt-5">How Does the 30% Tax Credit Work?</h3>
 
-        <h2 class="mt-4">Maximizing Solar Efficiency</h2>
-        <ul>
-          <li>Implementing energy-saving practices in conjunction with solar power</li>
-          <li>Exploring smart home technologies and their integration with solar systems</li>
-          <li>Monitoring and optimizing your solar energy production</li>
-        </ul>
+           <p>The federal government provides a 30% tax credit for qualified solar energy systems installed in residential and commercial properties. This means that if you invest in solar panels through California Solar Group, you can deduct 30% of the installation cost directly from your federal taxes. It's a substantial incentive that makes solar installations in California more affordable than ever before.</p>
 
-        <h2 class="mt-4">Financial Incentives and Return on Investment</h2>
-        <ul>
-          <li>Federal and state-level solar incentives and tax credits</li>
-          <li>Financing options for solar installations</li>
-          <li>Calculating the return on investment (ROI) for your solar power system</li>
-        </ul>
+           <h3 class="mt-5">Why Choose California Solar Group for Your Solar Installation?</h3>
+
+           <p>At California Solar Group, we have a proven track record of helping homeowners and businesses in California go solar while maximizing their financial benefits. By partnering with us, you'll not only receive expert guidance throughout the installation process but also gain access to our extensive knowledge of tax credits and incentives, ensuring you take full advantage of the 30% tax credit for your solar investment.</p>
+
+           <h3 class="mt-5">The Benefits of Going Solar in California</h3>
+
+           <ul>
+             <li>Lower Energy Bills: Solar energy systems generate electricity from the sun, significantly reducing your reliance on traditional utility companies and saving you money on your monthly energy bills.</li>
+             <li>Environmental Sustainability: By choosing solar energy, you contribute to a cleaner and greener future. Solar power helps reduce greenhouse gas emissions and combat climate change.</li>
+             <li>Increased Property Value: Installing solar panels can increase the value of your property, making it a wise long-term investment.</li>
+           </ul>
+
+           <h3 class="mt-5">Contact Us Today to Unlock the 30% Tax Credit!</h3>
+
+           <p>Ready to take advantage of the 30% tax credit for solar installations in California? Contact California Solar Group today for a free consultation. Our team of experts will guide you through the entire process, from system design and installation to maximizing your tax credit benefits. Join the solar revolution and start saving with California Solar Group now!</p>
+
       </div>
     </section>
 

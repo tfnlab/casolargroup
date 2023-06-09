@@ -44,37 +44,8 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top header-inner-pages">
-    <div class="container d-flex align-items-center justify-content-lg-between">
 
-      <a class="navbar-brand" href="index.html">
-        <img src="assets/img/logo.png" alt="Logo" class="navbar-logo" style="max-height: 35px; max-width: 100%;">
-      </a>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
-      <nav id="navbar" class="navbar order-last order-lg-0">
-        <ul>
-          <li class="dropdown"><a href="#"><span>Discover</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a class="nav-link scrollto" href="#about">About Us</a></li>
-              <li><a class="nav-link scrollto" href="#services">Services</a></li>
-              <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
-              <li><a class="nav-link scrollto" href="#team">Team</a></li>
-              <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="signup.employee.jsp">Technicians</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="nav-link scrollto" href="tel:888045950">(888) 804-5950</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-      <a href="signup.jsp" class="get-started-btn scrollto">Get Started</a>
-
-    </div>
-  </header><!-- End Header -->
+  <%@ include file="include.header.jsp" %>
 
   <main id="main">
 
@@ -95,29 +66,34 @@
 
     <section class="inner-page">
       <div class="container">
-        <p>Welcome to California Solar Group, your trusted partner for commercial solar solutions in California. We specialize in designing, installing, and maintaining solar energy systems for businesses of all sizes. With our expertise and cutting-edge technology, we help businesses reduce energy costs, decrease their carbon footprint, and increase their overall sustainability.</p>
-        <h2>Why Choose California Solar Group for Your Commercial Solar Needs?</h2>
-        <p>When it comes to commercial solar solutions, we are the experts. Here are some reasons why businesses choose California Solar Group:</p>
-        <ul>
-          <li><strong>Experience:</strong> With over a decade of experience in the solar industry, we have successfully completed numerous commercial solar projects. Our team of skilled professionals understands the unique requirements of businesses and can tailor solutions to meet your specific needs.</li>
-          <li><strong>Customized Solutions:</strong> We recognize that every business is different. That's why we offer customized solar solutions that are designed to maximize energy production and financial returns for your specific commercial property. Our team will assess your energy needs, site conditions, and budget to create a tailored solar system that fits your business perfectly.</li>
-          <li><strong>Quality Products:</strong> We only work with trusted manufacturers and suppliers to ensure the highest quality solar panels, inverters, and other components for your commercial solar system. Our products are durable, reliable, and backed by warranties, giving you peace of mind for years to come.</li>
-          <li><strong>Professional Installation:</strong> Our team of certified installers follows industry best practices to install your commercial solar system efficiently and safely. We handle all aspects of the installation process, from acquiring permits to system commissioning, ensuring a hassle-free experience for you.</li>
-          <li><strong>Ongoing Maintenance and Support:</strong> We offer comprehensive maintenance plans to keep your commercial solar system running optimally. Our team will regularly inspect and maintain your system, ensuring its performance and longevity. In case of any issues, our dedicated support team is available to provide timely assistance.</li>
-        </ul>
-
-        <h2>Our Commercial Solar Services</h2>
-        <p>At California Solar Group, we provide a wide range of commercial solar services, including:</p>
-        <ul>
-          <li><strong>Solar System Design:</strong> Our experts will design a customized solar system that maximizes energy production and fits your business requirements.</li>
-          <li><strong>Solar Panel Installation:</strong> We handle the installation process from start to finish, ensuring a seamless transition to solar energy.</li>
-          <li><strong>System Integration:</strong> We integrate your solar system with your existing infrastructure to optimize energy usage and savings.</li>
-          <li><strong>Energy Monitoring:</strong> Our advanced monitoring systems allow you to track the performance of your commercial solar system in real-time.</li>
-          <li><strong>Maintenance and Repairs:</strong> We offer regular maintenance services and prompt repairs to ensure your solar system operates at peak efficiency.</li>
-          <li><strong>Financial Analysis:</strong> Our team can provide financial analysis and assistance in leveraging available incentives and tax credits to maximize your return on investment.</li>
-        </ul>
-
-        <p>Take the first step towards a greener future and lower energy costs for your business. Contact California
+        <div class="container">
+  <p>
+    At California Solar Group, we understand that investing in solar energy can be a significant decision for homeowners and businesses. That's why we offer a range of flexible and affordable solar financing options to help you go solar without breaking the bank.
+  </p>
+  <p>
+    Our solar financing services are designed to make the transition to clean, renewable energy as seamless as possible. Whether you're looking to install a solar system for your home or commercial property, we have the right financing solution to meet your needs.
+  </p>
+  <h3>Key Features of Our Solar Financing Services:</h3>
+  <ul>
+    <li>Low Interest Rates: We offer competitive interest rates on our solar loans, making it easier for you to afford solar energy.</li>
+    <li>Flexible Terms: Our financing options come with flexible repayment terms, allowing you to choose a plan that fits your budget.</li>
+    <li>No Money Down: With our zero-down financing option, you can start enjoying the benefits of solar energy without any upfront costs.</li>
+    <li>Tax Incentives: Take advantage of federal and state tax incentives that can significantly reduce the overall cost of your solar installation.</li>
+    <li>Quick Approval Process: Our streamlined approval process ensures that you receive a decision promptly, so you can move forward with your solar project without delays.</li>
+  </ul>
+  <h3>Why Choose California Solar Group for Solar Financing?</h3>
+  <p>
+    As a leading solar energy company in California, we have years of experience in helping homeowners and businesses harness the power of the sun. When you choose our solar financing services, you benefit from:
+  </p>
+  <ul>
+    <li>Expert Guidance: Our team of solar experts will guide you through the financing process, providing personalized assistance every step of the way.</li>
+    <li>Quality Installations: We work with trusted and experienced solar installers to ensure that your solar system is installed to the highest standards.</li>
+    <li>Customer Satisfaction: We prioritize customer satisfaction and strive to exceed your expectations with our top-notch service.</li>
+  </ul>
+  <p>
+    Ready to make the switch to solar? Contact California Solar Group today to learn more about our solar financing services and start your journey towards clean, affordable, and sustainable energy.
+  </p>
+</div>
 
       </div>
     </section>

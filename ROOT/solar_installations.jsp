@@ -43,38 +43,8 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top header-inner-pages">
-    <div class="container d-flex align-items-center justify-content-lg-between">
-      <a class="navbar-brand" href="index.html">
-        <img src="assets/img/logo.png" alt="Logo" class="navbar-logo" style="max-height: 35px; max-width: 100%;">
-      </a>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-      <nav id="navbar" class="navbar order-last order-lg-0">
-        <ul>
-          <li class="dropdown"><a href="#"><span>Discover</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a class="nav-link scrollto" href="#about">About Us</a></li>
-              <li><a class="nav-link scrollto" href="#services">Services</a></li>
-              <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
-              <li><a class="nav-link scrollto" href="#team">Team</a></li>
-              <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="signup.employee.jsp">Technicians</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="nav-link scrollto" href="tel:888045950">(888) 804-5950</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-      <a href="signup.jsp" class="get-started-btn scrollto">Get Started</a>
-
-    </div>
-  </header><!-- End Header -->
-
+  <%@ include file="include.header.jsp" %>
   <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
@@ -82,10 +52,10 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Tax Credit Work</h2>
+          <h2>Increased Home Value</h2>
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li>Tax Credit Work</li>
+            <li>Increased Home Value</li>
           </ol>
         </div>
 
@@ -94,32 +64,34 @@
 
     <section class="inner-page">
       <div class="container">
-
-           <h1 class="mb-4">Welcome to California Solar Group - Your Gateway to the 30% Solar Tax Credit in California!</h1>
-
-           <h2 class="mb-3">Take Advantage of the 30% Tax Credit with Solar Installations in California</h2>
-
-           <p class="lead">Are you a homeowner or business owner in California looking to harness the power of solar energy while saving money? Look no further! At California Solar Group, we offer state-of-the-art solar installations that not only help you reduce your electricity bills but also enable you to take advantage of the lucrative 30% tax credit offered by the federal government.</p>
-
-           <h3 class="mt-5">How Does the 30% Tax Credit Work?</h3>
-
-           <p>The federal government provides a 30% tax credit for qualified solar energy systems installed in residential and commercial properties. This means that if you invest in solar panels through California Solar Group, you can deduct 30% of the installation cost directly from your federal taxes. It's a substantial incentive that makes solar installations in California more affordable than ever before.</p>
-
-           <h3 class="mt-5">Why Choose California Solar Group for Your Solar Installation?</h3>
-
-           <p>At California Solar Group, we have a proven track record of helping homeowners and businesses in California go solar while maximizing their financial benefits. By partnering with us, you'll not only receive expert guidance throughout the installation process but also gain access to our extensive knowledge of tax credits and incentives, ensuring you take full advantage of the 30% tax credit for your solar investment.</p>
-
-           <h3 class="mt-5">The Benefits of Going Solar in California</h3>
-
-           <ul>
-             <li>Lower Energy Bills: Solar energy systems generate electricity from the sun, significantly reducing your reliance on traditional utility companies and saving you money on your monthly energy bills.</li>
-             <li>Environmental Sustainability: By choosing solar energy, you contribute to a cleaner and greener future. Solar power helps reduce greenhouse gas emissions and combat climate change.</li>
-             <li>Increased Property Value: Installing solar panels can increase the value of your property, making it a wise long-term investment.</li>
-           </ul>
-
-           <h3 class="mt-5">Contact Us Today to Unlock the 30% Tax Credit!</h3>
-
-           <p>Ready to take advantage of the 30% tax credit for solar installations in California? Contact California Solar Group today for a free consultation. Our team of experts will guide you through the entire process, from system design and installation to maximizing your tax credit benefits. Join the solar revolution and start saving with California Solar Group now!</p>
+        <section id="services" class="bg-light">
+          <div class="container">
+            <div class="row">
+                <p>
+                  At California Solar Group, we specialize in providing top-quality solar installations for residential and commercial properties. With our expertise and commitment to renewable energy, we help you harness the power of the sun and enjoy the numerous benefits of solar energy.
+                </p>
+                <p>
+                  Our team of experienced solar professionals takes care of every aspect of the installation process, ensuring a seamless and efficient transition to solar power. Whether you're looking to install solar panels on your home or commercial building, we have the knowledge and skills to deliver exceptional results.
+                </p>
+                <p>
+                  When you choose California Solar Group for your solar installation needs, you can expect:
+                </p>
+                <ul>
+                  <li>Customized Solutions: We understand that each property is unique. Our experts assess your energy needs, site conditions, and budget to design a customized solar system that maximizes efficiency and savings.</li>
+                  <li>Quality Products: We only work with top-tier solar equipment manufacturers to provide you with reliable and high-performance solar panels, inverters, and other components. Our products are built to withstand various weather conditions and deliver optimal energy production.</li>
+                  <li>Professional Installation: Our certified installers follow industry best practices to ensure precise and secure installation of solar panels on your property. We handle all the necessary permits and paperwork, making the process hassle-free for you.</li>
+                  <li>Ongoing Support: We're here for you even after the installation is complete. Our team offers comprehensive support, including maintenance, monitoring, and troubleshooting services, to ensure your solar system operates at its best for years to come.</li>
+                  <li>Financial Assistance: Going solar is a smart investment, and we help make it more affordable. We offer flexible financing options, including solar loans and leasing programs, to suit your financial needs. Additionally, we assist you in exploring available solar incentives and tax credits to maximize your savings.</li>
+                </ul>
+                <p>
+                  With California Solar Group, you can have confidence in our expertise, commitment to quality, and dedication to customer satisfaction. Join the growing community of solar-powered homes and businesses across California and make a positive impact on the environment while reducing your energy costs.
+                </p>
+                <p>
+                  Contact us today to schedule a consultation and take the first step towards a cleaner, greener future with solar power.
+                </p>
+              </div>
+          </div>
+        </section>
 
       </div>
     </section>

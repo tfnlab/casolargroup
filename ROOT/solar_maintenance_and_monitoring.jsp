@@ -43,36 +43,8 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top header-inner-pages">
-    <div class="container d-flex align-items-center justify-content-lg-between">
-      <a class="navbar-brand" href="index.html">
-        <img src="assets/img/logo.png" alt="Logo" class="navbar-logo" style="max-height: 35px; max-width: 100%;">
-      </a>
-      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-      <nav id="navbar" class="navbar order-last order-lg-0">
-        <ul>
-          <li class="dropdown"><a href="#"><span>Discover</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a class="nav-link scrollto" href="#about">About Us</a></li>
-              <li><a class="nav-link scrollto" href="#services">Services</a></li>
-              <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
-              <li><a class="nav-link scrollto" href="#team">Team</a></li>
-              <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="signup.employee.jsp">Technicians</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="nav-link scrollto" href="tel:888045950">(888) 804-5950</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-      <a href="signup.jsp" class="get-started-btn scrollto">Get Started</a>
-
-    </div>
-  </header><!-- End Header -->
+    <%@ include file="include.header.jsp" %>
 
   <main id="main">
 
@@ -81,10 +53,10 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Increased Home Value</h2>
+          <h2>Solar System Design</h2>
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li>Increased Home Value</li>
+            <li>Solar System Design</li>
           </ol>
         </div>
 
@@ -93,35 +65,57 @@
 
     <section class="inner-page">
       <div class="container">
-        <section id="services" class="bg-light">
-          <div class="container">
-            <div class="row">
-                <p>
-                  At California Solar Group, we specialize in providing top-quality solar installations for residential and commercial properties. With our expertise and commitment to renewable energy, we help you harness the power of the sun and enjoy the numerous benefits of solar energy.
-                </p>
-                <p>
-                  Our team of experienced solar professionals takes care of every aspect of the installation process, ensuring a seamless and efficient transition to solar power. Whether you're looking to install solar panels on your home or commercial building, we have the knowledge and skills to deliver exceptional results.
-                </p>
-                <p>
-                  When you choose California Solar Group for your solar installation needs, you can expect:
-                </p>
-                <ul>
-                  <li>Customized Solutions: We understand that each property is unique. Our experts assess your energy needs, site conditions, and budget to design a customized solar system that maximizes efficiency and savings.</li>
-                  <li>Quality Products: We only work with top-tier solar equipment manufacturers to provide you with reliable and high-performance solar panels, inverters, and other components. Our products are built to withstand various weather conditions and deliver optimal energy production.</li>
-                  <li>Professional Installation: Our certified installers follow industry best practices to ensure precise and secure installation of solar panels on your property. We handle all the necessary permits and paperwork, making the process hassle-free for you.</li>
-                  <li>Ongoing Support: We're here for you even after the installation is complete. Our team offers comprehensive support, including maintenance, monitoring, and troubleshooting services, to ensure your solar system operates at its best for years to come.</li>
-                  <li>Financial Assistance: Going solar is a smart investment, and we help make it more affordable. We offer flexible financing options, including solar loans and leasing programs, to suit your financial needs. Additionally, we assist you in exploring available solar incentives and tax credits to maximize your savings.</li>
-                </ul>
-                <p>
-                  With California Solar Group, you can have confidence in our expertise, commitment to quality, and dedication to customer satisfaction. Join the growing community of solar-powered homes and businesses across California and make a positive impact on the environment while reducing your energy costs.
-                </p>
-                <p>
-                  Contact us today to schedule a consultation and take the first step towards a cleaner, greener future with solar power.
-                </p>
-              </div>
-          </div>
-        </section>
+    <p>
+      At California Solar Group, we understand the importance of maintaining and monitoring your solar power system.
+      Our comprehensive Solar Maintenance and Monitoring Services ensure that your solar panels operate at their peak performance
+      and continue to generate clean and renewable energy for your home or business.
+    </p>
+    <h2 class="mt-4">Our Services</h2>
+    <p>
+      Our team of experienced technicians is dedicated to providing reliable maintenance and monitoring services for your solar
+      system. We offer a range of services tailored to meet your specific needs, including:
+    </p>
 
+    <ul>
+      <li>Regular Solar Panel Inspections: We perform thorough inspections of your solar panels to identify any issues or
+        potential problems that may affect their performance.</li>
+      <li>Cleaning and Maintenance: We clean your solar panels to remove dirt, debris, and any other build-up that can
+        reduce their efficiency. Additionally, we provide routine maintenance to ensure optimal functioning.</li>
+      <li>Inverter Check-ups: Our experts check the functionality of your solar inverter, which converts the DC power
+        generated by your panels into AC power for use in your home or business.</li>
+      <li>Performance Monitoring: We utilize advanced monitoring systems to track the performance of your solar panels
+        and identify any deviations from expected output.</li>
+      <li>System Upgrades and Repairs: If your solar system requires upgrades or repairs, our skilled technicians can
+        handle the job efficiently and effectively.</li>
+      <li>24/7 System Monitoring: Our monitoring services provide real-time data on the performance of your solar panels,
+        allowing us to quickly detect and address any issues.</li>
+    </ul>
+
+    <h2 class="mt-4">Why Choose California Solar Group?</h2>
+    <p>
+      When it comes to solar maintenance and monitoring, choosing the right service provider is crucial. Here's why you
+      should choose California Solar Group:
+    </p>
+
+    <ul>
+      <li>Expertise: Our technicians have extensive experience in the solar industry and possess the knowledge and skills
+        to maintain and monitor your system effectively.</li>
+      <li>Reliability: We are committed to delivering reliable services that ensure your solar panels consistently perform
+        at their best.</li>
+      <li>Advanced Technology: We utilize cutting-edge monitoring systems and equipment to provide accurate and timely
+        data on your system's performance.</li>
+      <li>Timely Support: Our responsive customer support team is available to address any queries or concerns you may
+        have regarding your solar system.</li>
+      <li>Cost-Effective Solutions: We offer competitive pricing for our maintenance and monitoring services, providing
+        you with cost-effective solutions for maximizing your solar investment.</li>
+    </ul>
+
+    <h2 class="mt-4">Contact Us</h2>
+    <p>
+      Ensure the longevity and efficiency of your solar power system with our professional maintenance and monitoring
+      services. Contact California Solar Group today to schedule an appointment or to learn more about how we can help
+      you optimize your solar energy production.
+    </p>
       </div>
     </section>
 

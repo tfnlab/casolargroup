@@ -44,36 +44,7 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top header-inner-pages">
-    <div class="container d-flex align-items-center justify-content-lg-between">
-      <a class="navbar-brand" href="index.html">
-        <img src="assets/img/logo.png" alt="Logo" class="navbar-logo" style="max-height: 35px; max-width: 100%;">
-      </a>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
-      <nav id="navbar" class="navbar order-last order-lg-0">
-        <ul>
-          <li class="dropdown"><a href="#"><span>Discover</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a class="nav-link scrollto" href="#about">About Us</a></li>
-              <li><a class="nav-link scrollto" href="#services">Services</a></li>
-              <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
-              <li><a class="nav-link scrollto" href="#team">Team</a></li>
-              <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="signup.employee.jsp">Technicians</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="nav-link scrollto" href="tel:888045950">(888) 804-5950</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-      <a href="signup.jsp" class="get-started-btn scrollto">Get Started</a>
-
-    </div>
-  </header><!-- End Header -->
+  <%@ include file="include.header.jsp" %>
 
   <main id="main">
 
@@ -82,10 +53,10 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Solar System Design</h2>
+          <h2>Electricity Bill Offset</h2>
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li>Solar System Design</li>
+            <li>Electricity Bill Offset</li>
           </ol>
         </div>
 
@@ -94,35 +65,46 @@
 
     <section class="inner-page">
       <div class="container">
-        <div class="container">
-  <p>
-    At California Solar Group, we understand that investing in solar energy can be a significant decision for homeowners and businesses. That's why we offer a range of flexible and affordable solar financing options to help you go solar without breaking the bank.
-  </p>
-  <p>
-    Our solar financing services are designed to make the transition to clean, renewable energy as seamless as possible. Whether you're looking to install a solar system for your home or commercial property, we have the right financing solution to meet your needs.
-  </p>
-  <h3>Key Features of Our Solar Financing Services:</h3>
-  <ul>
-    <li>Low Interest Rates: We offer competitive interest rates on our solar loans, making it easier for you to afford solar energy.</li>
-    <li>Flexible Terms: Our financing options come with flexible repayment terms, allowing you to choose a plan that fits your budget.</li>
-    <li>No Money Down: With our zero-down financing option, you can start enjoying the benefits of solar energy without any upfront costs.</li>
-    <li>Tax Incentives: Take advantage of federal and state tax incentives that can significantly reduce the overall cost of your solar installation.</li>
-    <li>Quick Approval Process: Our streamlined approval process ensures that you receive a decision promptly, so you can move forward with your solar project without delays.</li>
-  </ul>
-  <h3>Why Choose California Solar Group for Solar Financing?</h3>
-  <p>
-    As a leading solar energy company in California, we have years of experience in helping homeowners and businesses harness the power of the sun. When you choose our solar financing services, you benefit from:
-  </p>
-  <ul>
-    <li>Expert Guidance: Our team of solar experts will guide you through the financing process, providing personalized assistance every step of the way.</li>
-    <li>Quality Installations: We work with trusted and experienced solar installers to ensure that your solar system is installed to the highest standards.</li>
-    <li>Customer Satisfaction: We prioritize customer satisfaction and strive to exceed your expectations with our top-notch service.</li>
-  </ul>
-  <p>
-    Ready to make the switch to solar? Contact California Solar Group today to learn more about our solar financing services and start your journey towards clean, affordable, and sustainable energy.
-  </p>
-</div>
+        <h1 class="mt-4">100% Electricity Bill Offset with Solar Power: Harnessing the Sun's Energy for Sustainable Savings</h1>
 
+        <h2 class="mt-4">Introduction</h2>
+        <p>Welcome to our comprehensive guide on achieving a 100% electricity bill offset with solar power. In this era of rising energy costs and increasing environmental concerns, solar energy presents a remarkable solution. By harnessing the power of the sun, you can reduce your carbon footprint while enjoying substantial savings on your monthly electricity bills. This page will explore the benefits of solar energy and provide you with valuable insights on seamlessly transitioning to a sustainable lifestyle.</p>
+
+        <h2 class="mt-4">Understanding Solar Power</h2>
+        <ul>
+          <li>What is solar power and how does it work?</li>
+          <li>Exploring the benefits of solar energy for both the environment and homeowners</li>
+          <li>The financial advantages of switching to solar energy</li>
+        </ul>
+
+        <h2 class="mt-4">Achieving 100% Electricity Bill Offset</h2>
+        <ul>
+          <li>Assessing your energy needs and determining the optimal solar system size</li>
+          <li>Choosing the right solar panels and equipment for maximum efficiency</li>
+          <li>Understanding net metering and its role in achieving bill offset</li>
+          <li>Exploring battery storage solutions for uninterrupted power supply</li>
+        </ul>
+
+        <h2 class="mt-4">The Solar Installation Process</h2>
+        <ul>
+          <li>Finding reputable solar installers in your area</li>
+          <li>Understanding the steps involved in installing solar panels</li>
+          <li>Navigating the paperwork and permits required for a smooth installation</li>
+        </ul>
+
+        <h2 class="mt-4">Maximizing Solar Efficiency</h2>
+        <ul>
+          <li>Implementing energy-saving practices in conjunction with solar power</li>
+          <li>Exploring smart home technologies and their integration with solar systems</li>
+          <li>Monitoring and optimizing your solar energy production</li>
+        </ul>
+
+        <h2 class="mt-4">Financial Incentives and Return on Investment</h2>
+        <ul>
+          <li>Federal and state-level solar incentives and tax credits</li>
+          <li>Financing options for solar installations</li>
+          <li>Calculating the return on investment (ROI) for your solar power system</li>
+        </ul>
       </div>
     </section>
 

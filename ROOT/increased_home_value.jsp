@@ -44,36 +44,7 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top header-inner-pages">
-    <div class="container d-flex align-items-center justify-content-lg-between">
-      <a class="navbar-brand" href="index.html">
-        <img src="assets/img/logo.png" alt="Logo" class="navbar-logo" style="max-height: 35px; max-width: 100%;">
-      </a>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
-      <nav id="navbar" class="navbar order-last order-lg-0">
-        <ul>
-          <li class="dropdown"><a href="#"><span>Discover</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a class="nav-link scrollto" href="#about">About Us</a></li>
-              <li><a class="nav-link scrollto" href="#services">Services</a></li>
-              <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
-              <li><a class="nav-link scrollto" href="#team">Team</a></li>
-              <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="signup.employee.jsp">Technicians</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="nav-link scrollto" href="tel:888045950">(888) 804-5950</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-      <a href="signup.jsp" class="get-started-btn scrollto">Get Started</a>
-
-    </div>
-  </header><!-- End Header -->
+  <%@ include file="include.header.jsp" %>
 
   <main id="main">
 
@@ -94,55 +65,47 @@
 
     <section class="inner-page">
       <div class="container">
-<hr>
-<p>
-  At California Solar Group, we understand the importance of harnessing the power of the sun to meet your energy
-  needs. Our Solar Consultation Services are designed to help you make informed decisions about adopting solar energy
-  for your residential or commercial property. With our expertise and personalized approach, we aim to simplify the
-  process and guide you towards a sustainable and cost-effective solar solution.
-</p>
+        <h1>How Solar Installations Can Add 3-4% Increase to Home Value</h1>
 
-<h3>Why Choose California Solar Group for Your Solar Consultation Needs?</h3>
-<ol>
-  <li>
-    <strong>Extensive Industry Experience:</strong> With over a decade of experience in the solar industry,
-    California Solar Group has established itself as a trusted name. Our team of experts possesses in-depth knowledge
-    about solar technologies, regulations, and incentives specific to California.
-  </li>
-  <li>
-    <strong>Personalized Consultation:</strong> We believe that every property is unique, and so are its solar
-    requirements. Our consultants take the time to understand your energy goals, assess your property's solar
-    potential, and provide customized solutions tailored to your specific needs. Whether you're considering solar
-    panels for your home or looking to implement a large-scale solar project, we've got you covered.
-  </li>
-  <li>
-    <strong>Comprehensive Site Analysis:</strong> Our solar consultants conduct a thorough site analysis to evaluate
-    your property's solar potential. Using advanced tools and techniques, we assess factors such as sun exposure,
-    shading, roof orientation, and structural suitability. This detailed analysis helps us determine the optimal solar
-    system size, design, and placement for maximum energy generation.
-  </li>
-  <li>
-    <strong>Financial Assessment:</strong> Going solar is a significant investment, and we understand the importance
-    of financial considerations. Our solar consultation services include a comprehensive financial assessment where
-    we analyze your energy consumption, current utility costs, available incentives, and financing options. This
-    analysis enables us to provide accurate projections of your potential savings and return on investment.
-  </li>
-  <li>
-    <strong>Streamlined Permitting and Paperwork:</strong> Navigating the solar permitting process can be complex and
-    time-consuming. California Solar Group has a dedicated team that assists you with all the necessary paperwork,
-    permits, and interconnection agreements. Our goal is to make the transition to solar energy as seamless as
-    possible, taking the burden off your shoulders.
-  </li>
-  <li>
-    <strong>Ongoing Support:</strong> Our relationship doesn't end with the solar consultation. We are committed to
-    providing continued support throughout the entire solar installation process. Our team will be there to answer
-    your questions, address any concerns, and ensure a smooth transition to clean, renewable energy.
-  </li>
-</ol>
-<h3>Ready to Take the First Step Towards Solar Independence?</h3>
-<p>Contact California Solar Group today to schedule your Solar Consultation. Our team of experienced professionals is ready to guide you towards a sustainable and energy-efficient future. Let us help you unlock the benefits of solar power while minimizing your environmental impact and saving on your energy bills.</p>
-<p class="text-center">Go solar with California Solar Group and embrace a brighter, cleaner, and more sustainable future for California.</p>
+        <p>Are you considering installing solar panels on your home? Apart from the obvious environmental benefits and
+            long-term cost savings on energy bills, solar installations can also significantly increase the value of your
+            home. Let's explore how going solar can give your property a valuable boost.</p>
 
+        <h2>1. Energy Cost Savings</h2>
+
+        <p>One of the primary advantages of solar energy is the potential for significant cost savings on your electricity
+            bills. By generating your own clean and renewable energy, you become less reliant on traditional utility
+            companies. This independence can shield you from rising energy costs and provide a sense of financial
+            security. Potential buyers recognize the long-term savings associated with solar installations, making your
+            property more attractive.</p>
+
+        <h2>2. Increased Home Value</h2>
+
+        <p>Research has shown that solar installations can increase the value of a home by an average of 3-4%. This
+            percentage may vary depending on various factors such as the location of your property, the size of the solar
+            system, and local market conditions. However, the overall trend indicates that homes equipped with solar
+            panels tend to sell at a premium compared to homes without them.</p>
+
+        <h2>3. Environmental Appeal</h2>
+
+        <p>In today's world, there is a growing emphasis on sustainable living and reducing carbon footprints. By
+            incorporating solar panels into your home, you demonstrate your commitment to a greener future. Environmentally
+            conscious buyers value properties with renewable energy systems, making your home stand out in the market and
+            potentially increasing its desirability and value.</p>
+
+        <h2>4. Government Incentives</h2>
+
+        <p>Many governments and local authorities offer incentives and rebates to encourage homeowners to adopt solar
+            energy. These financial benefits can help offset the initial installation costs and make solar panels more
+            affordable. The availability of such incentives can further boost the attractiveness of your home to potential
+            buyers, increasing its market value.</p>
+
+        <h2>Conclusion</h2>
+
+        <p>Investing in solar installations not only provides numerous environmental and financial benefits but also has a
+            positive impact on the value of your home. By enjoying energy cost savings, capitalizing on government
+            incentives, and appealing to environmentally conscious buyers, you can expect a 3-4% increase in your property
+            value. So, why wait? Take the first step toward a brighter future with solar energy!</p>
 
       </div>
     </section>
