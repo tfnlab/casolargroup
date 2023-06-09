@@ -34,7 +34,7 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-    <script>
+  <script>
     function sendMessage(event) {
       event.preventDefault(); // Prevent the form from submitting normally
 
@@ -60,13 +60,14 @@
       xhr.open('POST', url, true);
 
       // Set the response type
-      xhr.responseType = 'json';
+      xhr.responseType = 'text'; // Set the response type to 'text'
 
       // Set up the callback function for when the request is complete
       xhr.onload = function() {
         if (xhr.status === 200) {
           // Display success message
-          alert('Form submitted successfully!');
+          var response = xhr.responseText; // Get the response as text
+          alert('Form submitted successfully!\nResponse: ' + response);
 
           // Reset the form
           form.reset();
@@ -79,8 +80,8 @@
       // Send the request
       xhr.send();
     }
-
   </script>
+
 </head>
 
 <body>
