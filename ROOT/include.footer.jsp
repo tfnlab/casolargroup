@@ -79,19 +79,18 @@
 
         <div class="col-lg-3 col-md-6">
           <div class="footer-info">
-            <h3>Gp<span>.</span></h3>
-            <p>
-              A108 Adam Street <br>
-              NY 535022, USA<br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
-            </p>
+              <h3>California Solar Group</h3>
+              <p>casolargroup<span>.</span>io</p>
+              <p>
+                7647 Hayvenhurst Ave, Unit 26, <br>
+                Van Nuys, CA 91406, USA<br>
+                <strong>Phone:</strong> (888) 804-5950<br>
+                <strong>Email:</strong> info@casolgroup.io<br>
+              </p>
             <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://twitter.com/casolargroup158" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
             </div>
           </div>
         </div>
@@ -99,34 +98,36 @@
         <div class="col-lg-2 col-md-6 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="index.html#">Home</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="index.html#about">About us</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">Services</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="index.html#">Terms of service</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="index.html#">Privacy policy</a></li>
           </ul>
         </div>
 
         <div class="col-lg-3 col-md-6 footer-links">
           <h4>Our Services</h4>
           <ul>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="solar_consultation.jsp">Consultation</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="solar_system_design.jsp">Design</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="solar_installations.jsp">Installations</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="solar_financing.jsp">Financing</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="solar_maintenance_and_monitoring.jsp">Maintenance and Monitoring</a></li>
           </ul>
         </div>
 
+
         <div class="col-lg-4 col-md-6 footer-newsletter">
           <h4>Our Newsletter</h4>
-          <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-          <form action="" method="post">
-            <input type="email" name="email"><input type="submit" value="Subscribe">
+          <p>Stay up-to-date on the latest news and offers from California Solar Group by joining our newsletter. Simply enter your email address below and click "Subscribe" to start receiving regular updates from us.</p>
+          </p>
+          <form action="#subscribe" method="post" name="subscribeform" id="subscribeform" >
+            <input type="email" name="emailsub" id="emailsub" > <input type="submit" value="Subscribe" onclick="getsubscribe(event)">
           </form>
-
+          <hr>
+          <div id="success" ></div>
         </div>
-
       </div>
     </div>
   </div>
@@ -147,3 +148,45 @@
 
 <div id="preloader"></div>
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+<script>
+function getsubscribe(event) {
+  event.preventDefault(); // Prevent the default form submission behavior
+  var form = document.getElementById('subscribeform');
+  var email = document.getElementById('emailsub').value; // Get the form element
+  // Validate the email address (you can add your own validation logic here)
+  if (!validateEmail(email)) {
+    alert('Please enter a valid email address.');
+    return;
+  }
+
+
+
+  var xhr = new XMLHttpRequest();
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState == 4) {
+      // The request is complete
+      if (xhr.status == 200) {
+        var response = xhr.responseText;
+        document.getElementById('success').innerHTML = "Thank you for subscribing!" + response;
+        form.reset(); // Reset the form
+      } else {
+        // The request was unsuccessful
+        alert('An error occurred while subscribing. Please try again later.');
+      }
+    }
+  };
+  // Set the request method and URL
+  var urlString = "hrn.jsp?apiAction=addSub&email=" + email;
+  xhr.open("GET", urlString, true);
+  xhr.send();
+
+}
+
+// Email validation function
+function validateEmail(email) {
+  var re = /\S+@\S+\.\S+/;
+  return re.test(email);
+}
+
+</script>
