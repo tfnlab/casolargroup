@@ -130,10 +130,10 @@
             </div>
             <div class="portfolio-description">
               <h2>
-                Explore the diverse range of projects by LAPainterz.com, Los Angeles' premier painting company
+
               </h2>
               <p>
-                LAPainterz.com is a Los Angeles-based painting company that offers a wide range of home and commercial painting services. From interior and exterior painting to custom finishes and color consultations, our team has the experience and expertise to handle any project. Whether you're looking to give your home a fresh new look or need a professional touch for your commercial space, LAPainterz.com has the solutions you need. Explore our portfolio to see the range of projects we've completed and contact us today for a free quote.
+
               </p>
             </div>
           </div>
