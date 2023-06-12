@@ -988,11 +988,20 @@
 
     gtag('config', 'G-Z267KV90QY');
   </script>
-  <script src="assets/js/ally.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
   <script>
-    console.log('loaded ally.js in version', ally.version);
-    console.log('focusable elements', ally.query.focusable());
+  // optional init
+    window.onload = function() {
+      window.micAccessTool = new MicAccessTool({
+        link: 'https://casolargroup.io/your-accessibility-declaration.pdf',
+        contact: 'mailto:info@casolargroup.com',
+        buttonPosition: 'right', // default is 'left'
+        forceLang: 'ru-RU' // default is 'en' may be 'he-IL', 'ru-RU', or 'fr_FR'
+      });
+    }
   </script>
+
 
 </body>
 
