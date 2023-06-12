@@ -54,10 +54,10 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Solar System Design</h2>
+          <h2>Commercial Solar Solutions</h2>
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li>Solar System Design</li>
+            <li>Commercial Solar Solutions</li>
           </ol>
         </div>
 

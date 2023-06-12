@@ -53,10 +53,10 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Solar System Design</h2>
+          <h2>Solar Maintenance and Monitoring</h2>
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li>Solar System Design</li>
+            <li>Solar Maintenance and Monitoring</li>
           </ol>
         </div>
 

@@ -52,10 +52,10 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Increased Home Value</h2>
+          <h2>Solar Installations</h2>
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li>Increased Home Value</li>
+            <li>Solar Installations</li>
           </ol>
         </div>
 
