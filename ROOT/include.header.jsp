@@ -16,11 +16,12 @@
             <li><a class="nav-link scrollto" href="index.html#portfolio">Portfolio</a></li>
             <li><a class="nav-link scrollto" href="index.html#team">Team</a></li>
             <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
-            <li><a class="nav-link scrollto" href="tel:8449160002">(844) 916-0002</a></li>
           </ul>
         </li>
         <li><a class="nav-link scrollto" href="signup.employee.jsp">Technicians</a></li>
         <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
+        <li><a class="nav-link scrollto" href="tel:8449160002">(844) 916-0002</a></li>
+
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
     </nav><!-- .navbar -->
