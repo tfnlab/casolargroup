@@ -23,8 +23,8 @@
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
     </nav><!-- .navbar -->
-    <a style="padding: 10px;" href="tel:8449160002">(844) 916-0002</a>
-    <a href="get_quote.jsp" class="get-started-btn scrollto">Get Quote</a>
+    <a style="padding: 5px;display: inline-block;" href="tel:8449160002">(844) 916-0002</a>
+    <a href="get_quote.jsp" class="get-started-btn scrollto">Quote</a>
 
   </div>
 </header><!-- End Header -->
