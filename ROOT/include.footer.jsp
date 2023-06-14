@@ -32,7 +32,7 @@
           <div class="phone">
             <i class="bi bi-phone"></i>
             <h4>Call:</h4>
-            <p>(888) 804-5950</p>
+            <p>(844) 916-0002</p>
           </div>
 
         </div>
@@ -124,8 +124,8 @@
               <p>
                 7647 Hayvenhurst Ave, Unit 26, <br>
                 Van Nuys, CA 91406, USA<br>
-                <strong>Phone:</strong> (888) 804-5950<br>
-                <strong>Email:</strong> info@casolgroup.io<br>
+                <strong>Phone:</strong> (844) 916-0002<br>
+                <strong>Email:</strong> info@casolgroup.com<br>
               </p>
             <div class="social-links mt-3">
                 <a href="https://twitter.com/casolargroup158" class="twitter"><i class="bx bxl-twitter"></i></a>
