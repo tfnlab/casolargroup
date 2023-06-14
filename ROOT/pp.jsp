@@ -5,9 +5,9 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>California Solar Group - Terms of service</title>
-  <meta name="description" content="Read and accept the Terms of Service for California Solar Group's website. Find information about solar energy systems, services, and related products.">
-  <meta name="keywords" content="California Solar Group, solar energy, Terms of Service, solar systems, solar services, solar products">
+  <title>California Solar Group - Privacy Policy</title>
+  <meta name="keywords" content="Privacy Policy, California Solar Group, personal information, data protection">
+  <meta name="description" content="Read the Privacy Policy of California Solar Group to understand how we collect, use, and protect your personal information.">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
