@@ -138,7 +138,7 @@
 
         <h3 class="mt-4">9. Contact Us</h3>
         <p>If you have any questions, concerns, or requests regarding this Privacy Policy or our privacy practices, please
-          contact us at [Insert contact information].</p>
+          contact us at info@casolargroup.com email.</p>
 
         </div>
       </div>
