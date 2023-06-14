@@ -24,7 +24,7 @@
       <i class="bi bi-list mobile-nav-toggle"></i>
     </nav><!-- .navbar -->
     <a class="phone-link" href="tel:8449160002">(844) 916-0002</a>
-    <a href="get_quote.jsp" class="get-started-btn scrollto">Get Quote</a>
+    <a href="get_quote.jsp" class="get-started-btn scrollto">Quote</a>
 
   </div>
 </header><!-- End Header -->
