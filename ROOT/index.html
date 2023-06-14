@@ -790,13 +790,10 @@
           <div class="col-lg-4">
             <div class="info">
               <div class="address">
-                <i class="bi bi-geo-alt"></i>
+                <i class="bi bi-geo-alt" onclick="redirectToMaps()"></i>
                 <h4>Los Angeles</h4>
                 <p>
-                    <a href="https://www.google.com/maps/search/7647+Hayvenhurst+Ave,+Unit+26,+Van+Nuys,+CA+91406" target="_blank">
-                    7647 Hayvenhurst Ave, Unit 26, Van Nuys, CA 91406                      
-                    </a>
-
+                    7647 Hayvenhurst Ave, Unit 26, Van Nuys, CA 91406
                 </p>
               </div>
               <div class="address">
@@ -895,7 +892,19 @@
         xhr.send(formData);
       });
     </script>
+    <script>
+      function redirectToMaps() {
+        var userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
+        // Check if the user agent contains 'iPhone' or 'iPad'
+        if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+          window.location.href = 'http://maps.apple.com/?address=7647+Hayvenhurst+Ave+Unit+26+Van+Nuys+CA+91406';
+        } else {
+          // Redirect to Google Maps for other browsers or platforms
+          window.location.href = 'https://www.google.com/maps/search/7647+Hayvenhurst+Ave,+Unit+26,+Van+Nuys,+CA+91406';
+        }
+      }
+    </script>
 
   </main><!-- End #main -->
 
