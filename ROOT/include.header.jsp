@@ -24,7 +24,7 @@
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
     </nav><!-- .navbar -->
-    <a class="nav-link" href="tel:888045950">(888) 804-5950</a>
+    <a class="nav-link scrollto" href="tel:888045950">(888) 804-5950</a>
     <a href="get_quote.jsp" class="get-started-btn scrollto">Get Quote</a>
 
   </div>
