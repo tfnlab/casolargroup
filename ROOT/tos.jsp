@@ -66,7 +66,7 @@
     <section class="inner-page">
       <div class="container">
         <h1 class="mt-4">Terms of Service</h1>
-        <p class="lead">Effective Date: [Insert Date]</p>
+        <p class="lead">Effective Date: 6/14/2023</p>
 
         <h3>1. Acceptance of Terms</h3>
         <p>
