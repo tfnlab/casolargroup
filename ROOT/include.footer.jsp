@@ -16,13 +16,24 @@
       <div class="col-lg-4">
         <div class="info">
           <div class="address">
-            <i class="bi bi-geo-alt"></i>
-            <h4>casolargroup<span>.</span>com</h4>
+            <a href="https://www.google.com/maps/search/7647+Hayvenhurst+Ave,+Unit+26,+Van+Nuys,+CA+91406" target="_blank">
+            <i class="bi bi-geo-alt" ></i>
+            </a>
+            <h4>Los Angeles Headquarters</h4>
             <p>
-                7647 Hayvenhurst Ave, Unit 26, Van Nuys, CA 91406, USA
+                7647 Hayvenhurst Ave, Unit 26, Van Nuys, CA 91406
             </p>
           </div>
-
+          <HR>
+          <div class="address">
+            <a href="https://www.google.com/maps?q=208+S+Grand+Ave,+Santa+Ana,+CA+92701" target="_blank">
+            <i class="bi bi-geo-alt"></i>
+            </a>
+            <h4>Orange County Branch Office</h4>
+            <p>
+                208 S Grand Ave, Santa Ana, CA 92701
+            </p>
+          </div>
           <div class="email">
             <i class="bi bi-envelope"></i>
             <h4>Email:</h4>
