@@ -339,9 +339,8 @@ h6 {
 }
 
 .navbar-mobile .mobile-nav-toggle {
-  position: absolute;
+  position: fixed;
   top: 15px;
-  left: auto; /* Changed from "right: 15px;" */  
   right: 15px;
 }
 
