@@ -20,7 +20,6 @@
         </li>
         <li><a class="nav-link scrollto" href="signup.employee.jsp">Technicians</a></li>
         <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
-        <li><a class="nav-link scrollto" href="tel:888045950">(888) 804-5950</a></li>
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
     </nav><!-- .navbar -->
