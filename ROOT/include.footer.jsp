@@ -152,8 +152,8 @@
             <li><i class="bx bx-chevron-right"></i> <a href="index.html#">Home</a></li>
             <li><i class="bx bx-chevron-right"></i> <a href="index.html#about">About us</a></li>
             <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">Services</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="index.html#">Terms of service</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="index.html#">Privacy policy</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="tos.jsp">Terms of service</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="pp.jsp">Privacy policy</a></li>
           </ul>
         </div>
 
