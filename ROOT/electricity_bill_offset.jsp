@@ -6,8 +6,8 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>California Solar Group - Electricity Bill Offset</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta name="description" content="Achieve 100% electricity bill offset with solar power solutions from California Solar Group. Discover the benefits of solar energy, understand the installation process, and explore the financial incentives and returns on solar investment. Transition to a sustainable lifestyle today.">
+  <meta name="keywords" content="Electricity Bill Offset, Solar Power, Solar Energy, Sustainable Energy, Solar System Installation, Solar Panels, Net Metering, Battery Storage Solutions, Solar Efficiency, Energy Savings, Smart Home Technologies, Solar Incentives, Solar Tax Credits, Solar Financing, Solar ROI, California Solar Group">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
