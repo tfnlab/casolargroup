@@ -6,8 +6,8 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>California Solar Group - Increased Home Value</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta name="description" content="Explore how solar installations can increase your home value by 3-4% with California Solar Group. Benefit from long-term energy cost savings, environmental appeal, and government incentives. Contact us today to take the first step towards a brighter, more valuable future for your home.">
+  <meta name="keywords" content="Solar Installations, Home Value, Increased Home Value, Solar Panels, Solar Energy, Cost Savings, Environmental Appeal, Government Incentives, California Solar Group">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">

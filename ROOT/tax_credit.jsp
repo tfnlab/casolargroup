@@ -6,8 +6,8 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>California Solar Group - Tax Credit Work</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta name="description" content="Discover the benefits of the 30% Solar Tax Credit in California with California Solar Group. Invest in solar installations and save money on electricity bills while reducing your federal taxes. Contact us today for a free consultation and join the solar revolution.">
+  <meta name="keywords" content="Solar Tax Credit, 30% Tax Credit, Solar Installations, Solar Panels, Solar Energy, Tax Savings, California Solar Group, Federal Tax Deduction, Lower Energy Bills, Environmental Sustainability, Increased Property Value">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
