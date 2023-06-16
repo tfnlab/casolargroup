@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>California Solar Group - Terms of service</title>
+  <title>California Solar Group - Accessibility Statement</title>
   <meta name="description" content="Read and accept the Terms of Service for California Solar Group's website. Find information about solar energy systems, services, and related products.">
   <meta name="keywords" content="California Solar Group, solar energy, Terms of Service, solar systems, solar services, solar products">
 
@@ -53,10 +53,10 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Terms of service</h2>
+          <h2>Accessibility Statement</h2>
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li>Terms of service</li>
+            <li>Accessibility Statement</li>
           </ol>
         </div>
 
