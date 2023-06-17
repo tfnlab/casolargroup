@@ -6,8 +6,8 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>California Solar Group - Solar Maintenance and Monitoring</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta name="keywords" content="Logo, Discover, Technicians, Contact, (844) 916-0002, Get Quote, Solar Maintenance and Monitoring, Home">
+  <meta name="description" content="California Solar Group offers comprehensive Solar Maintenance and Monitoring Services to ensure your solar panels operate at their peak performance. Our experienced technicians provide regular inspections, cleaning, inverter check-ups, performance monitoring, system upgrades, and 24/7 monitoring. Choose us for expertise, reliability, advanced technology, timely support, and cost-effective solutions. Contact us today to schedule an appointment and optimize your solar energy production.">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">

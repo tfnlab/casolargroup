@@ -6,8 +6,8 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>California Solar Group - Commercial Solar Solutions</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta name="keywords" content="Logo, Discover, Technicians, Contact, (844) 916-0002, Get Quote, Commercial Solar Solutions, Home">
+  <meta name="description" content="California Solar Group specializes in designing, installing, and maintaining commercial solar energy systems. With our experience, customized solutions, quality products, professional installation, and ongoing maintenance, we help businesses reduce energy costs and increase sustainability. Choose us for your commercial solar needs and benefit from our expertise, customized solutions, quality products, professional installation, and ongoing support. Contact us today to take the first step towards a greener future.">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">

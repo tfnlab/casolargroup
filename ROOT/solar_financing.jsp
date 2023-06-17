@@ -6,8 +6,8 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>California Solar Group - Solar Financing</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta name="keywords" content="Logo, Discover, Technicians, Contact, (844) 916-0002, Get Quote, Solar Financing, Home">
+  <meta name="description" content="California Solar Group offers flexible and affordable solar financing options for homeowners and businesses. With low interest rates, flexible terms, and no money down, you can transition to clean, renewable energy without breaking the bank. Take advantage of tax incentives and a quick approval process. Choose California Solar Group for expert guidance, quality installations, and excellent customer satisfaction. Contact us today to learn more and make the switch to solar.">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
