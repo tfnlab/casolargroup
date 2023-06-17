@@ -27,7 +27,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxZpVwHRjWWyxn5-5iFXQlVWmdk1QoxUw&libraries=places"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHwbVpNgh3G5yG1cmT0HMe8TikX4DC2qE&libraries=places"></script>
 
   <!-- =======================================================
   * Template Name: Gp - v4.9.1
