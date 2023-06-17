@@ -165,6 +165,22 @@ h6 {
 /*--------------------------------------------------------------
 #  Get Startet Button
 --------------------------------------------------------------*/
+.call-now-link-btn {
+  display: none; /* Hide the item when collapsed */
+  color: #fff;
+  border-radius: 4px;
+  padding: 7px 25px 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 18px;
+  display: inline-block;
+  margin-left: 15px;
+  color: #fff;
+}
+.call-now-link-btn:hover {
+  background: #ffbb38;
+  color: #343a40;
+}
 .call-now-link {
   color: #fff;
   border-radius: 4px;
@@ -203,6 +219,11 @@ h6 {
   }
   .call-now-link {
     display: none; /* Hide the item when collapsed */
+    padding: 7px 20px 8px 20px;
+    margin-left: auto;
+  }
+  .call-now-lin-btn {
+    display: inline-block; /* Hide the item when collapsed */
     padding: 7px 20px 8px 20px;
     margin-left: auto;
   }
