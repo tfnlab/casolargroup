@@ -172,7 +172,7 @@ h6 {
   white-space: nowrap;
   transition: 0.3s;
   font-size: 18px;
-  display: none;
+  display: inline-block;
   margin-left: 15px;
   color: #fff;
 }
