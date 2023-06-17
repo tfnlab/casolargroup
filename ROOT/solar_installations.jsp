@@ -6,8 +6,8 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>California Solar Group - Solar Installations</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta name="keywords" content="Logo, Discover, Technicians, Contact, (844) 916-0002, Get Quote, Solar Installations, Home">
+  <meta name="description" content="At California Solar Group, we specialize in providing top-quality solar installations for residential and commercial properties. Our experienced solar professionals deliver customized solutions using high-quality products, professional installation techniques, ongoing support, and financial assistance. Contact us today for exceptional solar installations and make a positive impact on the environment while reducing your energy costs.">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">

@@ -6,8 +6,8 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>California Solar Group - Solar Consultation</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta name="keywords" content="Logo, Discover, Technicians, Contact, (844) 916-0002, Get Quote, Solar Consultation, Home">
+  <meta name="description" content="At California Solar Group, we offer Solar Consultation Services to help you make informed decisions about adopting solar energy. With over a decade of experience, personalized consultations, comprehensive site analysis, financial assessment, streamlined paperwork, and ongoing support, we guide you towards a sustainable and cost-effective solar solution. Contact us today for your Solar Consultation.">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">

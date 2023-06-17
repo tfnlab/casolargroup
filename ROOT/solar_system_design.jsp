@@ -6,8 +6,8 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>California Solar Group - Solar System Design</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta name="keywords" content="Logo, Discover, Technicians, Contact, (844) 916-0002, Get Quote, Solar System Design, Home">
+  <meta name="description" content="At California Solar Group, we offer comprehensive solar system design services tailored to meet your specific energy needs. Our experienced engineers and designers will work closely with you to create a customized solar solution that maximizes efficiency and cost-effectiveness. Contact us today for expert solar system design for your home or business.">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
