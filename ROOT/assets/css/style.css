@@ -195,13 +195,12 @@ h6 {
 * Desktop Navigation
 */
 .navbar {
-  padding: 5;
-  margin-left: auto; /* Push the navbar content to the right */
+  padding: 0;
 }
 
 .navbar ul {
-  margin: 5;
-  padding: 5;
+  margin: 0;
+  padding: 0;
   display: flex;
   list-style: none;
   align-items: right;
@@ -316,11 +315,13 @@ h6 {
   line-height: 0;
   transition: 0.5s;
   float: right; /* Align to the right */
+  margin-left: auto; /* Push the navbar content to the right */
 }
 
 @media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
+    margin-left: auto; /* Push the navbar content to the right */
   }
 
   .navbar ul {
