@@ -296,11 +296,11 @@ h6 {
 
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
-    left: -90%;
+    text-align: right; /* Add this line */
   }
 
   .navbar .dropdown .dropdown:hover>ul {
-    left: -100%;
+    text-align: right; /* Add this line */
   }
 }
 
@@ -355,6 +355,7 @@ h6 {
   background-color: #fff;
   overflow-y: auto;
   transition: 0.3s;
+  text-align: right; /* Add this line */  
 }
 
 .navbar-mobile a,
