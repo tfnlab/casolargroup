@@ -201,6 +201,11 @@ h6 {
     padding: 7px 20px 8px 20px;
     margin-left: auto;
   }
+  .call-now-link {
+    display: none; /* Hide the item when collapsed */
+    padding: 7px 20px 8px 20px;
+    margin-left: auto;
+  }
 }
 
 /*--------------------------------------------------------------
