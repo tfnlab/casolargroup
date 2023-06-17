@@ -166,7 +166,6 @@ h6 {
 #  Get Startet Button
 --------------------------------------------------------------*/
 .call-now-link-btn {
-  display: none; /* Hide the item when collapsed */
   color: #fff;
   border-radius: 4px;
   padding: 7px 25px 8px 25px;
