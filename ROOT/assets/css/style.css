@@ -176,7 +176,6 @@ h6 {
   margin-left: 15px;
   color: #fff;
 }
-
 .call-now-link:hover {
   background: #ffbb38;
   color: #343a40;
@@ -199,7 +198,6 @@ h6 {
 }
 @media (max-width: 992px) {
   .get-started-btn {
-    display: none; /* Hide the item when collapsed */
     padding: 7px 20px 8px 20px;
     margin-left: auto;
   }
