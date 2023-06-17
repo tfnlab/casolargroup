@@ -27,6 +27,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAR8hM1QsRbFR8gXZXxk1rpRbROwAnpVh0&libraries=places"></script>
 
   <!-- =======================================================
   * Template Name: Gp - v4.9.1
@@ -243,7 +244,31 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+  $(document).ready(function() {
+    // Initialize the autocomplete object
+    var autocomplete = new google.maps.places.Autocomplete(document.getElementById('installation_address'));
 
+    // Restrict autocomplete results to addresses only
+    autocomplete.setTypes(['address']);
+
+    // Handle the selection of an address
+    google.maps.event.addListener(autocomplete, 'place_changed', function() {
+      var place = autocomplete.getPlace();
+
+      // Optionally, you can access various address components
+      var address = place.formatted_address;
+      var latitude = place.geometry.location.lat();
+      var longitude = place.geometry.location.lng();
+
+      // Use the selected address or its components as needed
+      console.log('Address:', address);
+      console.log('Latitude:', latitude);
+      console.log('Longitude:', longitude);
+    });
+  });
+
+  </script>
 </body>
 
 </html>
