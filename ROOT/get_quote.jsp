@@ -244,6 +244,8 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
   <script>
   $(document).ready(function() {
     // Initialize the autocomplete object
