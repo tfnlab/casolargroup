@@ -196,7 +196,7 @@ h6 {
 */
 .navbar {
   padding: 0;
-  float: right; /* Align to the right */
+  margin-left: auto; /* Push the navbar content to the right */
 }
 
 .navbar ul {
