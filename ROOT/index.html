@@ -34,6 +34,12 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
   <script>
+  const button = document.querySelector('.call-now-link-btn');
+
+  button.addEventListener('click', function() {
+    this.classList.toggle('collapsed');
+  });
+  
   function getsubscribe(event) {
     event.preventDefault(); // Prevent the default form submission behavior
     var form = document.getElementById('subscribeform');
