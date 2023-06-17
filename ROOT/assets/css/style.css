@@ -212,6 +212,10 @@ h6 {
   position: relative;
 }
 
+.navbar li:not(:last-child) {
+  margin-right: 15px;
+}
+
 .navbar a,
 .navbar a:focus {
   display: flex;
