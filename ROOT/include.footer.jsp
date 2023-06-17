@@ -21,7 +21,9 @@
             </a>
             <h4>Los Angeles Headquarters</h4>
             <p>
+              <a href="https://www.google.com/maps?q=208+S+Grand+Ave,+Santa+Ana,+CA+92701" target="_blank">
                 7647 Hayvenhurst Ave, Unit 26, Van Nuys, CA 91406
+              </a>
             </p>
           </div>
           <HR>
@@ -31,19 +33,21 @@
             </a>
             <h4>Orange County Branch Office</h4>
             <p>
+              <a href="https://www.google.com/maps?q=208+S+Grand+Ave,+Santa+Ana,+CA+92701" target="_blank">
                 208 S Grand Ave, Santa Ana, CA 92701
+              </a>
             </p>
           </div>
           <div class="email">
             <i class="bi bi-envelope"></i>
             <h4>Email:</h4>
-            <p>info@casolargroup.com</p>
+            <p><a href="mailto:info@casolargroup.com">info@casolargroup.com</a></p>
           </div>
 
           <div class="phone">
             <i class="bi bi-phone"></i>
             <h4>Call:</h4>
-            <p>(844) 916-0002</p>
+            <p><a href="tel:8449160002">(844) 916-0002</a></p>
           </div>
 
         </div>
@@ -133,10 +137,12 @@
               <h3>California Solar Group</h3>
               <p>casolargroup<span>.</span>com</p>
               <p>
+                <a href="https://www.google.com/maps?q=208+S+Grand+Ave,+Santa+Ana,+CA+92701" target="_blank">
                 7647 Hayvenhurst Ave, Unit 26, <br>
                 Van Nuys, CA 91406, USA<br>
-                <strong>Phone:</strong> (844) 916-0002<br>
-                <strong>Email:</strong> info@casolgroup.com<br>
+                </a>
+                <strong>Phone:</strong> <a href="tel:8449160002">(844) 916-0002</a><br>
+                <strong>Email:</strong> <a href="mailto:info@casolargroup.com">info@casolgroup.com</a><br>
               </p>
             <div class="social-links mt-3">
                 <a href="https://twitter.com/casolargroup158" class="twitter"><i class="bx bxl-twitter"></i></a>
