@@ -20,13 +20,12 @@
         </li>
         <li><a class="nav-link scrollto" href="signup.employee.jsp">Technicians</a></li>
         <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
-        <li><a class="nav-link scrollto" href="tel:8449160002">(844) 916-0002</a></li>
 
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
     </nav><!-- .navbar -->
     <a class="call-now-link-btn" href="tel:8449160002"><i class="ri-phone-line"></i></a>
-    <a class="call-now-link" href="tel:8449160002">(844) 916-0002</a>    
+    <a class="call-now-link" href="tel:8449160002">(844) 916-0002</a>
     <a href="get_quote.jsp" class="get-started-btn scrollto">Get Quote</a>
 
   </div>
