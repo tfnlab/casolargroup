@@ -196,6 +196,7 @@ h6 {
 */
 .navbar {
   padding: 0;
+  float: right; /* Align to the right */
 }
 
 .navbar ul {
@@ -313,7 +314,7 @@ h6 {
   cursor: pointer;
   display: none;
   line-height: 0;
-  transition: 0.5s;  
+  transition: 0.5s;
   float: right; /* Align to the right */
 }
 
