@@ -65,7 +65,7 @@
 
     <section class="inner-page">
       <div class="container">
-        <h1>How Solar Installations Can Add 3-4% Increase to Home Value</h1>
+        <h1>How Solar Installations Can Add up to 20% Increase to Home Value</h1>
 
         <p>Are you considering installing solar panels on your home? Apart from the obvious environmental benefits and
             long-term cost savings on energy bills, solar installations can also significantly increase the value of your
@@ -81,7 +81,7 @@
 
         <h2>2. Increased Home Value</h2>
 
-        <p>Research has shown that solar installations can increase the value of a home by an average of 3-4%. This
+        <p>Research has shown that solar installations can increase the value of a home by up to 20%. This
             percentage may vary depending on various factors such as the location of your property, the size of the solar
             system, and local market conditions. However, the overall trend indicates that homes equipped with solar
             panels tend to sell at a premium compared to homes without them.</p>
@@ -104,7 +104,7 @@
 
         <p>Investing in solar installations not only provides numerous environmental and financial benefits but also has a
             positive impact on the value of your home. By enjoying energy cost savings, capitalizing on government
-            incentives, and appealing to environmentally conscious buyers, you can expect a 3-4% increase in your property
+            incentives, and appealing to environmentally conscious buyers, you can expect up to 20% increase in your property
             value. So, why wait? Take the first step toward a brighter future with solar energy!</p>
 
       </div>
