@@ -67,7 +67,7 @@
        <div class="container text-center">
          <h1>A to Z Solar Installation Services</h1>
          <p>Providing Comprehensive Solar Solutions in Los Angeles</p>
-         <a href="#contact" class="btn btn-primary">Get a Free Consultation</a>
+         <a href="get_quote.jsp" class="btn btn-primary">Get a Free Consultation</a>
        </div>
      </section>
 
