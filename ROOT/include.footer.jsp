@@ -190,7 +190,7 @@
   </div>
   <div class="container">
     <div class="copyright">
-      &copy; Copyright <strong><span>California Solar Group</span></strong>. All Rights Reserved
+      &copy; Copyright <strong><span>California Solar Group</span></strong>. All Rights Reserved. CSLB NUMBER 1067781
     </div>
     <div class="credits">
       <!-- All the links in the footer should remain intact. -->
