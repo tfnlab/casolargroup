@@ -10,6 +10,7 @@
     <div id="articles"></div>
   </div>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/he/1.2.0/he.min.js"></script>
   <script>
     // Fetch JSON data from the URL
     fetch('https://casolargroup.io/wp-json/wuxt/v1/front-page')
@@ -17,7 +18,7 @@
       .then(data => {
         const articlesContainer = document.getElementById('articles');
 
-        // Loop through the articles and create Bootstrap cards with title and content
+        // Loop through the articles and create Bootstrap cards with decoded title and content
         data.forEach(article => {
           const card = document.createElement('div');
           card.className = 'card';
@@ -29,7 +30,7 @@
 
           const title = document.createElement('h5');
           title.className = 'card-title';
-          title.textContent = article.title.rendered;
+          title.textContent = he.decode(article.title.rendered);
           cardBody.appendChild(title);
 
           const content = document.createElement('p');
