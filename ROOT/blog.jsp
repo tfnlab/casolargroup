@@ -6,8 +6,8 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>California Solar Group - Blog</title>
-  <meta name="keywords" content="">
-  <meta name="description" content="">
+  <meta name="keywords" content="solar technology, California Solar Group, renewable energy, solar power, solar panels, clean energy, solar installation, solar energy solutions">
+  <meta name="description" content="Explore the latest advancements in solar technology with California Solar Group. Our expert team provides innovative solar energy solutions, including solar panel installation and renewable energy systems. Harness the power of clean energy and make a positive impact on the environment. Contact us today for reliable and efficient solar technology solutions.">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
