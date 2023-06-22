@@ -18,9 +18,9 @@
         const titlesContainer = document.getElementById('titles');
 
         // Loop through the articles and display only the titles
-        data.articles.forEach(article => {
+        data.forEach(article => {
           const title = document.createElement('h5');
-          title.textContent = article.title;
+          title.textContent = article.title.rendered;
           titlesContainer.appendChild(title);
         });
       })
