@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Display Articles with Bootstrap</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Articles</h1>
+    <div id="articles"></div>
+  </div>
+
+  <script>
+    // Fetch JSON data from the URL
+    fetch('https://casolargroup.io/wp-json/wuxt/v1/front-page')
+      .then(response => response.json())
+      .then(data => {
+        const articlesContainer = document.getElementById('articles');
+
+        // Loop through the articles and create Bootstrap cards
+        data.articles.forEach(article => {
+          const card = document.createElement('div');
+          card.className = 'card';
+          card.style.width = '18rem';
+
+          const image = document.createElement('img');
+          image.src = article.image;
+          image.className = 'card-img-top';
+          card.appendChild(image);
+
+          const cardBody = document.createElement('div');
+          cardBody.className = 'card-body';
+
+          const title = document.createElement('h5');
+          title.className = 'card-title';
+          title.textContent = article.title;
+          cardBody.appendChild(title);
+
+          const content = document.createElement('p');
+          content.className = 'card-text';
+          content.textContent = article.content;
+          cardBody.appendChild(content);
+
+          card.appendChild(cardBody);
+          articlesContainer.appendChild(card);
+        });
+      })
+      .catch(error => console.error('Error:', error));
+  </script>
+</body>
+</html>
