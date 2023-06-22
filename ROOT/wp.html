@@ -18,7 +18,7 @@
       .then(data => {
         const articlesContainer = document.getElementById('articles');
 
-        // Loop through the articles and create Bootstrap cards with decoded title and content
+        // Loop through the articles and create Bootstrap cards with decoded title, content, and hyperlink
         data.forEach(article => {
           const card = document.createElement('div');
           card.className = 'card';
@@ -37,6 +37,12 @@
           content.className = 'card-text';
           content.innerHTML = article.content.rendered;
           cardBody.appendChild(content);
+
+          const link = document.createElement('a');
+          link.href = article.link;
+          link.className = 'btn btn-primary';
+          link.textContent = 'Read More';
+          cardBody.appendChild(link);
 
           card.appendChild(cardBody);
           articlesContainer.appendChild(card);
