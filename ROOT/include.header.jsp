@@ -15,10 +15,11 @@
             <li><a class="nav-link scrollto" href="index.html#services">Services</a></li>
             <li><a class="nav-link scrollto" href="index.html#portfolio">Portfolio</a></li>
             <li><a class="nav-link scrollto" href="index.html#team">Team</a></li>
-            <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
+            <li><a class="nav-link scrollto" href="signup.jsp">Customer Portal</a></li>
+            <li><a class="nav-link scrollto" href="signup.employee.jsp">Technicians</a></li>
           </ul>
         </li>
-        <li><a class="nav-link scrollto" href="signup.employee.jsp">Technicians</a></li>
+        <li><a class="nav-link scrollto" href="blog.jsp">Blog</a></li>
         <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
 
       </ul>
