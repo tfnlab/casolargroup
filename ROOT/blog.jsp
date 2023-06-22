@@ -67,6 +67,8 @@
       <div class="container">
 
           <div id="articles"></div>
+          <HR>
+          <a href="https://casolargroup.io/">Visit Casolargroup.io for more blogs and information</a>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/he/1.2.0/he.min.js"></script>
         <script>
