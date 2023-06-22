@@ -80,7 +80,7 @@
               data.forEach(article => {
                 const card = document.createElement('div');
                 card.className = 'card';
-                card.style.width = '18rem';
+                card.style.width = '100%';
                 card.style.marginBottom = '20px';
 
                 const cardBody = document.createElement('div');
