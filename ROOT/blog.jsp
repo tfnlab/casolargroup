@@ -80,6 +80,7 @@
 
               // Loop through the articles and create Bootstrap cards with decoded title, content, and hyperlink
               data.forEach(article => {
+                alert(article);
                 const card = document.createElement('div');
                 card.className = 'card';
                 card.style.width = '100%';
