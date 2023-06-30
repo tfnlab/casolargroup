@@ -88,11 +88,13 @@
   </main><!-- End #main -->
 
   <div id="footer_div" ></div>
+  <script id="footer_script" ></script>
 
 <script>
   window.addEventListener('DOMContentLoaded', function() {
     var targetDiv = document.getElementById('header_div'); // Replace 'yourDivId' with the actual ID of the target <div>
     var footerDiv = document.getElementById('footer_div'); // Replace 'yourDivId' with the actual ID of the target <div>
+    var footerSrc = document.getElementById('footer_script'); // Replace 'yourDivId' with the actual ID of the target <div>
 
     fetch('include.header.jsp') // Replace 'include.header.jsp' with the URL of the page you want to load
       .then(function(response) {
@@ -105,7 +107,17 @@
         console.log('Error:', error);
       });
 
-    fetch('include.footer.jsp') // Replace 'include.header.jsp' with the URL of the page you want to load
+    fetch('include.footer.scripts.jsp') // Replace 'include.header.jsp' with the URL of the page you want to load
+      .then(function(response) {
+        return response.text();
+      })
+      .then(function(content) {
+        footerSrc.innerHTML = content;
+      })
+      .catch(function(error) {
+        console.log('Error:', error);
+      });
+    fetch('include.footer.html.jsp') // Replace 'include.header.jsp' with the URL of the page you want to load
       .then(function(response) {
         return response.text();
       })
@@ -127,7 +139,15 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z267KV90QY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
+    gtag('config', 'G-Z267KV90QY');
+  </script>
 </body>
 
 </html>
