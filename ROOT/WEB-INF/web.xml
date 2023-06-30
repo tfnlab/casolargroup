@@ -110,4 +110,12 @@
       <servlet-name>commercial_solar_solutions</servlet-name>
       <url-pattern>/commercial_solar_solutions.html</url-pattern>
   </servlet-mapping>
+  <servlet>
+      <servlet-name>blog</servlet-name>
+      <jsp-file>/blog.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>blog</servlet-name>
+      <url-pattern>/blog.html</url-pattern>
+  </servlet-mapping>
 </web-app>
