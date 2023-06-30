@@ -43,7 +43,7 @@
 
 <body>
 
-  <%@ include file="include.header.jsp" %>
+  <div id="header_div" ></div>
   <!-- ======= Header ======= -->
 
   <main id="main">
@@ -91,7 +91,7 @@
 
 <script>
   window.addEventListener('DOMContentLoaded', function() {
-    var targetDiv = document.getElementById('footer_div'); // Replace 'yourDivId' with the actual ID of the target <div>
+    var targetDiv = document.getElementById('header_div'); // Replace 'yourDivId' with the actual ID of the target <div>
 
     fetch('include.header.jsp') // Replace 'include.header.jsp' with the URL of the page you want to load
       .then(function(response) {
