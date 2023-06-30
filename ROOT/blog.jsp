@@ -95,7 +95,7 @@
 
                 const content = document.createElement('p');
                 content.className = 'card-text';
-                content.innerHTML = article.content.rendered;
+                content.innerHTML = article.excerpt.rendered;
                 cardBody.appendChild(content);
 
                 const link = document.createElement('a');
