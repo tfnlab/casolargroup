@@ -1,4 +1,4 @@
-<script>
+
   document.getElementById("contactform").addEventListener("submit", function(event) {
     event.preventDefault(); // Prevent form submission
 
@@ -76,5 +76,3 @@ function validateEmail(email) {
   var re = /\S+@\S+\.\S+/;
   return re.test(email);
 }
-
-</script>
