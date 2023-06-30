@@ -98,12 +98,6 @@
                 content.innerHTML = article.excerpt.rendered;
                 cardBody.appendChild(content);
 
-                const link = document.createElement('a');
-                link.href = article.link;
-                link.className = 'btn btn-primary';
-                link.textContent = 'Read More';
-                cardBody.appendChild(link);
-
                 card.appendChild(cardBody);
                 articlesContainer.appendChild(card);
               });
