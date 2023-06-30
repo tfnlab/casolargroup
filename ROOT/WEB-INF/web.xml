@@ -62,4 +62,52 @@
       <servlet-name>a_to_z_solar_install</servlet-name>
       <url-pattern>/a_to_z_solar_install.html</url-pattern>
   </servlet-mapping>
+  <servlet>
+      <servlet-name>solar_consultation</servlet-name>
+      <jsp-file>/solar_consultation.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>solar_consultation</servlet-name>
+      <url-pattern>/solar_consultation.html</url-pattern>
+  </servlet-mapping>
+  <servlet>
+      <servlet-name>solar_system_design</servlet-name>
+      <jsp-file>/solar_system_design.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>solar_system_design</servlet-name>
+      <url-pattern>/solar_system_design.html</url-pattern>
+  </servlet-mapping>
+  <servlet>
+      <servlet-name>solar_installations</servlet-name>
+      <jsp-file>/solar_installations.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>solar_installations</servlet-name>
+      <url-pattern>/solar_installations.html</url-pattern>
+  </servlet-mapping>
+  <servlet>
+      <servlet-name>solar_financing</servlet-name>
+      <jsp-file>/solar_financing.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>solar_financing</servlet-name>
+      <url-pattern>/solar_financing.html</url-pattern>
+  </servlet-mapping>
+  <servlet>
+      <servlet-name>solar_maintenance_and_monitoring</servlet-name>
+      <jsp-file>/solar_maintenance_and_monitoring.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>solar_maintenance_and_monitoring</servlet-name>
+      <url-pattern>/solar_maintenance_and_monitoring.html</url-pattern>
+  </servlet-mapping>
+  <servlet>
+      <servlet-name>commercial_solar_solutions</servlet-name>
+      <jsp-file>/commercial_solar_solutions.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>commercial_solar_solutions</servlet-name>
+      <url-pattern>/commercial_solar_solutions.html</url-pattern>
+  </servlet-mapping>
 </web-app>
