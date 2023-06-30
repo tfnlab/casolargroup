@@ -30,8 +30,4 @@
       <error-code>404</error-code>
       <location>/404.html</location>
   </error-page>
-  <servlet-mapping>
-      <servlet-name>electricity_bill_offset.jsp</servlet-name>
-      <url-pattern>/electricity_bill_offset.html</url-pattern>
-  </servlet-mapping>
 </web-app>
