@@ -92,6 +92,7 @@
 <script>
   window.addEventListener('DOMContentLoaded', function() {
     var targetDiv = document.getElementById('header_div'); // Replace 'yourDivId' with the actual ID of the target <div>
+    var footerDiv = document.getElementById('footer_div'); // Replace 'yourDivId' with the actual ID of the target <div>
 
     fetch('include.header.jsp') // Replace 'include.header.jsp' with the URL of the page you want to load
       .then(function(response) {
@@ -99,6 +100,17 @@
       })
       .then(function(content) {
         targetDiv.innerHTML = content;
+      })
+      .catch(function(error) {
+        console.log('Error:', error);
+      });
+
+    fetch('include.footer.jsp') // Replace 'include.header.jsp' with the URL of the page you want to load
+      .then(function(response) {
+        return response.text();
+      })
+      .then(function(content) {
+        footerDiv.innerHTML = content;
       })
       .catch(function(error) {
         console.log('Error:', error);
