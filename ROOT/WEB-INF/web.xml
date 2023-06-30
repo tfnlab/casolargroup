@@ -38,4 +38,20 @@
       <servlet-name>electricity_bill_offset</servlet-name>
       <url-pattern>/electricity_bill_offset.html</url-pattern>
   </servlet-mapping>
+  <servlet>
+      <servlet-name>tax_credit</servlet-name>
+      <jsp-file>/tax_credit.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>tax_credit</servlet-name>
+      <url-pattern>/tax_credit.html</url-pattern>
+  </servlet-mapping>
+  <servlet>
+      <servlet-name>increased_home_value</servlet-name>
+      <jsp-file>/increased_home_value.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>increased_home_value</servlet-name>
+      <url-pattern>/increased_home_value.html</url-pattern>
+  </servlet-mapping>
 </web-app>
