@@ -22,12 +22,16 @@
   version="4.0"
   metadata-complete="true">
 
-  <display-name>Welcome to Tomcat</display-name>
+  <display-name>California Solar Group</display-name>
   <description>
-     Welcome to Tomcat
+     California Solar Group Los Angeles
   </description>
   <error-page>
       <error-code>404</error-code>
       <location>/404.html</location>
   </error-page>
+  <servlet-mapping>
+      <servlet-name>electricity_bill_offset.jsp</servlet-name>
+      <url-pattern>/electricity_bill_offset.html</url-pattern>
+  </servlet-mapping>
 </web-app>
