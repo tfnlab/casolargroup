@@ -54,4 +54,12 @@
       <servlet-name>increased_home_value</servlet-name>
       <url-pattern>/increased_home_value.html</url-pattern>
   </servlet-mapping>
+  <servlet>
+      <servlet-name>a_to_z_solar_install</servlet-name>
+      <jsp-file>/a_to_z_solar_install.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>a_to_z_solar_install</servlet-name>
+      <url-pattern>/a_to_z_solar_install.html</url-pattern>
+  </servlet-mapping>
 </web-app>
