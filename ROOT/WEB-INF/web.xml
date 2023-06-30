@@ -32,7 +32,7 @@
   </error-page>
   <servlet>
       <servlet-name>electricity_bill_offset</servlet-name>
-      <jsp-file>/var/lib/tomcat9/casolargroup/ROOT/electricity_bill_offset.jsp</jsp-file>
+      <jsp-file>/electricity_bill_offset.jsp</jsp-file>
   </servlet>
   <servlet-mapping>
       <servlet-name>electricity_bill_offset</servlet-name>
