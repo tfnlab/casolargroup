@@ -5,9 +5,9 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>California Solar Group - Made in USA</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <title>California Solar Group - 100% Made in USA</title>
+  <meta name="description" content="California Solar Group - Your trusted source for high-quality solar products proudly made in the USA. Support local businesses and American workers. Choose our sustainable, 'Made in USA' solar solutions.">
+  <meta name="keywords" content="California Solar Group, Made in USA, solar products, sustainable energy, local businesses, American workers">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -66,7 +66,7 @@
     <section class="inner-page">
       <div class="container">
         <header class="jumbotron text-center">
-          <h1 class="display-4">Made in USA</h1>
+          <h1 class="display-4">100% Made in USA</h1>
           <p class="lead">California Solar Group - Your trusted source for high-quality solar products</p>
         </header>
 
