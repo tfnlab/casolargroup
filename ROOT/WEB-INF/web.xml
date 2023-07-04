@@ -118,4 +118,12 @@
       <servlet-name>blog</servlet-name>
       <url-pattern>/blog.html</url-pattern>
   </servlet-mapping>
+  <servlet>
+      <servlet-name>made_in_usa</servlet-name>
+      <jsp-file>/made_in_usa.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>made_in_usa</servlet-name>
+      <url-pattern>/made_in_usa.html</url-pattern>
+  </servlet-mapping>
 </web-app>
