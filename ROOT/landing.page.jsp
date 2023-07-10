@@ -153,9 +153,27 @@
             <p>
               Do you rent or own ?
              </p>
+              <div class="row">
+
+                      <div class="col-sm-6">
+                        <a href="#quote-contact" onclick="scrollToQuoteContact()">Rent</a>
+                      </div>
+                      <div class="col-sm-6">
+                        <a href="#quote-contact" onclick="scrollToQuoteContact()">Own</a>
+                      </div>
+              </div>
           </div>
         </div>
-
+        avaScript code to your page -->
+        <script>
+          function scrollToQuoteContact() {
+            event.preventDefault();
+            var aboutSection = document.getElementById("features");
+            if (aboutSection) {
+              aboutSection.scrollIntoView({ behavior: 'smooth' });
+            }
+          }
+        </script>
       </div>
     </section>
 
@@ -180,15 +198,6 @@
       </div>
     </section><!-- End Services Section -->
 
-    <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
-      <div class="container" data-aos="zoom-in">
-
-        <div class="text-center">
-          more stuff
-        </div>
-      </div>
-    </section><!-- End Cta Section -->
 
 
 
