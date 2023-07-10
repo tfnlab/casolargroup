@@ -149,6 +149,10 @@
       <div class="container" data-aos="fade-up">
 
         <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+            <img src="assets/img/rentorown.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
 
             <p>
               Do you rent or own ?
@@ -162,9 +166,10 @@
                         <a href="#quote-contact" onclick="scrollToQuoteContact()">Own</a>
                       </div>
               </div>
+            </div>
           </div>
         </div>
-        
+
         <script>
           function scrollToQuoteContact() {
             event.preventDefault();
