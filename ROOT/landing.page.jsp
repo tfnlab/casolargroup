@@ -112,11 +112,12 @@
           <H2>Harness the Power of the Sun for Your Home or Business With Our Solar Panels, While Saving Money and the Environment
           </h2>
           <div class="col-md-8 col-lg-6">
-            <form action="#about" class="text-center">
+
+            <form class="text-center" action="#about" method="get">
               <div class="form-group">
                 <input type="text" class="form-control form-control-lg" id="zipCodeInput" placeholder="Enter your ZIP code" style="width: 100%;">
               </div>
-              <button type="button" class="btn btn-primary btn-lg" onclick="submitZipCode()">Submit</button>
+              <button type="button" class="btn btn-primary btn-lg" >Submit</button>
             </form>
           </div>
         </div>
@@ -133,7 +134,7 @@
         <div class="row">
 
             <p>
-              Do you rent or own ? 
+              Do you rent or own ?
              </p>
           </div>
         </div>
