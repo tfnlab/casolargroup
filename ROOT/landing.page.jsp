@@ -156,14 +156,11 @@
             <h3>
               Do you rent or own ?
             </h3>
-            <p class="fst-italic">
-              We’ll help you transition to solar energy seamlessly with expert installation, maintenance, storage, and financing options.
-            </p>
             <ul>
-              <li><i class="ri-check-double-line"></i>
+              <li>
                 <a href="#quote-contact" onclick="scrollToQuoteContact()">Rent</a>
               </li>
-              <li><i class="ri-check-double-line"></i>
+              <li>
                 <a href="#quote-contact" onclick="scrollToQuoteContact()">Own</a>
               </li>
             </ul>
