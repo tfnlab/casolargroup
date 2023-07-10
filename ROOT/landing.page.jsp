@@ -192,32 +192,35 @@
 
         <div class="row">
 
-            <div class="image col-lg-6" style='background-image: url("assets/img/features.jpg");' data-aos="fade-right"></div>
-            <div class="col-lg-6 content" data-aos="fade-left" data-aos-delay="100">
-              <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
-                <i class="bx bx-receipt"></i>
+          <div class="row">
+            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-left" data-aos-delay="100">
+              <h3>
                 <h4>What is your average bill?</h4>
-              </div>
-              <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
-                <p>
-                  <div class="container">
-                    <h2>Sliding Bar Example</h2>
-                    <input type="range" min="0" max="100" value="50" class="slider" id="myRange">
-                    <p>Value: <span id="demo"></span></p>
-                  </div>
+              </h3>
+              <p>
+                <div class="container">
+                  <h2>Sliding Bar Example</h2>
+                  <input type="range" min="0" max="100" value="50" class="slider" id="myRange">
+                  <p>Value: <span id="demo"></span></p>
+                </div>
 
-                  <script>
-                  var slider = document.getElementById("myRange");
-                  var output = document.getElementById("demo");
-                  output.innerHTML = slider.value;
+                <script>
+                var slider = document.getElementById("myRange");
+                var output = document.getElementById("demo");
+                output.innerHTML = slider.value;
 
-                  slider.oninput = function() {
-                    output.innerHTML = this.value;
-                  }
-                  </script>
-                </p>
+                slider.oninput = function() {
+                  output.innerHTML = this.value;
+                }
+                </script>
+              </p>
               </div>
             </div>
+            <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-right" data-aos-delay="100">
+              <img src="assets/img/features.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+
         </div>
 
       </div>
