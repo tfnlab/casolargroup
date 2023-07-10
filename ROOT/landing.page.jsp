@@ -111,14 +111,14 @@
           <h1>Powering Change with Solar Solutions<span>.</span></h1>
           <H2>Harness the Power of the Sun for Your Home or Business With Our Solar Panels, While Saving Money and the Environment
           </h2>
-          <form class="row">
-            <div class="col-md-8 col-lg-6">
-              <div class="input-group">
-                <input type="text" class="form-control" id="zipCodeInput" placeholder="Enter your ZIP code">
-                <button type="button" class="btn btn-primary" onclick="submitZipCode()">Submit</button>
+          <div class="col-md-8 col-lg-6">
+            <form action="#about" class="text-center">
+              <div class="form-group">
+                <input type="text" class="form-control form-control-lg" id="zipCodeInput" placeholder="Enter your ZIP code" style="width: 100%;">
               </div>
-            </div>
-          </form>       
+              <button type="button" class="btn btn-primary btn-lg" onclick="submitZipCode()">Submit</button>
+            </form>
+          </div>
         </div>
       </div>
     </div>
@@ -131,30 +131,10 @@
       <div class="container" data-aos="fade-up">
 
         <div class="row">
-          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-            <h3>
-              Every hour, the Earth receives enough energy from the Sun, capable of fueling our society for an entire year.
-            </h3>
-            <p class="fst-italic">
-              We’ll help you transition to solar energy seamlessly with expert installation, maintenance, storage, and financing options.
-            </p>
-            <ul>
-              <li><i class="ri-check-double-line"></i>
-                We offer a range of customizable solar solutions tailored to your unique energy needs and goals, including solar panel installation, solar battery storage, EV charging stations, and more!
-              </li>
-              <li><i class="ri-check-double-line"></i>
-                We are committed to using only the highest quality solar equipment and technologies, sourced from reputable manufacturers and backed by comprehensive warranties and guarantees.
-              </li>
-              <li><i class="ri-check-double-line"></i>
-                We are dedicated to customer satisfaction with personalized consultations, transparent pricing, and ongoing support for optimal solar system performance.
-              </li>
-            </ul>
+
             <p>
-              Join us on this exciting journey towards a brighter and sustainable future. Explore our website to discover the power of solar energy, learn about our innovative solutions, and see how you can become part of the solar revolution. Together, let's unlock the immense potential of the sun and create a world powered by clean, renewable energy.
-            </p>
+              Do you rent or own ? 
+             </p>
           </div>
         </div>
 
