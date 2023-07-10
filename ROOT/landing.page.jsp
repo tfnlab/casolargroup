@@ -153,19 +153,20 @@
             <img src="assets/img/rentorown.png" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-
-            <p>
+            <h3>
               Do you rent or own ?
-             </p>
-              <div class="row">
-
-                      <div class="col-sm-6">
-                        <a href="#quote-contact" onclick="scrollToQuoteContact()">Rent</a>
-                      </div>
-                      <div class="col-sm-6">
-                        <a href="#quote-contact" onclick="scrollToQuoteContact()">Own</a>
-                      </div>
-              </div>
+            </h3>
+            <p class="fst-italic">
+              We’ll help you transition to solar energy seamlessly with expert installation, maintenance, storage, and financing options.
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i>
+                <a href="#quote-contact" onclick="scrollToQuoteContact()">Rent</a>
+              </li>
+              <li><i class="ri-check-double-line"></i>
+                <a href="#quote-contact" onclick="scrollToQuoteContact()">Own</a>
+              </li>
+            </ul>
             </div>
           </div>
         </div>
