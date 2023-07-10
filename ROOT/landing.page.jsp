@@ -116,10 +116,10 @@
                 <div class="form-group">
                   <div class="input-group">
                     <input type="text" class="form-control form-control-lg" id="zipCodeInput" placeholder="Enter your ZIP code">
-                    <div class="input-group-append">
-                      <button type="submit" class="btn btn-primary btn-lg">Submit</button>
-                    </div>
                   </div>
+                </div>
+                <div class="form-group">
+                  <button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
                 </div>
               </form>
             </div>
