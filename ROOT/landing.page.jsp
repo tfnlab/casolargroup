@@ -123,6 +123,7 @@
           <!-- Add this JavaScript code to your page -->
           <script>
             function scrollToAbout() {
+               event.preventDefault();
               var aboutSection = document.getElementById("about");
               if (aboutSection) {
                 aboutSection.scrollIntoView({ behavior: 'smooth' });
