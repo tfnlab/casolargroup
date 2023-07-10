@@ -111,15 +111,25 @@
           <h1>Powering Change with Solar Solutions<span>.</span></h1>
           <H2>Harness the Power of the Sun for Your Home or Business With Our Solar Panels, While Saving Money and the Environment
           </h2>
-          <div class="col-md-8 col-lg-6">
-
-            <form class="text-center" action="#about" method="get">
+          <div class="col-md-8 col-lg-6 d-flex justify-content-center">
+            <form class="text-center" onsubmit="scrollToAbout()">
               <div class="form-group">
                 <input type="text" class="form-control form-control-lg" id="zipCodeInput" placeholder="Enter your ZIP code" style="width: 100%;">
               </div>
-              <button type="button" class="btn btn-primary btn-lg" >Submit</button>
+              <button type="submit" class="btn btn-primary btn-lg">Submit</button>
             </form>
           </div>
+
+          <!-- Add this JavaScript code to your page -->
+          <script>
+            function scrollToAbout() {
+              var aboutSection = document.getElementById("about");
+              if (aboutSection) {
+                aboutSection.scrollIntoView({ behavior: 'smooth' });
+              }
+            }
+          </script>
+
         </div>
       </div>
     </div>
