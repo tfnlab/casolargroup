@@ -24,6 +24,11 @@
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
@@ -186,7 +191,33 @@
       <div class="container" data-aos="fade-up">
 
         <div class="row">
-            What is your average bill
+
+            <div class="image col-lg-6" style='background-image: url("assets/img/features.jpg");' data-aos="fade-right"></div>
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
+              <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
+                <i class="bx bx-receipt"></i>
+                <h4>What is your average bill?</h4>
+              </div>
+              <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
+                <p>
+                  <div class="container">
+                    <h2>Sliding Bar Example</h2>
+                    <input type="range" min="0" max="100" value="50" class="slider" id="myRange">
+                    <p>Value: <span id="demo"></span></p>
+                  </div>
+
+                  <script>
+                  var slider = document.getElementById("myRange");
+                  var output = document.getElementById("demo");
+                  output.innerHTML = slider.value;
+
+                  slider.oninput = function() {
+                    output.innerHTML = this.value;
+                  }
+                  </script>
+                </p>
+              </div>
+            </div>
         </div>
 
       </div>
