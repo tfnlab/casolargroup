@@ -164,7 +164,7 @@
               </div>
           </div>
         </div>
-        avaScript code to your page -->
+        
         <script>
           function scrollToQuoteContact() {
             event.preventDefault();
