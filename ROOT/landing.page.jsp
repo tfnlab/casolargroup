@@ -112,7 +112,7 @@
           <h2>Harness the Power of the Sun for Your Home or Business With Our Solar Panels, While Saving Money and the Environment</h2>
           <div class="row justify-content-center">
             <div class="col-md-8 col-lg-6">
-              <form class="text-center">
+              <form class="text-center" onsubmit="scrollToAbout(event)">
                 <div class="form-group">
                   <div class="input-group">
                     <input type="text" class="form-control form-control-lg" id="zipCodeInput" placeholder="Enter your ZIP code">
