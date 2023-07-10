@@ -114,11 +114,16 @@
           <div class="col-md-8 col-lg-6 d-flex justify-content-center">
             <form class="text-center">
               <div class="form-group">
-                <input type="text" class="form-control form-control-lg text-center" id="zipCodeInput" placeholder="Enter your ZIP code" style="width: 100%;">
+                <div class="input-group">
+                  <input type="text" class="form-control form-control-lg" id="zipCodeInput" placeholder="Enter your ZIP code">
+                  <div class="input-group-append">
+                    <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                  </div>
+                </div>
               </div>
-              <button type="submit" class="btn btn-primary btn-lg">Submit</button>
             </form>
           </div>
+
 
 
           <!-- Add this JavaScript code to your page -->
