@@ -109,27 +109,26 @@
       <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
         <div class="col-xl-6 col-lg-8">
           <h1>Powering Change with Solar Solutions<span>.</span></h1>
-          <H2>Harness the Power of the Sun for Your Home or Business With Our Solar Panels, While Saving Money and the Environment
-          </h2>
-          <div class="col-md-8 col-lg-6 d-flex justify-content-center">
-            <form class="text-center">
-              <div class="form-group">
-                <div class="input-group">
-                  <input type="text" class="form-control form-control-lg" id="zipCodeInput" placeholder="Enter your ZIP code">
-                  <div class="input-group-append">
-                    <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+          <h2>Harness the Power of the Sun for Your Home or Business With Our Solar Panels, While Saving Money and the Environment</h2>
+          <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+              <form class="text-center">
+                <div class="form-group">
+                  <div class="input-group">
+                    <input type="text" class="form-control form-control-lg" id="zipCodeInput" placeholder="Enter your ZIP code">
+                    <div class="input-group-append">
+                      <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </form>
+              </form>
+            </div>
           </div>
-
-
 
           <!-- Add this JavaScript code to your page -->
           <script>
             function scrollToAbout() {
-               event.preventDefault();
+              event.preventDefault();
               var aboutSection = document.getElementById("about");
               if (aboutSection) {
                 aboutSection.scrollIntoView({ behavior: 'smooth' });
@@ -139,6 +138,7 @@
 
         </div>
       </div>
+
     </div>
   </section><!-- End Hero -->
 
