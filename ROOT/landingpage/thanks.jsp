@@ -173,8 +173,6 @@
 
   </main><!-- End #main -->
 
-  <%@ include file="../include.footer.jsp" %>
-
   <!-- ======= Contact Section ======= -->
   <section id="contact" class="contact">
     <div class="container" data-aos="fade-up">
