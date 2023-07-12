@@ -11,7 +11,7 @@
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </head>
-<body>
+<body onload="initializePage()">
 <%
   // Get the map of all of the request parameters and their values
   Map<String, String[]> parameterMap = request.getParameterMap();
@@ -80,38 +80,44 @@
 </form>
 <div id="successquote" class="alert alert-success d-none" role="alert"></div>
 <script>
-  window.addEventListener("load", function() {
+  function initializePage() {
     // Display the loading message
-    document.querySelector(".loading").style.display = "block";
-    document.querySelector(".error-message").style.display = "none";
-    document.querySelector(".sent-message").style.display = "none";
 
-    // Serialize the form data
-    var formData = new URLSearchParams(new FormData(this)).toString();
+    var form = document.getElementById("quoteform");
+    form.addEventListener("submit", function(event) {
+      event.preventDefault();
 
-    // Perform an AJAX request to submit the form data
-    var xhr = new XMLHttpRequest();
-    xhr.open("POST", this.action, true);
-    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-    xhr.onreadystatechange = function() {
-      if (xhr.readyState === XMLHttpRequest.DONE) {
-        // Hide the loading message
-        document.querySelector(".loading").style.display = "none";
+      // Display the loading message
+      var loadingMessage = document.querySelector(".loading");
+      loadingMessage.style.display = "block";
 
-        if (xhr.status === 200) {
-          // Show the success message
-          document.getElementById("successquote").textContent = xhr.responseText; // Display the response text
-          document.getElementById("successquote").classList.remove("d-none"); // Make the element visible
-          // You can optionally reset the form here
-          document.getElementById("quoteform").reset();
-        } else {
-          // Show the error message
-          document.getElementById("successquote").textContent = "An error occurred. Please try again.";
+      // Serialize the form data
+      var formData = new URLSearchParams(new FormData(form)).toString();
+
+      // Perform an AJAX request to submit the form data
+      var xhr = new XMLHttpRequest();
+      xhr.open("POST", form.action, true);
+      xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+      xhr.onreadystatechange = function() {
+        if (xhr.readyState === XMLHttpRequest.DONE) {
+          // Hide the loading message
+          loadingMessage.style.display = "none";
+
+          if (xhr.status === 200) {
+            // Show the success message
+            document.getElementById("successquote").textContent = xhr.responseText; // Display the response text
+            document.getElementById("successquote").classList.remove("d-none"); // Make the element visible
+            // You can optionally reset the form here
+            form.reset();
+          } else {
+            // Show the error message
+            document.getElementById("successquote").textContent = "An error occurred. Please try again.";
+          }
         }
-      }
-    };
-    xhr.send(formData);
-  });
+      };
+      xhr.send(formData);
+    });
+  }      
 </script>
 </body>
 </html>
