@@ -56,7 +56,7 @@
 
       <div class="col-lg-8 mt-5 mt-lg-0">
 
-        <form action="/hrn.jsp" method="post" role="form" id="contactform" name="contactform" class="php-email-form">
+        <form action="hrn.jsp" method="post" role="form" id="contactform" name="contactform" class="php-email-form">
           <input type="hidden" name="apiAction" id="apiAction"  value="addContact" >
           <div class="row">
             <div class="col-md-6 form-group">
@@ -155,22 +155,22 @@
         <div class="col-lg-2 col-md-6 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><i class="bx bx-chevron-right"></i> <a href="/index.html#">Home</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="/index.html#about">About us</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="/index.html#services">Services</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="/tos.jsp">Terms of service</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="/pp.jsp">Privacy policy</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="index.html#">Home</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="index.html#about">About us</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">Services</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="tos.jsp">Terms of service</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="pp.jsp">Privacy policy</a></li>
           </ul>
         </div>
 
         <div class="col-lg-3 col-md-6 footer-links">
           <h4>Our Services</h4>
           <ul>
-            <li><i class="bx bx-chevron-right"></i> <a href="/solar_consultation.jsp">Consultation</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="/solar_system_design.jsp">Design</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="/solar_installations.jsp">Installations</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="/solar_financing.jsp">Financing</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="/solar_maintenance_and_monitoring.jsp">Maintenance and Monitoring</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="solar_consultation.jsp">Consultation</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="solar_system_design.jsp">Design</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="solar_installations.jsp">Installations</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="solar_financing.jsp">Financing</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="solar_maintenance_and_monitoring.jsp">Maintenance and Monitoring</a></li>
           </ul>
         </div>
 
@@ -234,7 +234,7 @@ function getsubscribe(event) {
     }
   };
   // Set the request method and URL
-  var urlString = "/hrn.jsp?apiAction=addSub&email=" + email;
+  var urlString = "hrn.jsp?apiAction=addSub&email=" + email;
   xhr.open("GET", urlString, true);
   xhr.send();
 
