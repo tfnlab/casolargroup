@@ -37,22 +37,22 @@
 
   <div class="form-group mt-4">
     <label for="name">Your Name:</label>
-    <input type="text" id="customer_name" name="customer_name" class="form-control" required>
+    <input type="text" id="customer_name" name="customer_name" class="form-control" required value="test">
   </div>
 
   <div class="form-group mt-4">
     <label for="email">Your Email:</label>
-    <input type="email" id="email" name="email" class="form-control" required>
+    <input type="email" id="email" name="email" class="form-control" required value="test@gmail.com">
   </div>
 
   <div class="form-group mt-4">
     <label for="phone">Your Phone Number:</label>
-    <input type="tel" id="phone_number" name="phone_number" class="form-control" required>
+    <input type="tel" id="phone_number" name="phone_number" class="form-control" required value="test">
   </div>
 
   <div class="form-group mt-4">
     <label for="address">Installation Address:</label>
-    <input type="text" id="installation_address" name="installation_address" class="form-control" required>
+    <input type="text" id="installation_address" name="installation_address" class="form-control" required value="test">
   </div>
 
   <div class="form-group mt-4">
@@ -69,7 +69,7 @@
 
   <div class="form-group mt-4">
     <label for="energy_usage">Average Monthly Energy Usage (kWh):</label>
-    <input type="number" id="energy_usage" name="energy_usage" class="form-control" required>
+    <input type="number" id="energy_usage" name="energy_usage" class="form-control" required  value="test">
   </div>
 
   <div class="form-group mt-4">
