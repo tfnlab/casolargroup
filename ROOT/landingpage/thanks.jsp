@@ -81,13 +81,7 @@
 <div id="successquote" class="alert alert-success d-none" role="alert"></div>
 <script>
   function initializePage() {
-    // Display the loading message
-
-    var form = document.getElementById("quoteform");
-    form.addEventListener("submit", function(event) {
-      event.preventDefault();
-
-      // Display the loading message
+      var form = document.getElementById("quoteform");
       var loadingMessage = document.querySelector(".loading");
       loadingMessage.style.display = "block";
 
@@ -116,8 +110,7 @@
         }
       };
       xhr.send(formData);
-    });
-  }      
+  }
 </script>
 </body>
 </html>
