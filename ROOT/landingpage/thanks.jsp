@@ -156,7 +156,7 @@
 
    <div class="form-group mt-4">
      <label for="energy_usage">Average Monthly Energy Usage (kWh):</label>
-     <input type="number" id="energy_usage" name="energy_usage" class="form-control" required  value="400">
+     <input type="number" id="energy_usage" name="energy_usage" class="form-control" required  value="0">
    </div>
 
    <div class="form-group mt-4">
