@@ -32,7 +32,7 @@
   // Write the POST data to t
 %>
 
-<form action="hrn.jsp" method="post" class="mt-4" id="quoteform" name="quoteform" >
+<form action="../hrn.jsp" method="post" class="mt-4" id="quoteform" name="quoteform" >
   <input type="hidden" name="apiAction" id="apiAction"  value="addQuote" >
 
   <div class="form-group mt-4">
@@ -80,7 +80,7 @@
   <button type="submit" class="btn btn-primary mt-4" onclick="sendMessage(event)" >Submit</button>
 </form>
 <div id="successquote" class="alert alert-success d-none" role="alert"></div>
-<script>  
+<script>
   window.addEventListener("load", function() {
     // Display the loading message
     document.querySelector(".loading").style.display = "block";
