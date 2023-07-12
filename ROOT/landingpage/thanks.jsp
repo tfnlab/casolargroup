@@ -142,7 +142,6 @@
      <label for="address">Installation Address:</label>
      <input type="text" id="installation_address" name="installation_address" class="form-control" required value="<%=request.getParameter("zip")%>">
    </div>
-
    <div class="form-group mt-4">
      <label for="roof_type">Roof Type:</label>
      <select id="roof_type" name="roof_type" class="form-control" required>
