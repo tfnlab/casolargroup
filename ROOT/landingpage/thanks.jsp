@@ -80,10 +80,8 @@
   <button type="submit" class="btn btn-primary mt-4" onclick="sendMessage(event)" >Submit</button>
 </form>
 <div id="successquote" class="alert alert-success d-none" role="alert"></div>
-<script>
-  document.getElementById("quoteform").addEventListener("submit", function(event) {
-    event.preventDefault(); // Prevent form submission
-
+<script>  
+  window.addEventListener("load", function() {
     // Display the loading message
     document.querySelector(".loading").style.display = "block";
     document.querySelector(".error-message").style.display = "none";
@@ -114,10 +112,6 @@
       }
     };
     xhr.send(formData);
-  });
-  
-  window.addEventListener("load", function() {
-    document.getElementById("quoteform").submit();
   });
 </script>
 </body>
