@@ -82,9 +82,6 @@
 <script>
   function initializePage() {
       var form = document.getElementById("quoteform");
-      var loadingMessage = document.querySelector(".loading");
-      loadingMessage.style.display = "block";
-
       // Serialize the form data
       var formData = new URLSearchParams(new FormData(form)).toString();
 
