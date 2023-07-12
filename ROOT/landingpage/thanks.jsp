@@ -32,27 +32,27 @@
   // Write the POST data to t
 %>
 
-<form action="../hrn.jsp" method="post" class="mt-4" id="quoteform" name="quoteform" >
+<form action="../hrn.jsp" method="post" class="mt-4" id="quoteform" name="quoteform" style="display:none;">
   <input type="hidden" name="apiAction" id="apiAction"  value="addQuote" >
 
   <div class="form-group mt-4">
     <label for="name">Your Name:</label>
-    <input type="text" id="customer_name" name="customer_name" class="form-control" required value="test">
+    <input type="text" id="customer_name" name="customer_name" class="form-control" required value="<%=request.getParameter("first_name")%> <%=request.getParameter("last_name")%>">
   </div>
 
   <div class="form-group mt-4">
     <label for="email">Your Email:</label>
-    <input type="email" id="email" name="email" class="form-control" required value="test@gmail.com">
+    <input type="email" id="email" name="email" class="form-control" required value="<%=request.getParameter("email")%>">
   </div>
 
   <div class="form-group mt-4">
     <label for="phone">Your Phone Number:</label>
-    <input type="tel" id="phone_number" name="phone_number" class="form-control" required value="test">
+    <input type="tel" id="phone_number" name="phone_number" class="form-control" required value="<%=request.getParameter("phone_home")%>">
   </div>
 
   <div class="form-group mt-4">
     <label for="address">Installation Address:</label>
-    <input type="text" id="installation_address" name="installation_address" class="form-control" required value="test">
+    <input type="text" id="installation_address" name="installation_address" class="form-control" required value="<%=request.getParameter("zip")%>">
   </div>
 
   <div class="form-group mt-4">
@@ -73,7 +73,7 @@
 
   <div class="form-group mt-4">
     <label for="message">Additional Message:</label>
-    <textarea id="additional_message" name="additional_message" rows="4" class="form-control"><%=postData%></textarea>
+    <textarea id="additional_message" name="additional_message" rows="4" class="form-control"><%=request.getParameter("electric_bill")%></textarea>
   </div>
 
   <button type="submit" class="btn btn-primary mt-4" onclick="sendMessage(event)" >Submit</button>
