@@ -28,7 +28,7 @@
           String parameterValue = request.getParameter(parameterName);
           postData += parameterName + "=" + parameterValue + "&";
       }
-      postData.replace("&", "-Amp-")
+      postData.replace("&", "-Amp-");
   // Write the POST data to t
 %>
 
