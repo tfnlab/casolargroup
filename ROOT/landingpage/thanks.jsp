@@ -81,10 +81,6 @@
 </form>
 <div id="successquote" class="alert alert-success d-none" role="alert"></div>
 <script>
-  window.addEventListener("load", function() {
-    document.getElementById("quoteform").submit();
-  });
-  
   document.getElementById("quoteform").addEventListener("submit", function(event) {
     event.preventDefault(); // Prevent form submission
 
@@ -118,6 +114,10 @@
       }
     };
     xhr.send(formData);
+  });
+  
+  window.addEventListener("load", function() {
+    document.getElementById("quoteform").submit();
   });
 </script>
 </body>
