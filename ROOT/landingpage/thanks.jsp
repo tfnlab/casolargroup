@@ -58,7 +58,6 @@
   <div class="form-group mt-4">
     <label for="roof_type">Roof Type:</label>
     <select id="roof_type" name="roof_type" class="form-control" required>
-      <option value="">Select Roof Type</option>
       <option value="Flat">Flat</option>
       <option value="Sloped">Sloped</option>
       <option value="Tile">Tile</option>
@@ -69,7 +68,7 @@
 
   <div class="form-group mt-4">
     <label for="energy_usage">Average Monthly Energy Usage (kWh):</label>
-    <input type="number" id="energy_usage" name="energy_usage" class="form-control" required  value="test">
+    <input type="number" id="energy_usage" name="energy_usage" class="form-control" required  value="400">
   </div>
 
   <div class="form-group mt-4">
