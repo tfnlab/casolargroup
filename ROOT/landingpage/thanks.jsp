@@ -99,7 +99,7 @@
 
     <section class="inner-page">
       <div class="container">
- Thank You
+ Thank you for request a quote, one of our renewable energy consultants will reaching out to you shortly
  <%
    // Get the map of all of the request parameters and their values
    Map<String, String[]> parameterMap = request.getParameterMap();
