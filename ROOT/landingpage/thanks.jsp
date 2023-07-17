@@ -100,6 +100,10 @@
     <section class="inner-page">
       <div class="container">
  Thank you for request a quote, one of our renewable energy consultants will reaching out to you shortly
+ <BR>
+ <BR>
+       <img src="images/process.png" class="img-fluid" alt="Solar Install Process">
+
  <%
    // Get the map of all of the request parameters and their values
    Map<String, String[]> parameterMap = request.getParameterMap();
