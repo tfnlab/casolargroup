@@ -259,63 +259,64 @@
 
   <!-- Template Main JS File -->
   <script src="../assets/js/main.js"></script>
-  <script>
-    function initializePage() {
-        var form = document.getElementById("quoteform");
-        // Serialize the form data
-        var formData = new URLSearchParams(new FormData(form)).toString();
 
-        // Perform an AJAX request to submit the form data
-        var xhr = new XMLHttpRequest();
-        xhr.open("POST", form.action, true);
-        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-        xhr.onreadystatechange = function() {
-          if (xhr.readyState === XMLHttpRequest.DONE) {
-            // Hide the loading message
-            loadingMessage.style.display = "none";
-
-            if (xhr.status === 200) {
-              // Show the success message
-              document.getElementById("successquote").textContent = xhr.responseText; // Display the response text
-              document.getElementById("successquote").classList.remove("d-none"); // Make the element visible
-              // You can optionally reset the form here
-              form.reset();
-            } else {
-              // Show the error message
-              document.getElementById("successquote").textContent = "An error occurred. Please try again.";
-            }
-          }
-        };
-        xhr.send(formData);
-    }
-  </script>
-  <!-- Meta Pixel Code -->
-  <script>
-  var chatbox = document.getElementById('fb-customer-chat');
-  chatbox.setAttribute("page_id", "106217184587017");
-  chatbox.setAttribute("attribution", "biz_inbox");
-</script>
-
-<!-- Your SDK code -->
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      xfbml            : true,
-      version          : 'v17.0'
-    });
-  };
-
-  (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-</script>
 
 
 <!-- End Meta Pixel Code -->
 </body>
 
 </html>
+<script>
+  function initializePage() {
+      var form = document.getElementById("quoteform");
+      // Serialize the form data
+      var formData = new URLSearchParams(new FormData(form)).toString();
+
+      // Perform an AJAX request to submit the form data
+      var xhr = new XMLHttpRequest();
+      xhr.open("POST", form.action, true);
+      xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+      xhr.onreadystatechange = function() {
+        if (xhr.readyState === XMLHttpRequest.DONE) {
+          // Hide the loading message
+          loadingMessage.style.display = "none";
+
+          if (xhr.status === 200) {
+            // Show the success message
+            document.getElementById("successquote").textContent = xhr.responseText; // Display the response text
+            document.getElementById("successquote").classList.remove("d-none"); // Make the element visible
+            // You can optionally reset the form here
+            form.reset();
+          } else {
+            // Show the error message
+            document.getElementById("successquote").textContent = "An error occurred. Please try again.";
+          }
+        }
+      };
+      xhr.send(formData);
+  }
+</script>
+<!-- Meta Pixel Code -->
+<script>
+var chatbox = document.getElementById('fb-customer-chat');
+chatbox.setAttribute("page_id", "106217184587017");
+chatbox.setAttribute("attribution", "biz_inbox");
+</script>
+
+<!-- Your SDK code -->
+<script>
+window.fbAsyncInit = function() {
+  FB.init({
+    xfbml            : true,
+    version          : 'v17.0'
+  });
+};
+
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
