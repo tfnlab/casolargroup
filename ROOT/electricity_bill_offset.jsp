@@ -66,28 +66,30 @@
     <section class="inner-page">
       <div class="container">
         <h1 class="text-center">100% Electricity Bill Offset with Solar Power</h1>
-
+<BR>
         <h2>Achieving 100% Electricity Bill Offset</h2>
+        <BR>
         <ul>
           <li>Assessing your energy needs and determining the optimal solar system size</li>
           <li>Choosing the right solar panels and equipment for maximum efficiency</li>
           <li>Understanding net metering and its role in achieving bill offset</li>
           <li>Exploring battery storage solutions for uninterrupted power supply</li>
         </ul>
-
+<BR><BR>
         <h2>Maximizing Solar Efficiency</h2>
         <ul>
           <li>Implementing energy-saving practices in conjunction with solar power</li>
           <li>Exploring smart home technologies and their integration with solar systems</li>
           <li>Monitoring and optimizing your solar energy production</li>
         </ul>
+        <BR><BR>
 
         <h2>Financial Incentives and Return on Investment</h2>
         <ul>
           <li>Federal and state-level solar incentives and tax credits</li>
           <li>Financing options for solar installations</li>
           <li>Calculating the return on investment (ROI) for your solar power system</li>
-        </ul>        
+        </ul>
       </div>
     </section>
 
