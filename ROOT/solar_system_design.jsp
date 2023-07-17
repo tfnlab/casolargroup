@@ -67,19 +67,30 @@
       <div class="container">
         <section id="solar-design" class="container">
           <div class="row">
-              <p class="lead">At California Solar Group, we offer comprehensive solar system design services tailored to meet your specific energy needs. Our team of experienced engineers and designers will work closely with you to create a customized solar solution that maximizes efficiency and cost-effectiveness.</p>
-              <p>Whether you are a homeowner, business owner, or part of a larger organization, our solar system design experts will take into account various factors such as your location, energy consumption patterns, available roof or ground space, and budget to create a system that suits your requirements.</p>
-              <p>Our solar system design process involves:</p>
-              <ul>
-                <li>Evaluating your energy needs and goals</li>
-                <li>Conducting a site assessment to determine the optimal system size and placement</li>
-                <li>Designing a solar array that maximizes energy production</li>
-                <li>Selecting high-quality solar panels, inverters, and other components</li>
-                <li>Ensuring compliance with local building codes and regulations</li>
-                <li>Providing detailed system specifications and a comprehensive quote</li>
-              </ul>
-              <p>With our state-of-the-art design tools and industry expertise, we aim to deliver solar systems that not only reduce your carbon footprint but also generate significant energy savings over the long term.</p>
+              At California Solar Group, we offer comprehensive solar system design services tailored to meet your specific energy needs. Our team of experienced engineers and designers will work closely with you to create a customized solar solution that maximizes efficiency and cost-effectiveness.</p>
 
+              <p class="lead">At California Solar Group, we offer comprehensive solar system design services tailored to meet your specific energy needs. Our team of experienced engineers and designers will work closely with you to create a customized cost effective solar solution that maximizes your Solar production and return on investment.
+              </p>
+              <BR>
+              <p>Whether you are a homeowner, business owner, or part of a larger organization, our solar system design experts will take into account various factors such as your location, energy consumption patterns, available roof or ground space, and budget to create a system that suits your requirements.
+              </p>
+              <HR>
+              <p>Our solar system design process involves:</p>
+<BR>
+                  <ul>
+              <li>Evaluating your energy needs and goals</li>
+              <li>Reviewing current electricity usage and Utility bills</li>
+              <li>Conducting a site evaluation to determine the optimal system size and placement</li>
+              <li>Designing a solar array that maximizes energy production</li>
+              <li>Selecting high-quality solar panels, inverters, and other components</li>
+              <li>Ensuring compliance with local building codes and regulations</li>
+              <li>Providing detailed system specifications and a comprehensive quote</li>
+              </ul>
+              <HR>
+              <p>With our state-of-the-art design tools and industry expertise, we aim to deliver Solar and Storage Projects that not only reduce your carbon footprint but also generate significant energy savings for our customers.
+                </p>
+                <HR>
+            <a href="welcome" class="btn btn-warning btn-lg" >Get a FREE Quote</a>
           </div>
         </section>
       </div>
