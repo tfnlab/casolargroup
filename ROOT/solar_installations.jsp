@@ -64,7 +64,6 @@
 
     <section class="inner-page">
       <div class="container">
-        <section id="services" class="bg-light">
           <div class="container">
 
             <p>
@@ -100,7 +99,6 @@
           <form class="text-center">
           <a href="welcome" class="btn btn-warning btn-lg" >Get a FREE Quote</a>
           </form>
-        </section>
 
       </div>
     </section>
