@@ -66,31 +66,40 @@
       <div class="container">
         <section id="services" class="bg-light">
           <div class="container">
-            <div class="row">
-                <p>
-                  At California Solar Group, we specialize in providing top-quality solar installations for residential and commercial properties. With our expertise and commitment to renewable energy, we help you harness the power of the sun and enjoy the numerous benefits of solar energy.
-                </p>
-                <p>
-                  Our team of experienced solar professionals takes care of every aspect of the installation process, ensuring a seamless and efficient transition to solar power. Whether you're looking to install solar panels on your home or commercial building, we have the knowledge and skills to deliver exceptional results.
-                </p>
-                <p>
-                  When you choose California Solar Group for your solar installation needs, you can expect:
-                </p>
-                <ul>
-                  <li>Customized Solutions: We understand that each property is unique. Our experts assess your energy needs, site conditions, and budget to design a customized solar system that maximizes efficiency and savings.</li>
-                  <li>Quality Products: We only work with top-tier solar equipment manufacturers to provide you with reliable and high-performance solar panels, inverters, and other components. Our products are built to withstand various weather conditions and deliver optimal energy production.</li>
-                  <li>Professional Installation: Our certified installers follow industry best practices to ensure precise and secure installation of solar panels on your property. We handle all the necessary permits and paperwork, making the process hassle-free for you.</li>
-                  <li>Ongoing Support: We're here for you even after the installation is complete. Our team offers comprehensive support, including maintenance, monitoring, and troubleshooting services, to ensure your solar system operates at its best for years to come.</li>
-                  <li>Financial Assistance: Going solar is a smart investment, and we help make it more affordable. We offer flexible financing options, including solar loans and leasing programs, to suit your financial needs. Additionally, we assist you in exploring available solar incentives and tax credits to maximize your savings.</li>
-                </ul>
-                <p>
-                  With California Solar Group, you can have confidence in our expertise, commitment to quality, and dedication to customer satisfaction. Join the growing community of solar-powered homes and businesses across California and make a positive impact on the environment while reducing your energy costs.
-                </p>
-                <p>
-                  Contact us today to schedule a consultation and take the first step towards a cleaner, greener future with solar power.
-                </p>
-              </div>
-          </div>
+
+            <p>
+            At California Solar Group, we specialize in providing top-quality solar installations for residential and commercial properties. With our expertise and commitment to renewable energy, we help you harness the power of the sun and enjoy the numerous benefits of solar energy.
+          </p>
+          <BR>
+            <p>
+            Our team of certified and licensed solar professionals takes care of every aspect of the installation process, ensuring a seamless and efficient transition to solar power and battery storage. Whether you're looking to install solar panels on your home or commercial building, we have the knowledge and skills to deliver exceptional results.
+          </p>
+          <BR>
+            <p>
+            When you choose California Solar Group for your solar installation needs, you can expect:
+          </p>
+          <BR>
+            <ul>
+            <li>Customized Solutions: We understand that each property is unique. Our experts assess your energy needs, site conditions, and budget to design a customized solar system that maximizes efficiency and savings.</li>
+            <li>Quality Products: We only work with top-tier (Tier -1) solar equipment manufacturers to provide you with reliable and high-performance solar panels, inverters, batteries and EV chargers. Our products are built to withstand extreme weather conditions and deliver optimal energy production.</li>
+            <li>Professional Installation: Our certified installers follow industry best practices to ensure precise and secure installation of solar panels on your property. We handle all the necessary permits and paperwork, making the process hassle-free for you.</li>
+            <li>Ongoing Support: We're here for you even after the installation is complete. Our team offers comprehensive support, including maintenance, monitoring, and troubleshooting services, to ensure your solar system operates at its best for years to come.</li>
+            <li>Financial Assistance: Going solar is a smart investment, and we help make it more affordable. We offer flexible financing options, including solar loans and leasing programs, to suit your financial needs. Additionally, we assist you in exploring available solar incentives and tax credits to maximize your savings.</li>
+             <li>California Solar Group offers the best warranty available on the market, you can have confidence in our expertise, commitment to quality, and dedication to customer satisfaction.</li>
+           </ul>
+           <BR>
+             <p>
+            Join the growing community of solar-powered homes and businesses across California and make a positive impact on the environment while reducing your energy costs.
+          </p>
+          <BR>
+            <p>
+            Contact us today to schedule a consultation and take the first step towards a cleaner, greener future with solar power.
+          </p>
+
+
+          <form class="text-center">
+          <a href="welcome" class="btn btn-warning btn-lg" >Get a FREE Quote</a>
+          </form>
         </section>
 
       </div>

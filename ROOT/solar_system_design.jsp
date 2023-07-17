@@ -87,7 +87,9 @@
               <p>With our state-of-the-art design tools and industry expertise, we aim to deliver Solar and Storage Projects that not only reduce your carbon footprint but also generate significant energy savings for our customers.
                 </p>
                 <HR>
-                  <a href="welcome" class="btn btn-warning btn-lg" >Get a FREE Quote</a>
+                <form class="text-center">
+                <a href="welcome" class="btn btn-warning btn-lg" >Get a FREE Quote</a>
+                </form>
         </section>
       </div>
     </section>
