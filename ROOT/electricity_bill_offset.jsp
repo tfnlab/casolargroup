@@ -65,19 +65,9 @@
 
     <section class="inner-page">
       <div class="container">
-        <h1 class="mt-4">100% Electricity Bill Offset with Solar Power: Harnessing the Sun's Energy for Sustainable Savings</h1>
+        <h1 class="text-center">100% Electricity Bill Offset with Solar Power</h1>
 
-        <h2 class="mt-4">Introduction</h2>
-        <p>Welcome to our comprehensive guide on achieving a 100% electricity bill offset with solar power. In this era of rising energy costs and increasing environmental concerns, solar energy presents a remarkable solution. By harnessing the power of the sun, you can reduce your carbon footprint while enjoying substantial savings on your monthly electricity bills. This page will explore the benefits of solar energy and provide you with valuable insights on seamlessly transitioning to a sustainable lifestyle.</p>
-
-        <h2 class="mt-4">Understanding Solar Power</h2>
-        <ul>
-          <li>What is solar power and how does it work?</li>
-          <li>Exploring the benefits of solar energy for both the environment and homeowners</li>
-          <li>The financial advantages of switching to solar energy</li>
-        </ul>
-
-        <h2 class="mt-4">Achieving 100% Electricity Bill Offset</h2>
+        <h2>Achieving 100% Electricity Bill Offset</h2>
         <ul>
           <li>Assessing your energy needs and determining the optimal solar system size</li>
           <li>Choosing the right solar panels and equipment for maximum efficiency</li>
@@ -85,26 +75,19 @@
           <li>Exploring battery storage solutions for uninterrupted power supply</li>
         </ul>
 
-        <h2 class="mt-4">The Solar Installation Process</h2>
-        <ul>
-          <li>Finding reputable solar installers in your area</li>
-          <li>Understanding the steps involved in installing solar panels</li>
-          <li>Navigating the paperwork and permits required for a smooth installation</li>
-        </ul>
-
-        <h2 class="mt-4">Maximizing Solar Efficiency</h2>
+        <h2>Maximizing Solar Efficiency</h2>
         <ul>
           <li>Implementing energy-saving practices in conjunction with solar power</li>
           <li>Exploring smart home technologies and their integration with solar systems</li>
           <li>Monitoring and optimizing your solar energy production</li>
         </ul>
 
-        <h2 class="mt-4">Financial Incentives and Return on Investment</h2>
+        <h2>Financial Incentives and Return on Investment</h2>
         <ul>
           <li>Federal and state-level solar incentives and tax credits</li>
           <li>Financing options for solar installations</li>
           <li>Calculating the return on investment (ROI) for your solar power system</li>
-        </ul>
+        </ul>        
       </div>
     </section>
 
