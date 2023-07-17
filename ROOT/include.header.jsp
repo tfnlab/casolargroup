@@ -27,7 +27,7 @@
     </nav><!-- .navbar -->
     <a class="call-now-link-btn" href="tel:7472862828"><i class="ri-phone-line"></i></a>
     <a class="call-now-link" href="tel:7472862828">(747) 286-2828</a>
-    <a href="landingpage" class="get-started-btn scrollto">Get Quote</a>
+    <a href="welcome" class="get-started-btn scrollto">Get Quote</a>
 
   </div>
 </header><!-- End Header -->
