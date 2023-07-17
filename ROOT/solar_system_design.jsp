@@ -66,9 +66,6 @@
     <section class="inner-page">
       <div class="container">
         <section id="solar-design" class="container">
-          <div class="row">
-              At California Solar Group, we offer comprehensive solar system design services tailored to meet your specific energy needs. Our team of experienced engineers and designers will work closely with you to create a customized solar solution that maximizes efficiency and cost-effectiveness.</p>
-
               <p class="lead">At California Solar Group, we offer comprehensive solar system design services tailored to meet your specific energy needs. Our team of experienced engineers and designers will work closely with you to create a customized cost effective solar solution that maximizes your Solar production and return on investment.
               </p>
               <BR>
@@ -90,8 +87,7 @@
               <p>With our state-of-the-art design tools and industry expertise, we aim to deliver Solar and Storage Projects that not only reduce your carbon footprint but also generate significant energy savings for our customers.
                 </p>
                 <HR>
-            <a href="welcome" class="btn btn-warning btn-lg" >Get a FREE Quote</a>
-          </div>
+                  <a href="welcome" class="btn btn-warning btn-lg" >Get a FREE Quote</a>
         </section>
       </div>
     </section>
