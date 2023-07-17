@@ -99,6 +99,9 @@
   Ready to make the switch to solar? Contact California Solar Group today to learn more about our solar financing services and start your journey towards clean, affordable, and sustainable energy.
   </p>
 
+  <form class="text-center">
+  <a href="welcome" class="btn btn-warning btn-lg" >Get a FREE Quote</a>
+  </form>
 
       </div>
     </section>
