@@ -240,7 +240,6 @@
   </div>
   <!-- Messenger Chat Plugin Code -->
       <div id="fb-root"></div>
-
       <!-- Your Chat Plugin code -->
       <div id="fb-customer-chat" class="fb-customerchat">
       </div>
@@ -267,7 +266,8 @@
           js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
           fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
-      </script>  
+      </script>
+ 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z267KV90QY"></script>
   <script>
