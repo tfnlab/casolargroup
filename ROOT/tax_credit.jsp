@@ -66,33 +66,34 @@
 
     <section class="inner-page">
       <div class="container">
+        <h1 class="mt-5">Welcome to California Solar Group</h1>
+          <p>Your Gateway to the 30% ITC Solar Tax Credit in California!</p>
 
-           <h1 class="mb-4">Welcome to California Solar Group - Your Gateway to the 30% Solar Tax Credit in California!</h1>
+          <h2 class="mt-4">Take Advantage of the 30% Tax Credit with Solar and Battery Installations</h2>
+          <p>Are you a homeowner or business owner in California looking to harness the power of solar energy while saving
+            money? Look no further! At California Solar Group, we offer state-of-the-art solar and battery storage
+            installations. Solar and Battery Storage Projects will help you reduce your electricity costs significantly and
+            may also enable you to take advantage of the lucrative 2023 30% ITC tax credit offered by the federal
+            government.</p>
 
-           <h2 class="mb-3">Take Advantage of the 30% Tax Credit with Solar Installations in California</h2>
+          <h3 class="mt-4">How Does the 30% Tax Credit Work?</h3>
+          <p>The federal government provides a 30% Investment Tax Credit for qualified solar energy and battery storage
+            systems installed in residential and commercial properties. Please consult your CPA or Tax Professional to see if
+            you can take advantage of this substantial incentive that makes solar and battery installations in California more
+            affordable than ever before.</p>
 
-           <p class="lead">Are you a homeowner or business owner in California looking to harness the power of solar energy while saving money? Look no further! At California Solar Group, we offer state-of-the-art solar installations that not only help you reduce your electricity bills but also enable you to take advantage of the lucrative 30% tax credit offered by the federal government.</p>
+          <h3 class="mt-4">Why Choose California Solar Group for Your Solar Installation?</h3>
+          <p>At California Solar Group, we have a proven track record of helping homeowners and businesses in California go
+            solar while maximizing their financial benefits. By partnering with us, you'll not only receive expert guidance
+            throughout the installation process but also gain access to our extensive knowledge of tax credits and incentives,
+            ensuring you take full advantage of the 30% tax credit and all available battery rebates for your solar
+            investment.</p>
 
-           <h3 class="mt-5">How Does the 30% Tax Credit Work?</h3>
-
-           <p>The federal government provides a 30% tax credit for qualified solar energy systems installed in residential and commercial properties. This means that if you invest in solar panels through California Solar Group, you can deduct 30% of the installation cost directly from your federal taxes. It's a substantial incentive that makes solar installations in California more affordable than ever before.</p>
-
-           <h3 class="mt-5">Why Choose California Solar Group for Your Solar Installation?</h3>
-
-           <p>At California Solar Group, we have a proven track record of helping homeowners and businesses in California go solar while maximizing their financial benefits. By partnering with us, you'll not only receive expert guidance throughout the installation process but also gain access to our extensive knowledge of tax credits and incentives, ensuring you take full advantage of the 30% tax credit for your solar investment.</p>
-
-           <h3 class="mt-5">The Benefits of Going Solar in California</h3>
-
-           <ul>
-             <li>Lower Energy Bills: Solar energy systems generate electricity from the sun, significantly reducing your reliance on traditional utility companies and saving you money on your monthly energy bills.</li>
-             <li>Environmental Sustainability: By choosing solar energy, you contribute to a cleaner and greener future. Solar power helps reduce greenhouse gas emissions and combat climate change.</li>
-             <li>Increased Property Value: Installing solar panels can increase the value of your property, making it a wise long-term investment.</li>
-           </ul>
-
-           <h3 class="mt-5">Contact Us Today to Unlock the 30% Tax Credit!</h3>
-
-           <p>Ready to take advantage of the 30% tax credit for solar installations in California? Contact California Solar Group today for a free consultation. Our team of experts will guide you through the entire process, from system design and installation to maximizing your tax credit benefits. Join the solar revolution and start saving with California Solar Group now!</p>
-
+          <h3 class="mt-4">Contact Us Today to Unlock the 30% Tax Credit!</h3>
+          <p>Ready to take advantage of the 30% tax credit for solar installations in California? Contact California Solar
+            Group today for a free consultation. Our team of experts will guide you through the entire process, from system
+            design and installation to maximizing your tax credit benefits. Join the solar revolution and start saving with
+            California Solar Group now!</p>
       </div>
     </section>
 
