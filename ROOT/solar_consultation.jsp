@@ -103,8 +103,9 @@
 Go solar with California Solar Group and embrace a brighter, cleaner, and more sustainable future for California and the World.
 
 </p>
+<form class="text-center">
 <a href="welcome" ><button type="submit">Get a FREE Quote</button></a>
-
+</form>
       </div>
     </section>
 
