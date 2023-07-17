@@ -91,6 +91,11 @@
           <li>Calculating the return on investment (ROI) for your solar power system</li>
         </ul>
       </div>
+      <BR>
+
+        <form class="text-center">
+        <a href="welcome" class="btn btn-warning btn-lg" >Get a FREE Quote</a>
+        </form>
     </section>
 
   </main><!-- End #main -->
