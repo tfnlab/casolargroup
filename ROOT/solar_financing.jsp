@@ -66,34 +66,39 @@
 
     <section class="inner-page">
       <div class="container">
-        <div class="container">
-  <p>
-    At California Solar Group, we understand that investing in solar energy can be a significant decision for homeowners and businesses. That's why we offer a range of flexible and affordable solar financing options to help you go solar without breaking the bank.
-  </p>
-  <p>
-    Our solar financing services are designed to make the transition to clean, renewable energy as seamless as possible. Whether you're looking to install a solar system for your home or commercial property, we have the right financing solution to meet your needs.
-  </p>
+
+  <p>At California Solar Group, we understand that investing in solar energy can be a significant decision for homeowners and businesses. That's why we offer a range of flexible and affordable solar financing options to help you go solar without breaking the bank.</p>
+  <BR>
+  <p>Our solar and battery financing services are designed to make the transition to clean, renewable energy as seamless as possible. Whether you're looking to install a solar system for your home or commercial property, we have the right financing solution to meet your needs.</p>
+  <BR>
+    <BR>
   <h3>Key Features of Our Solar Financing Services:</h3>
-  <ul>
-    <li>Low Interest Rates: We offer competitive interest rates on our solar loans, making it easier for you to afford solar energy.</li>
-    <li>Flexible Terms: Our financing options come with flexible repayment terms, allowing you to choose a plan that fits your budget.</li>
-    <li>No Money Down: With our zero-down financing option, you can start enjoying the benefits of solar energy without any upfront costs.</li>
-    <li>Tax Incentives: Take advantage of federal and state tax incentives that can significantly reduce the overall cost of your solar installation.</li>
-    <li>Quick Approval Process: Our streamlined approval process ensures that you receive a decision promptly, so you can move forward with your solar project without delays.</li>
-  </ul>
+  <BR>
+<ul>
+  <li>Low Interest Rates: We offer competitive interest rates on our solar loans, making it easier for you to afford solar energy.</li>
+  <li>Flexible Terms: Our financing options come with flexible repayment terms, allowing you to choose a plan that fits your budget.</li>
+  <li>No Money Down: With our zero-down financing option, you can start enjoying the benefits of solar energy without any upfront costs.</li>
+  <li>Tax Incentives: Take advantage of federal tax incentives that can significantly reduce the overall cost of your solar installation.</li>
+  <li>Quick Approval Process: Our streamlined approval process ensures that you receive a decision promptly, so you can move forward with your solar project without delays.</li>
+</ul>
+<BR>
+<BR>
   <h3>Why Choose California Solar Group for Solar Financing?</h3>
+  <BR>
+<p>
+  As a leading solar energy company in California, we have years of experience in helping homeowners and businesses harness the power of the sun. When you choose our solar financing services, you benefit from:
+</p>
+<BR>
+<ul>
+  <li>Expert Guidance: Our team of solar experts will guide you through the financing process, providing personalized assistance every step of the way.</li>
+  <li>Quality Installations: California Solar Group performs all of our installations with our in-house branded and insured installation crews to ensure that your solar system is installed to the highest standards.</li>
+  <li>Customer Satisfaction: We prioritize customer satisfaction and strive to exceed your expectations with our top-notch service.</li>
+</ul>
+<BR>
   <p>
-    As a leading solar energy company in California, we have years of experience in helping homeowners and businesses harness the power of the sun. When you choose our solar financing services, you benefit from:
+  Ready to make the switch to solar? Contact California Solar Group today to learn more about our solar financing services and start your journey towards clean, affordable, and sustainable energy.
   </p>
-  <ul>
-    <li>Expert Guidance: Our team of solar experts will guide you through the financing process, providing personalized assistance every step of the way.</li>
-    <li>Quality Installations: We work with trusted and experienced solar installers to ensure that your solar system is installed to the highest standards.</li>
-    <li>Customer Satisfaction: We prioritize customer satisfaction and strive to exceed your expectations with our top-notch service.</li>
-  </ul>
-  <p>
-    Ready to make the switch to solar? Contact California Solar Group today to learn more about our solar financing services and start your journey towards clean, affordable, and sustainable energy.
-  </p>
-</div>
+
 
       </div>
     </section>
