@@ -95,14 +95,17 @@
 
 </ol>
 
+<HR>
 <h4>Ready to Take the First Step Towards Energy Independence?</h4>
-
+<BR>
 <p>Contact California Solar Group today to schedule your Solar Consultation. Our team of experienced professionals is ready to help you and your family create a sustainable and energy-efficient future. Let us help you unlock the benefits of solar power while minimizing your environmental impact and saving money on your energy bills.</p>
-
+<BR>
 <p class="text-center">
 Go solar with California Solar Group and embrace a brighter, cleaner, and more sustainable future for California and the World.
 
 </p>
+<BR>
+<HR>
 <form class="text-center">
 <a href="welcome" class="btn btn-warning btn-lg" >Get a FREE Quote</a>
 </form>
