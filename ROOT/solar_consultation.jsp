@@ -104,7 +104,7 @@ Go solar with California Solar Group and embrace a brighter, cleaner, and more s
 
 </p>
 <form class="text-center">
-<a href="welcome" ><button type="submit">Get a FREE Quote</button></a>
+<a href="welcome" ><button type="submit" class="btn btn-warning" >Get a FREE Quote</button></a>
 </form>
       </div>
     </section>
