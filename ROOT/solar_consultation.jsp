@@ -67,52 +67,42 @@
       <div class="container">
 <hr>
 <p>
-  At California Solar Group, we understand the importance of harnessing the power of the sun to meet your energy
-  needs. Our Solar Consultation Services are designed to help you make informed decisions about adopting solar energy
-  for your residential or commercial property. With our expertise and personalized approach, we aim to simplify the
-  process and guide you towards a sustainable and cost-effective solar solution.
+  Our Solar Consultation Services are designed to help you make informed decisions about adopting solar energy for your residential or commercial property. With our expert and personalized approach, we aim to simplify the process and guide you towards a sustainable and cost-effective Solar and Storage solution.
 </p>
 
-<h3>Why Choose California Solar Group for Your Solar Consultation Needs?</h3>
+<h3>
+
+  Why Choose California Solar Group for Your Solar Consultation Needs?</h3>
 <ol>
   <li>
-    <strong>Extensive Industry Experience:</strong> With over a decade of experience in the solar industry,
-    California Solar Group has established itself as a trusted name. Our team of experts possesses in-depth knowledge
-    about solar technologies, regulations, and incentives specific to California.
+    Extensive Industry Experience: With over a decade of experience in the solar industry, California Solar Group has established itself as a trusted name. Our team of experts possesses in-depth knowledge about the latest solar technologies, equipment, regulations, and incentives specific to California.
   </li>
   <li>
-    <strong>Personalized Consultation:</strong> We believe that every property is unique, and so are its solar
-    requirements. Our consultants take the time to understand your energy goals, assess your property's solar
-    potential, and provide customized solutions tailored to your specific needs. Whether you're considering solar
-    panels for your home or looking to implement a large-scale solar project, we've got you covered.
-  </li>
-  <li>
-    <strong>Comprehensive Site Analysis:</strong> Our solar consultants conduct a thorough site analysis to evaluate
-    your property's solar potential. Using advanced tools and techniques, we assess factors such as sun exposure,
-    shading, roof orientation, and structural suitability. This detailed analysis helps us determine the optimal solar
-    system size, design, and placement for maximum energy generation.
-  </li>
-  <li>
-    <strong>Financial Assessment:</strong> Going solar is a significant investment, and we understand the importance
-    of financial considerations. Our solar consultation services include a comprehensive financial assessment where
-    we analyze your energy consumption, current utility costs, available incentives, and financing options. This
-    analysis enables us to provide accurate projections of your potential savings and return on investment.
-  </li>
-  <li>
-    <strong>Streamlined Permitting and Paperwork:</strong> Navigating the solar permitting process can be complex and
-    time-consuming. California Solar Group has a dedicated team that assists you with all the necessary paperwork,
-    permits, and interconnection agreements. Our goal is to make the transition to solar energy as seamless as
-    possible, taking the burden off your shoulders.
-  </li>
-  <li>
-    <strong>Ongoing Support:</strong> Our relationship doesn't end with the solar consultation. We are committed to
-    providing continued support throughout the entire solar installation process. Our team will be there to answer
-    your questions, address any concerns, and ensure a smooth transition to clean, renewable energy.
-  </li>
+  Personalized Consultation: We believe that every property is unique, and so are its solar requirements. Our consultants take the time to understand your energy goals, assess your property's solar potential, and provide customized solutions tailored to your specific needs. Whether you're considering solar panels for your home or looking to implement a large-scale solar project, we've got you covered.
+</li>
+<li>
+  Comprehensive Site Analysis: Our solar consultants conduct a thorough site analysis to evaluate your property's solar potential. Using advanced tools and techniques, we assess factors such as sun exposure, shading, roof orientation, and structural suitability. This detailed analysis helps us determine the optimal solar system size, design, and placement for maximum energy generation.
+</li>
+<li>
+  Financial Assessment: Going solar is a significant investment, and we understand the importance of financial considerations. Our solar consultation services include a comprehensive financial assessment where we analyze your energy consumption, current utility costs, available incentives, and financing options. This analysis enables us to provide accurate projections of your potential savings and return on investment.
+</li>
+<li>
+  Streamlined Permitting and Paperwork: Navigating the solar permitting process can be complex and time-consuming. California Solar Group has a dedicated team that handles all the necessary paperwork, permits, and interconnection agreements. Our goal is to make the transition to solar energy as seamless as possible, taking the burden off of your shoulders.
+</li>
+<li>
+  Ongoing Support: Our relationship doesn't end with the solar consultation. We are committed to providing continued support throughout the entire solar installation process. Our team will be there to answer your questions, address any concerns, and ensure a smooth transition to clean, renewable energy.
+</li>
+
 </ol>
-<h3>Ready to Take the First Step Towards Solar Independence?</h3>
-<p>Contact California Solar Group today to schedule your Solar Consultation. Our team of experienced professionals is ready to guide you towards a sustainable and energy-efficient future. Let us help you unlock the benefits of solar power while minimizing your environmental impact and saving on your energy bills.</p>
-<p class="text-center">Go solar with California Solar Group and embrace a brighter, cleaner, and more sustainable future for California.</p>
+
+<h4>Ready to Take the First Step Towards Energy Independence?</h4>
+
+<p>Contact California Solar Group today to schedule your Solar Consultation. Our team of experienced professionals is ready to help you and your family create a sustainable and energy-efficient future. Let us help you unlock the benefits of solar power while minimizing your environmental impact and saving money on your energy bills.</p>
+
+<p class="text-center">
+Go solar with California Solar Group and embrace a brighter, cleaner, and more sustainable future for California and the World.
+
+</p>
 
 
       </div>
