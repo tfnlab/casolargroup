@@ -53,10 +53,10 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>A to Z Solar Installation Service</h2>
+          <h2>Premium Battery Installer</h2>
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li>A to Z Solar Installation Service</li>
+            <li>Premium Battery Installer</li>
           </ol>
         </div>
 
