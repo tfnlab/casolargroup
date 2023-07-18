@@ -62,13 +62,6 @@
 
       </div>
     </section><!-- End Breadcrumbs -->
-
-    <section class="hero">
-       <div class="container text-center">
-         <h1>A to Z Solar Installation Services</h1>
-       </div>
-     </section>
-
      <!-- Services section -->
      <section id="services" class="services">
        <div class="container">
@@ -80,18 +73,21 @@
                  <p class="card-text">When you choose California Solar Group as your premium battery installer, you can expect nothing less than the highest level of expertise and professionalism. Our team of experienced technicians is well-versed in the installation and maintenance of cutting-edge battery systems. With years of industry knowledge and a deep understanding of renewable energy technology, we ensure seamless integration of battery solutions into your existing solar power system.</p>
              </div>
          </div>
+         <HR>
          <div class="card">
              <div class="card-body">
                  <h3 class="card-title">High-End Equipment and Innovative Solutions</h3>
                  <p class="card-text">We believe that every client deserves the very best, which is why we exclusively work with top-of-the-line, high-end equipment. Our partnership with industry-leading manufacturers allows us to offer state-of-the-art battery solutions that are reliable, efficient, and designed to meet your specific energy needs. Whether you require a battery for residential or commercial purposes, our premium installations will provide you with an uninterrupted power supply and optimal energy management.</p>
              </div>
          </div>
+         <HR>
          <div class="card">
              <div class="card-body">
                  <h3 class="card-title">Seamless Integration and Customization</h3>
                  <p class="card-text">At California Solar Group, we understand that every home or business is unique, and your energy requirements are no exception. That's why we offer customized battery solutions tailored to your individual needs. Our team will assess your energy consumption patterns, solar system capacity, and future goals to design a battery installation that maximizes efficiency and savings. By seamlessly integrating the battery system into your existing infrastructure, we ensure a hassle-free transition to clean, renewable energy.</p>
              </div>
          </div>
+         <HR>
          <div class="card">
              <div class="card-body">
                  <h3 class="card-title">Reliable Support and Maintenance</h3>
