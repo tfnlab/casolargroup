@@ -94,6 +94,7 @@
                  <p class="card-text">Our commitment to customer satisfaction extends beyond the installation process. We provide comprehensive support and maintenance services to keep your premium battery system operating at its best. Our technicians are readily available to address any concerns, provide system updates, and perform regular maintenance to prolong the lifespan of your battery investment. With California Solar Group, you can enjoy peace of mind, knowing that our team is dedicated to the long-term success of your renewable energy solution.</p>
              </div>
          </div>
+         <BR><BR>
                    <form class="text-center">
                    <a href="welcome" class="btn btn-warning btn-lg" >Get a FREE Quote</a>
                    </form>
