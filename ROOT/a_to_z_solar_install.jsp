@@ -74,32 +74,25 @@
      <!-- Services section -->
      <section id="services" class="services">
        <div class="container">
-         <div class="row">
-           <div class="col-lg-4">
-             <div class="card">
-               <div class="card-body">
-                 <h2 class="card-title">Residential Solar</h2>
-                 <p class="card-text">We specialize in residential solar installation, helping homeowners harness the power of the sun and save on energy costs.</p>
-               </div>
-             </div>
-           </div>
-           <div class="col-lg-4">
-             <div class="card">
-               <div class="card-body">
-                 <h2 class="card-title">Commercial Solar</h2>
-                 <p class="card-text">Our commercial solar solutions are tailored to meet the unique energy needs of businesses, reducing their carbon footprint and operating expenses.</p>
-               </div>
-             </div>
-           </div>
-           <div class="col-lg-4">
-             <div class="card">
-               <div class="card-body">
-                 <h2 class="card-title">Solar Maintenance</h2>
-                 <p class="card-text">We provide regular maintenance services to ensure optimal performance and longevity of your solar system, maximizing your return on investment.</p>
-               </div>
-             </div>
-           </div>
-         </div>
+         <h1>Providing Comprehensive Solar Solutions in Los Angeles</h1>
+         <p>Get a Free Consultation</p>
+
+         <h2>Residential Solar and Battery Storage</h2>
+         <p>We specialize in residential solar installation, helping homeowners harness the power of the sun, save on energy
+           costs and become energy independent.</p>
+<BR><BR>
+         <h2>Commercial Solar and Battery Storage</h2>
+         <p>Our commercial solar solutions are tailored to meet the unique energy needs of businesses, reducing their carbon
+           footprint and operating expenses while providing optimal Return on Investment.</p>
+           <BR><BR>
+         <h2>Solar Maintenance</h2>
+         <p>We provide regular maintenance services to ensure optimal performance and longevity of your solar system,
+           maximizing your return on investment and ensuring the system will be producing well for years to come.</p>
+         <BR>
+
+                   <form class="text-center">
+                   <a href="welcome" class="btn btn-warning btn-lg" >Get a FREE Quote</a>
+                   </form>
        </div>
      </section>
 
