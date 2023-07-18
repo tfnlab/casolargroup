@@ -80,7 +80,11 @@
           <h4 class="mt-4">4. Government Incentives</h4>
           <p>Many governments and local authorities offer incentives and rebates to encourage homeowners to adopt solar energy. These financial benefits can help offset the initial installation costs and make solar panels more affordable.</p>
       </div>
+      <BR><BR>
 
+                <form class="text-center">
+                <a href="welcome" class="btn btn-warning btn-lg" >Get a FREE Quote</a>
+                </form>
     </section>
 
   </main><!-- End #main -->
