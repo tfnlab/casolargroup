@@ -90,6 +90,9 @@
 
         <p>Take the first step towards a greener future and lower energy costs for your business. Contact California
 
+                            <form class="text-center">
+                            <a href="welcome" class="btn btn-warning btn-lg" >Get a FREE Quote</a>
+                            </form>
       </div>
     </section>
 
