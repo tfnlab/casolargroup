@@ -65,46 +65,31 @@
 
     <section class="inner-page">
       <div class="container">
-        <header class="jumbotron text-center">
-          <h1 class="display-4">100% Made in USA</h1>
-          <p class="lead">California Solar Group - Your trusted source for high-quality solar products</p>
-        </header>
+        <h2>Energy Independence and Added Home Value</h2>
+        <p>
+          Investing in solar and battery storage for your home not only provides numerous environmental and financial benefits but also has a positive impact on the value of your home. Making your home energy independent will add energy cost savings while capitalizing on government incentives, and appealing to environmentally conscious buyers, you can expect up to 4% increase in your property value. So, why wait? Take the first step toward a brighter future with solar energy!
+        </p>
 
-        <main class="container">
-          <section class="my-5">
-            <h2>Why Choose California Solar Group?</h2>
-            <div class="row">
-              <div class="col-lg-12">
-                <h4>Made in the USA</h4>
-                <p>At California Solar Group, we take pride in offering solar products that are proudly made in the USA. By choosing our solar solutions, you are supporting local businesses and American workers, while contributing to job growth and economic development within our communities. Our commitment to manufacturing our solar panels and systems in the USA ensures exceptional quality and adherence to stringent industry standards.</p>
-              </div>
-            </div>
-          </section>
+        <h2 class="mt-4">Benefits of "Made in USA"</h2>
+        <h3 class="mt-4">Quality Assurance</h3>
+        <p>
+          By selecting our "Made in USA" solar products, you can trust in their exceptional quality. Our Suppliers adhere to rigorous manufacturing processes, utilizing advanced technologies and the finest materials available. Our commitment to quality ensures that each solar panel and system meets and exceeds industry benchmarks, providing you with reliable and efficient energy solutions.
+        </p>
 
-          <section class="my-5">
-            <h2>Benefits of "Made in USA"</h2>
-            <div class="row">
-              <div class="col-lg-6">
-                <h4>Quality Assurance</h4>
-                <p>By selecting our "Made in USA" solar products, you can trust in their exceptional quality. We adhere to rigorous manufacturing processes, utilizing advanced technologies and the finest materials available. Our commitment to quality ensures that each solar panel and system meets and exceeds industry benchmarks, providing you with reliable and efficient energy solutions.</p>
-              </div>
-              <div class="col-lg-6">
-                <h4>Sustainable American Jobs</h4>
-                <p>When you choose California Solar Group, you support the creation and preservation of sustainable American jobs. By manufacturing our products domestically, we contribute to the growth of local communities and the overall strength of the American economy. Your purchase not only helps you harness the power of solar energy but also supports the livelihoods of American workers.</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-6">
-                <h4>Environmental Responsibility</h4>
-                <p>Opting for "Made in USA" solar products aligns with your commitment to environmental responsibility. Solar energy is clean, renewable, and reduces dependence on fossil fuels. By choosing our USA-made solar panels, you actively contribute to reducing carbon emissions, mitigating climate change, and creating a more sustainable future for generations to come.</p>
-              </div>
-              <div class="col-lg-6">
-                <h4>Customer Support and Satisfaction</h4>
-                <p>At California Solar Group, we prioritize customer satisfaction. By manufacturing our solar products in the USA, we can provide exceptional customer support and service. Our dedicated team of experts ensures that your experience, from product selection to installation and beyond, is seamless and meets the highest standards. We are committed to your long-term satisfaction and the success of your solar journey.</p>
-              </div>
-            </div>
-          </section>
-        </main>
+        <h3 class="mt-4">Sustainable American Jobs</h3>
+        <p>
+          When you choose California Solar Group, you support the creation and preservation of sustainable American jobs. By manufacturing our products domestically, we contribute to the growth of local communities and the overall strength of the American economy. Your purchase not only helps you harness the power of solar energy but also supports the livelihoods of American workers.
+        </p>
+
+        <h3 class="mt-4">Environmental Responsibility</h3>
+        <p>
+          Opting for "Made in USA" solar products aligns with your commitment to environmental responsibility. Solar energy is clean, renewable, and reduces dependence on fossil fuels. By choosing our USA-made solar panels, you actively contribute to reducing carbon emissions, mitigating climate change, and creating a more sustainable future for generations to come.
+        </p>
+
+        <h3 class="mt-4">Customer Support and Satisfaction</h3>
+        <p>
+          Our commitment to providing excellent customer support ensures your satisfaction. We are here to assist you throughout your solar energy journey, from initial consultation to installation and beyond. Feel free to reach out to us with any questions or concerns you may have.
+        </p>
       </div>
     </section>
 
