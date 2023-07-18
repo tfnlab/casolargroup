@@ -76,7 +76,7 @@
        <div class="container">
          <h1>Providing Comprehensive Solar Solutions in Los Angeles</h1>
          <p>Get a Free Consultation</p>
-
+<BR><BR>
          <h2>Residential Solar and Battery Storage</h2>
          <p>We specialize in residential solar installation, helping homeowners harness the power of the sun, save on energy
            costs and become energy independent.</p>
