@@ -64,50 +64,23 @@
     </section><!-- End Breadcrumbs -->
 
     <section class="inner-page">
-      <div class="container">
-        <h1>How Solar Installations Can Add up to 4% Increase to Home Value</h1>
+        <div class="container">
+          <h2 class="mt-5">How Solar Installations Can Add up to 4% Increase to Home Value</h2>
+          <p class="lead">Are you considering installing solar panels on your home? Apart from the obvious environmental benefits and long-term cost savings on energy bills, solar installations can also significantly increase the value of your home. Let's explore how going solar can give your property a valuable boost.</p>
 
-        <p>Are you considering installing solar panels on your home? Apart from the obvious environmental benefits and
-            long-term cost savings on energy bills, solar installations can also significantly increase the value of your
-            home. Let's explore how going solar can give your property a valuable boost.</p>
+          <h4 class="mt-4">1. Energy Cost Savings</h4>
+          <p>One of the primary advantages of solar energy is the potential for significant cost savings on your electricity bills. By generating your own clean and renewable energy, you become less reliant on traditional utility companies. This independence can shield you from rising energy costs and provide a sense of financial security. Potential buyers recognize the long-term savings associated with solar installations, making your property more attractive.</p>
 
-        <h2>1. Energy Cost Savings</h2>
+          <h4 class="mt-4">2. Increased Home Value</h4>
+          <p>Research has shown that solar installations can increase the value of a home by up to 4%. This percentage may vary depending on various factors such as the location of your property, the size of the solar system, and local market conditions. However, the overall trend indicates that homes equipped with solar panels tend to sell at a premium compared to homes without them.</p>
 
-        <p>One of the primary advantages of solar energy is the potential for significant cost savings on your electricity
-            bills. By generating your own clean and renewable energy, you become less reliant on traditional utility
-            companies. This independence can shield you from rising energy costs and provide a sense of financial
-            security. Potential buyers recognize the long-term savings associated with solar installations, making your
-            property more attractive.</p>
+          <h4 class="mt-4">3. Environmental Appeal</h4>
+          <p>In today's world, there is a growing emphasis on sustainable living and reducing carbon footprints. By incorporating solar panels into your home, you demonstrate your commitment to a greener future. Environmentally conscious buyers value properties with renewable energy systems, making your home stand out in the market and potentially increasing its desirability and value.</p>
 
-        <h2>2. Increased Home Value</h2>
-
-        <p>Research has shown that solar installations can increase the value of a home by up to 4%. This
-            percentage may vary depending on various factors such as the location of your property, the size of the solar
-            system, and local market conditions. However, the overall trend indicates that homes equipped with solar
-            panels tend to sell at a premium compared to homes without them.</p>
-
-        <h2>3. Environmental Appeal</h2>
-
-        <p>In today's world, there is a growing emphasis on sustainable living and reducing carbon footprints. By
-            incorporating solar panels into your home, you demonstrate your commitment to a greener future. Environmentally
-            conscious buyers value properties with renewable energy systems, making your home stand out in the market and
-            potentially increasing its desirability and value.</p>
-
-        <h2>4. Government Incentives</h2>
-
-        <p>Many governments and local authorities offer incentives and rebates to encourage homeowners to adopt solar
-            energy. These financial benefits can help offset the initial installation costs and make solar panels more
-            affordable. The availability of such incentives can further boost the attractiveness of your home to potential
-            buyers, increasing its market value.</p>
-
-        <h2>Conclusion</h2>
-
-        <p>Investing in solar installations not only provides numerous environmental and financial benefits but also has a
-            positive impact on the value of your home. By enjoying energy cost savings, capitalizing on government
-            incentives, and appealing to environmentally conscious buyers, you can expect up to 4% increase in your property
-            value. So, why wait? Take the first step toward a brighter future with solar energy!</p>
-
+          <h4 class="mt-4">4. Government Incentives</h4>
+          <p>Many governments and local authorities offer incentives and rebates to encourage homeowners to adopt solar energy. These financial benefits can help offset the initial installation costs and make solar panels more affordable.</p>
       </div>
+
     </section>
 
   </main><!-- End #main -->
