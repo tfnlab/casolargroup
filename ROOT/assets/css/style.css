@@ -1072,6 +1072,15 @@ section {
   }
 }
 
+.badges {
+  display: block;
+  position: relative;
+}
+@media (min-width: 992px) {
+  .badges {
+    display: none;
+  }
+}
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
@@ -1176,9 +1185,6 @@ section {
 }
 
 @media (min-width: 992px) {
-  .badges {
-    display: none;
-  }
   .testimonials .testimonial-item p {
     width: 80%;
   }
