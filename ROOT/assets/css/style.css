@@ -1072,6 +1072,23 @@ section {
   }
 }
 
+.badgesmobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+@media (min-width: 992px) {
+  .badges {
+    display: none;
+  }
+}
+@media (max-width: 667px) {
+  .badges {
+    display: flex;
+  }
+}
+
 .badges {
   display: flex;
   justify-content: center;
