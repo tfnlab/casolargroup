@@ -233,7 +233,7 @@ h6 {
 * Desktop Navigation
 */
 .navbar {
-  height: 80px; /* Set the desired height for the navbar */
+  height: 110px; /* Set the desired height for the navbar */
   padding: 0;
   margin-left: auto; /* Push the navbar content to the right */
 }
