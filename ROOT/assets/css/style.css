@@ -1078,12 +1078,12 @@ section {
   align-items: center;
   padding-top: 20px;
 }
-@media (min-width: 992px) {
+@media (min-width: 767px) {
   .badgesmobile {
     display: none;
   }
 }
-@media (max-width: 667px) {
+@media (max-width: 768px) {
   .badgesmobile {
     display: flex;
   }
@@ -1095,12 +1095,12 @@ section {
   align-items: center;
   padding-top: 20px;
 }
-@media (min-width: 992px) {
+@media (min-width: 767px) {
   .badges {
     display: flex;
   }
 }
-@media (max-width: 667px) {
+@media (max-width: 768px) {
   .badges {
     display: none;
   }
