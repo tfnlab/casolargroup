@@ -1176,6 +1176,9 @@ section {
 }
 
 @media (min-width: 992px) {
+  .badges {
+    display: none;
+  }
   .testimonials .testimonial-item p {
     width: 80%;
   }
