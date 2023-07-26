@@ -233,7 +233,7 @@ h6 {
 * Desktop Navigation
 */
 .navbar {
-  height: 110px; /* Set the desired height for the navbar */
+  height: 80px; /* Set the desired height for the navbar */
   padding: 0;
   margin-left: auto; /* Push the navbar content to the right */
 }
@@ -565,7 +565,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 80px 0;
   overflow: hidden;
 }
 
