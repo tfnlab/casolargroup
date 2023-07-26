@@ -159,7 +159,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 80px;
+  max-height: 128px;
 }
 
 /*--------------------------------------------------------------
@@ -233,9 +233,11 @@ h6 {
 * Desktop Navigation
 */
 .navbar {
+  height: 80px; /* Set the desired height for the navbar */
   padding: 0;
   margin-left: auto; /* Push the navbar content to the right */
 }
+
 
 .navbar ul {
   margin: 0;
