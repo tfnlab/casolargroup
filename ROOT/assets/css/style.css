@@ -1073,14 +1073,14 @@ section {
 }
 
 .badges {
-  display: inline-block;
-  position: relative;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding-top: 20px;
 }
 @media (min-width: 992px) {
   .badges {
-    display: inline-block;
+    display: flex;
   }
 }
 @media (max-width: 667px) {
