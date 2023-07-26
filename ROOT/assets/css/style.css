@@ -1076,6 +1076,7 @@ section {
   display: inline-block;
   position: relative;
   text-align: center;
+  padding-top: 20px;
 }
 @media (min-width: 992px) {
   .badges {
