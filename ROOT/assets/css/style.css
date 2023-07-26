@@ -1421,7 +1421,7 @@ section {
   padding: 15px 0;
   background: whitesmoke;
   min-height: 40px;
-  margin-top: 74px;
+  margin-top: 104px;
 }
 
 .breadcrumbs h2 {
@@ -1450,7 +1450,7 @@ section {
 
 @media (max-width: 992px) {
   .breadcrumbs {
-    margin-top: 90px;
+    margin-top: 98px;
   }
 
   .breadcrumbs .d-flex {
