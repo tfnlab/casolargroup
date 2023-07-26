@@ -1,5 +1,5 @@
 
-<header id="header" class="fixed-top ">
+<header id="header" class="fixed-top header-inner-pages">
   <div class="container d-flex align-items-center justify-content-lg-between">
 
     <!-- Uncomment below if you prefer to use an image logo -->
