@@ -1079,12 +1079,12 @@ section {
   padding-top: 20px;
 }
 @media (min-width: 992px) {
-  .badges {
+  .badgesmobile {
     display: none;
   }
 }
 @media (max-width: 667px) {
-  .badges {
+  .badgesmobile {
     display: flex;
   }
 }
