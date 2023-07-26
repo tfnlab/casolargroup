@@ -1073,12 +1073,12 @@ section {
 }
 
 .badges {
-  display: block;
+  display: inline-block;
   position: relative;
 }
 @media (min-width: 992px) {
   .badges {
-    display: none;
+    display: inline-block;
   }
 }
 @media (max-width: 667px) {
