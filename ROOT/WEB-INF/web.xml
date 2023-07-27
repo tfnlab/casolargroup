@@ -134,4 +134,12 @@
       <servlet-name>premium_solar_and_battery_installer</servlet-name>
       <url-pattern>/premium_solar_and_battery_installer.html</url-pattern>
   </servlet-mapping>
+  <servlet>
+      <servlet-name>team</servlet-name>
+      <jsp-file>/team.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>team</servlet-name>
+      <url-pattern>/team.html</url-pattern>
+  </servlet-mapping>
 </web-app>
