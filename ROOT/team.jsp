@@ -67,6 +67,93 @@
     <section class="inner-page">
       <div class="container">
 
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="assets/img/team/team-1.jpg" id="image_1" class="img-fluid" alt="">
+                <!--
+                <div class="social">
+                  <a href="https://twitter.com/vahanyan14a"><i class="bi bi-twitter"></i></a>
+                  <a href="https://www.facebook.com/profile.php?id=100093579737285"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/vahanyan14a/"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/armen-vahanyan-073a2a27b/"><i class="bi bi-linkedin"></i></a>
+                </div>
+                -->
+              </div>
+              <div class="member-info">
+                <h4>Armen Vahanyan</h4>
+                <span>Founder and CEO</span>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <div class="member-img">
+                <img src="assets/img/team/team-3.jpg" id="image_3" class="img-fluid" alt="">
+                <!--
+                <div class="social">
+                  <a href="https://twitter.com/aovakimyan"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              -->
+
+              </div>
+              <div class="member-info">
+                <h4>Aram Ovakimyan</h4>
+                <span>Vice-President</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="200">
+              <div class="member-img">
+                <img src="assets/img/team/team-2.jpg" id="image_2a" class="img-fluid" alt="">
+                <!--
+                <div class="social">
+                  <a href="https://twitter.com/thomson14ab"><i class="bi bi-twitter"></i></a>
+                  <a href="https://www.facebook.com/profile.php?id=100093495261733"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/thomson14ab/"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/danny-thomson-3a6a3027b/"><i class="bi bi-linkedin"></i></a>
+                </div>
+              -->
+
+              </div>
+              <div class="member-info">
+                <h4>Danny Thomson</h4>
+                <span>Technical Director</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="400">
+              <div class="member-img">
+                <img src="assets/img/team/team-4.jpg" id="image_4" class="img-fluid" alt="">
+                <!--
+                <div class="social">
+                  <a href="https://twitter.com/weinberg14ab"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              -->
+
+              </div>
+              <div class="member-info">
+                <h4>Logan Weinberg</h4>
+                <span>Permit Coordinator</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
 
                         <div class="row">
 
