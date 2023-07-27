@@ -66,6 +66,7 @@
 
     <section class="inner-page">
       <div class="container">
+        <img src="assets/img/team/DSC00503.jpg" id="image_1" class="img-fluid" alt="">
 
         <div class="row">
 
