@@ -377,7 +377,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(155, 0, 0, 0.9);
   transition: 0.3s;
   z-index: 999;
 }
@@ -396,7 +396,7 @@ h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #ffc;
+  background-color: #fff;
   overflow-y: auto;
   transition: 0.3s;
 }
