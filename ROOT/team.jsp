@@ -66,8 +66,11 @@
 
     <section class="inner-page">
       <div class="container">
+        <h2>Meet Our Sustainable Dream Team: California Solar Group Innovators!</h2>
+        <p>At California Solar Group, our team thrives on diversity. We come from various backgrounds and cultures, united by our passion for renewable energy. Embracing our differences drives innovation and propels us toward a brighter, sustainable future, together.</p>
         <img src="assets/img/team/DSC00503.jpg" id="image_1" class="img-fluid" alt="">
 
+          <BR><BR>
         <div class="row">
 
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
