@@ -76,7 +76,7 @@
             <img src="assets/img/team/DSC00503.jpg" id="image_1" class="img-fluid" alt="">
           </div>
         </div>
-        <div class="row">
+        <div class="row mt-25">
 
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="100">
