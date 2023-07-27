@@ -71,6 +71,8 @@
         <img src="assets/img/team/DSC00503.jpg" id="image_1" class="img-fluid" alt="">
 
           <BR><BR>
+            <BR><BR>
+              
         <div class="row">
 
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
