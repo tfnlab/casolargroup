@@ -54,10 +54,10 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Solar Financing</h2>
+          <h2>Team</h2>
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li>Solar Financing</li>
+            <li>Team</li>
           </ol>
         </div>
 
