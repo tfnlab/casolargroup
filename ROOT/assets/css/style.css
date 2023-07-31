@@ -556,16 +556,17 @@ h6 {
   line-height: 1;
   font-size: 20px;
   line-height: 26px;
+  color: #fff;
 }
 
-#hero .icon-box h3 a {
+/* #hero .icon-box h3 a {
   color: #fff;
   transition: ease-in-out 0.3s;
-}
+} */
 
-#hero .icon-box h3 a:hover {
+/* #hero .icon-box h3 a:hover {
   color: #ffc451;
-}
+} */
 
 #hero .icon-box:hover {
   border-color: #ffc451;
