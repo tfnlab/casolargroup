@@ -1103,7 +1103,7 @@ section {
 }
 @media (max-width: 768px) {
   .badgesmobile {
-    display: flex;
+    display: block;
   }
 }
 
