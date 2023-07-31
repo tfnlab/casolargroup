@@ -292,6 +292,9 @@ h6 {
   line-height: 2.2;
   margin-left: 5px;
 }
+.navbar .mobile-menu-logo{
+  width: 200px
+}
 
 .navbar a:hover,
 .navbar .active,
