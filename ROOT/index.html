@@ -262,25 +262,74 @@
         </div>
       </div>
       <!-- Swiper -->
-      <div class="swiper1 mySwiper1">
+      <div class="swiper-badges mySwiperBadges">
         <div class="swiper-wrapper">
-          <div class="swiper-slide">Slide 1</div>
-          <div class="swiper-slide">Slide 2</div>
-          <div class="swiper-slide">Slide 3</div>
-          <div class="swiper-slide">Slide 3</div>
-          <div class="swiper-slide">Slide 3</div>
-          <div class="swiper-slide">Slide 3</div>
-          <div class="swiper-slide">Slide 3</div>
-          <div class="swiper-slide">Slide 3</div>
-          <div class="swiper-slide">Slide 3</div>
-          <div class="swiper-slide">Slide 3</div>
-          <div class="swiper-slide">Slide 3</div>
-          <div class="swiper-slide">Slide 3</div>
-          <div class="swiper-slide">Slide 3</div>
-          <div class="swiper-slide">Slide 3</div>
-          <div class="swiper-slide">Slide 3</div>
-          <div class="swiper-slide">Slide 3</div>
+          <div class="swiper-slide">
+            <div class="card">
+              <a href="https://www.seia.org/" >
+              <img src="assets/img/clients/client-22.png" class="card-img-top img-fluid" alt="">
+              </a>
+            </div>
+          </div>
         </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <a href="https://www.seia.org/" >
+            <img src="assets/img/clients/client-22.png" class="card-img-top img-fluid" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card">
+          <a href="https://www.seia.org/" >
+          <img src="assets/img/clients/client-22.png" class="card-img-top img-fluid" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="card">
+        <a href="https://www.seia.org/" >
+        <img src="assets/img/clients/client-22.png" class="card-img-top img-fluid" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="swiper-slide">
+    <div class="card">
+      <a href="https://www.seia.org/" >
+      <img src="assets/img/clients/client-22.png" class="card-img-top img-fluid" alt="">
+      </a>
+    </div>
+  </div>
+</div>
+<div class="swiper-slide">
+  <div class="card">
+    <a href="https://www.seia.org/" >
+    <img src="assets/img/clients/client-22.png" class="card-img-top img-fluid" alt="">
+    </a>
+  </div>
+</div>
+</div>
+<div class="swiper-slide">
+  <div class="card">
+    <a href="https://www.seia.org/" >
+    <img src="assets/img/clients/client-22.png" class="card-img-top img-fluid" alt="">
+    </a>
+  </div>
+</div>
+</div>
+<div class="swiper-slide">
+  <div class="card">
+    <a href="https://www.seia.org/" >
+    <img src="assets/img/clients/client-22.png" class="card-img-top img-fluid" alt="">
+    </a>
+  </div>
+</div>
+</div>
+        <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
         <div class="swiper-pagination"></div>
       </div>
     </section>
@@ -1255,7 +1304,7 @@ Great product, warranty, and company!
 
        <!-- Initialize Swiper -->
        <script>
-         var swiper = new Swiper(".mySwiper1", {
+         var swiper = new Swiper(".mySwiperBadges", {
            slidesPerView: 3,
            grid: {
              rows: 2,
@@ -1265,6 +1314,10 @@ Great product, warranty, and company!
              el: ".swiper-pagination",
              clickable: true,
            },
+           navigation: {
+       nextEl: ".swiper-button-next",
+       prevEl: ".swiper-button-prev",
+     },
          });
        </script>
 </body>
