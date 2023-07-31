@@ -1335,6 +1335,9 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.php-email-form .form-control{
+  padding: 0.375rem 0.5rem;
+}
 .contact .info {
   width: 100%;
   background: #fff;
