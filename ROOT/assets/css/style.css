@@ -569,6 +569,7 @@ h6 {
 
 #hero .icon-box:hover {
   border-color: #ffc451;
+  transform: scale(1.05);
 }
 
 @media (min-width: 1024px) {
