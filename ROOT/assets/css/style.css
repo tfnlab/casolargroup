@@ -294,7 +294,7 @@ h6 {
 }
 .navbar .mobile-menu-logo{
   width: 200px;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     padding: 0 20px;
@@ -302,7 +302,11 @@ h6 {
 .navbar .mobile-menu-logo img{
   width: 100%
 }
-
+@media (max-width: 991px){
+  .navbar .mobile-menu-logo{
+    display: flex;
+  }
+}
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
