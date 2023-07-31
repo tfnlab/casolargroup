@@ -251,15 +251,28 @@
     </section>
     -->
     <!-- End Clients Section -->
+
     <section id="badges" class="badgesmobile">
       <div class="container" data-aos="fade-up">
         <div class="row d-flex flex-wrap">
           <div class="row">
               <img src="assets/img/badges.png" class="card-img-top img-fluid" alt="">
+
           </div>
         </div>
       </div>
+      <!-- Swiper -->
+      <div class="swiper1 mySwiper1">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide1">Slide 1</div>
+          <div class="swiper-slide1">Slide 2</div>
+          <div class="swiper-slide1">Slide 3</div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
     </section>
+
+
     <section id="badges" class="badges">
       <div class="container" data-aos="fade-up">
         <div class="row d-flex flex-wrap">
@@ -1227,6 +1240,20 @@ Great product, warranty, and company!
         }(document, 'script', 'facebook-jssdk'));
       </script>
 
+       <!-- Initialize Swiper -->
+       <script>
+         var swiper = new Swiper(".mySwiper1", {
+           slidesPerView: 3,
+           grid: {
+             rows: 2,
+           },
+           spaceBetween: 30,
+           pagination: {
+             el: ".swiper-pagination",
+             clickable: true,
+           },
+         });
+       </script>
 </body>
 
 </html>
