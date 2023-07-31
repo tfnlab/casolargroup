@@ -67,7 +67,7 @@
     <section class="inner-page">
       <div class="container">
 
-  <p>At California Solar Group, we understand that investing in solar energy can be a significant decision for homeowners and businesses. That's why we offer a range of flexible and affordable solar financing options to help you go solar without breaking the bank.</p>
+  <p>We at California Solar Group, we understand that investing in solar energy can be a significant decision for homeowners and businesses. That's why we offer a range of flexible and affordable solar financing options to help you go solar without breaking the bank.</p>
   <BR>
   <p>Our solar and battery financing services are designed to make the transition to clean, renewable energy as seamless as possible. Whether you're looking to install a solar system for your home or commercial property, we have the right financing solution to meet your needs.</p>
   <BR>
