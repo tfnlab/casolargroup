@@ -1694,3 +1694,13 @@ section {
   font-size: 13px;
   color: #fff;
 }
+#fb-root .fb_dialog_content iframe:first-child{
+  width: 50px;
+  height: 50px;
+}
+
+#fb-root .fb_dialog_content iframe:first-child svg{
+  width: 20px;
+  height: 20px;
+  margin-bottom: 9px;
+}
