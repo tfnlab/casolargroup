@@ -83,7 +83,7 @@
       <BR><BR>
 
                 <form class="text-center">
-                <a href="welcome" class="btn btn-warning btn-lg" >Get a FREE Quote</a>
+                <a href="welcome" class="btn btn-warning btn-lg" >Get Started</a>
                 </form>
     </section>
 
