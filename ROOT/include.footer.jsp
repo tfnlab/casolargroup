@@ -113,9 +113,9 @@
           document.querySelector(".error-message").style.display = "none";
           document.getElementById("successcontact").textContent = xhr.responseText; // Display the response text
           document.getElementById("successcontact").classList.remove("d-none"); // Make the element visible
-          document.getElementById("contactform").style.display = 'none';
           // You can optionally reset the form here
           document.getElementById("contactform").reset();
+  document.getElementById("contactform").style.display = 'none';
         } else {
           // Show the error message
           document.querySelector(".error-message").style.display = "block";
