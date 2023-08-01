@@ -17,6 +17,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
+
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -68,6 +69,7 @@
         <section id="solar-design" class="container">
               <p class="lead">At California Solar Group, we offer comprehensive solar system design services tailored to meet your specific energy needs. Our team of experienced engineers and designers will work closely with you to create a customized cost effective solar solution that maximizes your Solar production and return on investment.
               </p>
+              
               <BR>
               <p>Whether you are a homeowner, business owner, or part of a larger organization, our solar system design experts will take into account various factors such as your location, energy consumption patterns, available roof or ground space, and budget to create a system that suits your requirements.
               </p>
