@@ -113,7 +113,7 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-5 col-md-6">
             <div class="footer-info">
               <h3>Accu Ratters Now<span>.</span></h3>
               <p>
@@ -141,15 +141,8 @@
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Design</a></li>
-            </ul>
+          <div class="col-lg-1 col-md-6 footer-links">
+
           </div>
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
