@@ -25,7 +25,7 @@
         <li><a class="nav-link scrollto" href="index.html#services">Services</a></li>
         <li><a class="nav-link scrollto" href="solar_financing.jsp">Financing</a></li>
         <li><a class="nav-link scrollto" href="blog.html">Blog</a></li>
-        <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
+        <li><a class="nav-link scrollto" href="index.html#contact">Contact Us</a></li>
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
     </nav><!-- .navbar -->

@@ -65,7 +65,7 @@
 
     <section class="inner-page">
         <div class="container">
-          <h2 class="mt-5">How Solar Installations Can Add up to 4% Increase to Home Value</h2>
+          <h2 class="mt-5">How Solar Installations Can Add up to 20% Increase to Home Value</h2>
           <p class="lead">Are you considering installing solar panels on your home? Apart from the obvious environmental benefits and long-term cost savings on energy bills, solar installations can also significantly increase the value of your home. Let's explore how going solar can give your property a valuable boost.</p>
 
           <h4 class="mt-4">1. Energy Cost Savings</h4>
