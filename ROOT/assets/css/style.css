@@ -1708,6 +1708,7 @@ section {
   text-transform: uppercase;
   margin-bottom: 0;
   font-weight: bold;
+  line-height: 1;
 }
 #successcontact .reaching-out{
   font-size: 36px;
