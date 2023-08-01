@@ -74,7 +74,7 @@
       </nav><!-- .navbar -->
       <a class="call-now-link-btn" href="tel:8449160002"><i class="ri-phone-line"></i></a>
       <a class="call-now-link" href="tel:8449160002">(844) 916-0002</a>
-      <a href="/get_quote.jsp" class="get-started-btn scrollto">Get Quote</a>
+      <a href="/get_quote.jsp" class="get-started-btn scrollto">Get Started</a>
 
     </div>
   </header><!-- End Header -->
@@ -113,7 +113,7 @@
 
       <a class="call-now-link-btn" href="tel:7472862828"><i class="ri-phone-line"></i></a>
       <a class="call-now-link" href="tel:7472862828">(747) 286-2828</a>
-      <a href="/welcome" class="get-started-btn scrollto">Get Quote</a>
+      <a href="/welcome" class="get-started-btn scrollto">Get Started</a>
 
     </div>
   </header><!-- End Header -->
