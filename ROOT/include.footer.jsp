@@ -80,8 +80,9 @@
                       <div class="error-message" style="display: none;">Error</div>
                       <div class="sent-message" style="display: none;">Thank You</div>
                       <div id="successcontact" class="alert alert-success d-none" role="alert">
-                        <p id="thanksmessage">
-                        </p>
+                        <p id="thanksmessage"></p>
+                        <p class="reaching-out">For Reaching out to us</p>
+                        <p class="will-contact">We will contact you shortly to discuss your solar needs!</p>
                       </div>
       </div>
 

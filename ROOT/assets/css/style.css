@@ -1702,3 +1702,24 @@ section {
   color: black;
   border: none;
 }
+#thanksmessage{
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+#successcontact .reaching-out{
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffc451;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+#successcontact .will-contact{
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+}
