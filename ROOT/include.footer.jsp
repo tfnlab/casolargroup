@@ -115,7 +115,7 @@
           document.getElementById("successcontact").classList.remove("d-none"); // Make the element visible
           // You can optionally reset the form here
           document.getElementById("contactform").reset();
-  document.getElementById("contactform").style.display = 'none';
+          document.getElementById("contactform").style.display = 'none';
         } else {
           // Show the error message
           document.querySelector(".error-message").style.display = "block";
