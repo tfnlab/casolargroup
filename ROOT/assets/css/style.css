@@ -1694,3 +1694,11 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+#successcontact{
+  background: transparent;
+  font-size: 28px;
+  text-align: center;
+  color: black;
+  border: none;
+}

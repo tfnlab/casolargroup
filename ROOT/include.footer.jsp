@@ -79,7 +79,10 @@
                       <div class="loading" style="display: none;">Loading...</div>
                       <div class="error-message" style="display: none;">Error</div>
                       <div class="sent-message" style="display: none;">Thank You</div>
-                      <div id="successcontact" class="alert alert-success d-none" role="alert"></div>
+                      <div id="successcontact" class="alert alert-success d-none" role="alert">
+                        <p id="thanksmessage">
+                        </p>
+                      </div>
       </div>
 
     </div>
@@ -109,9 +112,8 @@
 
         if (xhr.status === 200) {
           // Show the success message
-          document.querySelector(".sent-message").style.display = "block";
           document.querySelector(".error-message").style.display = "none";
-          document.getElementById("successcontact").textContent = xhr.responseText; // Display the response text
+          document.getElementById("thanksmessage").textContent = xhr.responseText; // Display the response text
           document.getElementById("successcontact").classList.remove("d-none"); // Make the element visible
           // You can optionally reset the form here
           document.getElementById("contactform").reset();
