@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
@@ -302,15 +302,6 @@
               <div class="card">
                 <a href="https://www.yelp.com/biz/california-solar-group-van-nuys-2" >
                 <img src="assets/img/clients/client-4.png" class="card-img-top img-fluid" alt="">
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="col-md-2">
-              <div class="card">
-                <a href="https://www.tesla.com/powerwall" >
-                <img src="assets/img/clients/client-5.png" class="card-img-top img-fluid" alt="">
                 </a>
               </div>
             </div>
@@ -1366,7 +1357,7 @@ Great product, warranty, and company!
 
        <!-- Initialize Swiper -->
        <script>
-         var swiper = new Swiper(".mySwiperBadges", {
+         let swiper = new Swiper(".mySwiperBadges", {
            slidesPerView: 3,
            grid: {
              rows: 2,
@@ -1379,6 +1370,10 @@ Great product, warranty, and company!
            pagination: {
              el: ".swiper-pagination",
              clickable: true,
+           },
+           autoplay: {
+             delay: 2500,
+             disableOnInteraction: false,
            },
          });
        </script>

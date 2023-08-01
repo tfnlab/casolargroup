@@ -40,7 +40,7 @@ h6 {
   visibility: hidden;
   opacity: 0;
   right: 125px;
-  bottom: 15px;
+  bottom: 24px;
   z-index: 996;
   background: #ffc451;
   width: 40px;
@@ -165,7 +165,7 @@ h6 {
 
 .swiper-badges {
    width: 100%;
-   height: 500px;
+   height: 300px;
    margin-left: auto;
    margin-right: auto;
    position: relative;
@@ -452,6 +452,10 @@ h6 {
 .navbar-mobile .getstarted,
 .navbar-mobile .getstarted:focus {
   margin: 15px;
+}
+
+.navbar-mobile .dropdown{
+  margin-top: 15px;
 }
 
 .navbar-mobile .dropdown ul {
@@ -1120,6 +1124,8 @@ section {
 @media (max-width: 768px) {
   .badgesmobile {
     display: block;
+    margin-left: 15px;
+    margin-right: 15px;
   }
 }
 
