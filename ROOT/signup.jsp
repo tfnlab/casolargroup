@@ -102,39 +102,31 @@
                   <div class="form-group mt-3">
                 <div class="row">
                   <div class="col">
-                <label for="firstName">First Name:</label><br>
-                <input type="text"  class="form-control mt-1" id="firstName" name="firstName"  required  tabindex="1"><br>
+                <input type="text"  class="form-control mt-1" id="firstName" name="firstName" placeholder="* First Name"  required  tabindex="1"><br>
                   </div>
                   <div class="col">
-                <label for="middleInitial">Middle Initial:</label><br>
-                <input type="text"  class="form-control mt-1" id="middleInitial" name="middleInitial"  tabindex="2"><br>
+                <input type="text"  class="form-control mt-1" id="middleInitial" name="middleInitial" placeholder="Middle Initial"  tabindex="2"><br>
                   </div>
                   <div class="col">
-                <label for="lastName">Last Name:</label><br>
-                <input type="text"  class="form-control mt-1" id="lastName" name="lastName" required  tabindex="3"><br>
+                <input type="text"  class="form-control mt-1" id="lastName" name="lastName" placeholder="* Last Name" required  tabindex="3"><br>
                   </div>
                 </div>
                   </div>
 
                 <div class="form-group mt-3">
-                <label for="email">Email:</label><br>
-                <input type="email"  class="form-control" id="email" name="email" required  tabindex="4"><br>
+                <input type="email"  class="form-control" id="email" name="email" placeholder="* Email" required  tabindex="4"><br>
                 </div>
                 <div class="form-group mt-3">
-                <label for="phone">Phone:</label><br>
-                <input type="text"  class="form-control" id="phone" name="phone" required  tabindex="5"><br>
+                <input type="text"  class="form-control" id="phone" name="phone" placeholder="* Phone" required  tabindex="5"><br>
                 </div>
                 <div class="form-group mt-3">
-                <label for="username">Username:</label><br>
-                <input type="text"  class="form-control" id="username" name="username" required  tabindex="6"><br>
+                <input type="text"  class="form-control" id="username" name="username" placeholder="* Username" required  tabindex="6"><br>
                 </div>
                 <div class="form-group mt-3">
-                <label for="password">Password:</label><br>
-                <input type="password"  class="form-control" id="password" name="password" required  tabindex="7"><br>
+                <input type="password"  class="form-control" id="password" name="password" placeholder="* Password" required  tabindex="7"><br>
                 </div>
                 <div class="form-group mt-3">
-                <label for="address">Address:</label><br>
-                <input type="text"  class="form-control" id="address" name="address" required  tabindex="8"><br>
+                <input type="text"  class="form-control" id="address" name="address" placeholder="* Street" required tabindex="8"><br>
                 </div>
 
 
@@ -143,22 +135,18 @@
 
                 <div class="row">
                 <div class="col">
-                <label for="city">City:</label><br>
-                <input type="text"  class="form-control" id="city" name="city" required  tabindex="9"><br>
+                <input type="text"  class="form-control" id="city" name="city" placeholder="* City" required  tabindex="9"><br>
                 </div>
                 <div class="col">
-                <label for="state">State:</label><br>
-                <input type="text"  class="form-control" id="state" name="state" required  tabindex="10"><br>
+                <input type="text"  class="form-control" id="state" name="state" placeholder="* State" required disabled value="California" tabindex="10"><br>
                   </div>
                   <div class="col">
-                  <label for="state">Zip:</label><br>
-                  <input type="text"  class="form-control" id="zipcode" name="zipcode" required  tabindex="11"><br><br>
+                  <input type="text"  class="form-control" id="zipcode" name="zipcode" placeholder="* Zip" required maxlength="5" minlength="5" tabindex="11"><br><br>
                   </div>
                 </div>
                 </div>
                 <div class="form-group  mt-3">
-                  <label for="url_facebook">Referred By</label>
-                  <input type="text" class="form-control" id="referred_by" name="referred_by" <% if (request.getParameter("referred_by") !=null) { %>value="<%=request.getParameter("referred_by")%>" <% } %>  tabindex="12" >
+                  <input type="text" class="form-control" id="referred_by" name="referred_by" placeholder="Referred By"<% if (request.getParameter("referred_by") !=null) { %>value="<%=request.getParameter("referred_by")%>" <% } %>  tabindex="12" >
                 </div>
                 <hr class="mt-3">
                   <button type="submit" class="btn btn-primary btn-lg btn-block"  tabindex="13" onclick="submitForm(event)" >Sign-up</button>

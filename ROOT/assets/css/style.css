@@ -1724,3 +1724,7 @@ section {
   text-transform: uppercase;
   margin: 0;
 }
+
+#badges .card{
+  border: none;
+}
