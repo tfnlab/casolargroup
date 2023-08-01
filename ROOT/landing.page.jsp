@@ -392,11 +392,11 @@
                 <strong>Phone:</strong> <a href="tel:8449160002">(844) 916-0002</a><br>
                 <strong>Email:</strong> <a href="mailto:info@casolargroup.com">info@casolgroup.com</a><br>
               </p>
-              <div class="social-links mt-3">
-                <a href="https://twitter.com/casolargroup158" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="https://www.instagram.com/casolargroup/" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="https://www.linkedin.com/company/ca-solar-group/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-              </div>
+  <div class="social-links mt-3">
+  <a href="https://www.facebook.com/casolargroup" class="facebook"><i class="bx bxl-facebook"></i></a>
+  <a href="https://www.instagram.com/californiasolargroup/?igshid=MzRlODBiNWFlZA%3D%3D" class="instagram"><i class="bx bxl-instagram"></i></a>
+  <a href="https://www.linkedin.com/company/ca-solar-group/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+  </div>
             </div>
           </div>
 
