@@ -1596,12 +1596,26 @@ section {
   width: 36px;
   height: 36px;
   transition: 0.3s;
+  text-decoration: none;
 }
 
 #footer .footer-top .social-links a:hover {
   background: #ffc451;
-  color: #151515;
-  text-decoration: none;
+}
+#footer .footer-top .social-links a:first-child:hover{
+  background: #0a53be !important;
+  color: white;
+}
+#footer .footer-top .social-links a:nth-child(2):hover{
+  background: black !important;
+  color: white;
+}
+#footer .footer-top .social-links a:nth-child(3):hover{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+#footer .footer-top .social-links a:nth-child(4):hover{
+  background: #0a53be !important;
+  color: white;
 }
 
 #footer .footer-top h4 {
