@@ -13,46 +13,51 @@
 
     <div class="row mt-5">
 
-      <div class="col-lg-4">
-        <div class="info">
-          <div class="address">
-            <a href="https://www.google.com/maps/search/7647+Hayvenhurst+Ave,+Unit+26,+Van+Nuys,+CA+91406" target="_blank">
-            <i class="bi bi-geo-alt" ></i>
-            </a>
-            <h4>Los Angeles Headquarters</h4>
-            <p>
-              <a href="https://www.google.com/maps?q=208+S+Grand+Ave,+Santa+Ana,+CA+92701" target="_blank">
-                7647 Hayvenhurst Ave, Unit 26, Van Nuys, CA 91406
-              </a>
-            </p>
-          </div>
-          <HR>
-          <div class="address">
-            <a href="https://www.google.com/maps?q=208+S+Grand+Ave,+Santa+Ana,+CA+92701" target="_blank">
-            <i class="bi bi-geo-alt"></i>
-            </a>
-            <h4>Orange County Branch Office</h4>
-            <p>
-              <a href="https://www.google.com/maps?q=208+S+Grand+Ave,+Santa+Ana,+CA+92701" target="_blank">
-                208 S Grand Ave, Santa Ana, CA 92701
-              </a>
-            </p>
-          </div>
-          <div class="email">
-            <i class="bi bi-envelope"></i>
-            <h4>Email:</h4>
-            <p><a href="mailto:info@casolargroup.com">info@casolargroup.com</a></p>
-          </div>
+  <div class="col-lg-4">
+  <div class="info">
+  <div class="address">
+  <a href="https://www.google.com/maps/search/7647+Hayvenhurst+Ave,+Unit+26,+Van+Nuys,+CA+91406" target="_blank">
+  <i class="bi bi-geo-alt" ></i>
+  </a>
+  <h4>Los Angeles Headquarters</h4>
+  <p>
+  <a href="https://www.google.com/maps/search/7647+Hayvenhurst+Ave,+Unit+26,+Van+Nuys,+CA+91406" target="_blank">
+  7647 Hayvenhurst Ave, Unit 26, Van Nuys, CA 91406
+  </a>
+  </p>
+  </div>
+  <div class="phone">
+  <i class="bi bi-phone"></i>
+  <h4>Call:</h4>
+  <p><a href="tel:7472862828">(747) 286-2828</a></p>
+  </div>
+  <HR>
+  <div class="address">
+  <a href="https://www.google.com/maps?q=208+S+Grand+Ave,+Santa+Ana,+CA+92701" target="_blank">
+  <i class="bi bi-geo-alt"></i>
+  </a>
+  <h4>Orange County Branch Office</h4>
+  <p>
+  <a href="https://www.google.com/maps?q=208+S+Grand+Ave,+Santa+Ana,+CA+92701" target="_blank">
+  208 S Grand Ave, Santa Ana, CA 92701
+  </a>
+  </p>
+  </div>
+  <div class="phone">
+  <i class="bi bi-phone"></i>
+  <h4>Call:</h4>
+  <p><a href="tel:8186582362">(818) 658-2362</a></p>
+  </div>
 
-          <div class="phone">
-            <i class="bi bi-phone"></i>
-            <h4>Call:</h4>
-            <p><a href="tel:7472862828">(747) 286-2828</a></p>
-          </div>
+  <div class="email">
+  <i class="bi bi-envelope"></i>
+  <h4>Email:</h4>
+  <p><a href="mailto:info@casolargroup.com">info@casolargroup.com</a></p>
+  </div>
 
-        </div>
+  </div>
 
-      </div>
+  </div>
 
       <div class="col-lg-8 mt-5 mt-lg-0">
 
